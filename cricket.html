@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html dir='ltr' lang='en' xmlns:fb='http://www.facebook.com/2008/fbml'>
 
@@ -63,9 +64,9 @@ cookieChoices = {};
 }
 </script>
 
-
+  
 <style>
-              /*Font Library https://fonts.google.com/ */
+/*Font Library https://fonts.google.com/ */
    @font-face{font-family:'Neo Sans Arabic';font-style:normal;font-weight:normal;font-display:swap;src:local('Neo Sans Arabic'),url('https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIUwaEQbjB_mQ.woff2') format('woff')}
 
 
@@ -215,6 +216,7 @@ img.mw-adblock-img{-webkit-transform-origin:bottom;transform-origin:bottom;float
 <div class='notifpos section' id='notifpos' name='------------'><div class='widget PageList' data-version='1' id='PageList106'>
 </div><div class='widget HTML' data-version='2' id='HTML256'>
 <div class='alert alert-Alert' role='alert'>
+  
 <!-- ShareThis BEGIN -->
 <div class="sharethis-inline-share-buttons"></div>
 <!-- ShareThis END -->
@@ -228,14 +230,15 @@ img.mw-adblock-img{-webkit-transform-origin:bottom;transform-origin:bottom;float
 <div class='panel panel-default'>
 <div class='tabs-section'>
 <div class='box-title'>
+
   
 <ul class='navtabs'>
-<li class='toda'>
-<a href='/cricket.html>
+<li class='active'>
+<a href='/cricket.html'>
 <strong>Cricket Live </strong>
 </a>
 </li>
-<li class='active'>
+<li class='toda'>
 <a href='/'><strong>
 Football Live</strong></a>
 </li>
@@ -245,8 +248,6 @@ Football Live</strong></a>
 Get 5$ Free</strong></a>
 </li>
 </ul>
-
-  
 <h2 class='boxstitle'>
 <strong>Today </strong>
 </h2>
@@ -934,9 +935,42 @@ $(".recentbycat").each(function () {
   
    
   
+<script>
+        function updateStatus() {
+            const eventElements = document.querySelectorAll('.event');
+            const currentTime = new Date().getTime();
 
+            eventElements.forEach(element => {
+                const startTime = new Date(element.getAttribute('data-start')).getTime();
+                const durationHours = parseFloat(element.getAttribute('data-duration'));
+                const endTime = startTime + durationHours * 60 * 60 * 1000;
+                const eventCountdownElement = element.querySelector('.event-countdown');
+
+                if (currentTime < startTime) {
+                    const timeDiff = startTime - currentTime;
+                    const hours = Math.floor(timeDiff / (1000 * 60 * 60));
+                    const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+                    eventCountdownElement.innerHTML = ` <span>${hours}h</span> <span>${minutes}m</span> <span>${seconds}s</span>`;
+                } else if (currentTime >= startTime && currentTime <= endTime) {
+                    eventCountdownElement.innerHTML = '<div class="event-live blink">Live Now</div>';
+                } else {
+                    eventCountdownElement.textContent = 'Match End';
+                }
+            });
+        }
+
+        // Check every second if the current time falls within the start and end time
+        setInterval(updateStatus, 1000);
+
+        // Initial check when the page loads
+        updateStatus();
+    </script>
   
 <script async src="script.js"></script>
 <div class='adspos container no-items section' id='adspos6' name='NEW COSTOM WIDGET'></div>
-</body> 
+</body>
+
+
 </html>
