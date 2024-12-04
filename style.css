@@ -1,0 +1,190 @@
+/* Section Headers */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #444;
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Match Containers */
+.yosintv-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* League Title */
+ .league-title {
+ font-size: 20px;
+ font-weight: bold;
+ margin-top: 20px;
+ background-color: #d10000;
+ color: white;
+ border-radius: 5px;
+ text-align: center;
+ }
+               
+/* Match Buttons */
+.yosintv-button {
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    display: block;
+    width: 100%;
+    padding: 2px;
+    margin: 20px 0;
+    background-color: rgb(244, 17, 17);
+    color: #fff;
+    text-align: center;
+    text-decoration: none; /* Remove default underline for anchor elements */
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    cursor: pointer;
+}
+
+.yosintv-button:hover {
+    background-color: rgb(220, 0, 0); /* Darker red when hovered */
+}
+
+
+/* Countdown Styling */
+.countdown span {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 1px 2px;
+    border-radius: 4px;
+    margin: 0 1px;
+    font-size: 16px;
+}
+
+/* Event Styling */
+.event {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+    border-color: #000000;
+
+}
+
+.event:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Event Name */
+.event-name {
+    flex: 2;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+/* Countdown Section */
+.event-countdown {
+    flex: 1;
+    text-align: right;
+    color: black;
+}
+
+/* Live Event Highlight */
+.event-live {
+    font-weight: bold;
+    color: red;
+}
+
+/* Cricket Section Styling */
+#yosintv-cricket .event {
+    border-color: #000000;
+}
+
+#yosintv-cricket h2 {
+    color: #1a73e8;
+}
+
+/* Football Section Styling */
+#yosintv-laliga .event, 
+#yosintv-epl .event, 
+#yosintv-bundesliga .event, 
+#yosintv-seriea .event, 
+#yosintv-football .event {
+    border-color: #000000;
+}
+
+#yosintv-football h2 {
+    color: #1a73e8;
+}
+
+
+        /* Style for buttons */
+        #league-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .league-button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .league-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Style for matches */
+        #league-matches {
+            margin-top: 20px;
+        }
+
+        .yosintv-button {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .yosintv-container {
+            margin: 10px 0;
+        }
+
+        .event {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .event-live {
+            color: red;
+            font-weight: bold;
+        }
+
+
+.blink {
+   color: red;
+    font-weight: bold;
+   animation: blink-animation 1.5s linear infinite;
+
+}
+
+@keyframes blink-animation {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
