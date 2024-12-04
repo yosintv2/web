@@ -1,22 +1,11 @@
+
 {
     "matches": [
-
-      
         {
-            "name": " EPL 1 vs EPL 2",
-            "start": "2024-12-02T18:00:00+09:00",
-            "duration": 9,
-            "link": "https://example.com/match1"
-        },
-
-      
-                {
-            "name": " EPL 2 vs EPL 4",
+            "name": " LaLiga Match 1",
             "start": "2024-12-02T18:00:00+09:00",
             "duration": 9,
             "link": "https://example.com/match1"
         }
-
-      
     ]
 }
