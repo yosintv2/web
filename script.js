@@ -6,7 +6,7 @@
             { id: 'yosintv-epl', file: 'epl.json', title: 'EPL' },
             { id: 'yosintv-laliga', file: 'laliga.json', title: 'La Liga' },
             { id: 'yosintv-seriea', file: 'seriea.json', title: 'Serie A' },
-            { id: 'yosintv-ligue1', file: 'ligue1.json', title: 'Ligue 1' },                    
+            { id: 'yosintv-ligue1', file: 'ligue1.json', title: 'Ligue 1' }                 
         ];
 
         // Fetch and render data for each league
