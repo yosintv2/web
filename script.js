@@ -25,13 +25,13 @@
             // Add league title
             const titleElement = document.createElement('div');
             titleElement.classList.add('league-title');
-            titleElement.textContent = `Today's ${leagueTitle} Matches`;
+            titleElement.textContent = ` ${leagueTitle} Matches`;
             container.appendChild(titleElement);
 
             // Check if matches are available
             if (!data.matches || data.matches.length === 0) {
                 const noEventsMessage = document.createElement('p');
-                noEventsMessage.textContent = `No Matches For ${leagueTitle} Today.`;
+                noEventsMessage.textContent = `No Matches For ${leagueTitle} Today`;
                 container.appendChild(noEventsMessage);
                 return;
             }
