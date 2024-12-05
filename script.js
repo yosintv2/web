@@ -5,6 +5,8 @@
             { id: 'yosintv-football', file: 'football.json', title: 'Football' },
             { id: 'yosintv-epl', file: 'epl.json', title: 'EPL' },
             { id: 'yosintv-laliga', file: 'laliga.json', title: 'La Liga' },
+            { id: 'yosintv-seriea', file: 'epl.json', title: 'Serie A' },
+            { id: 'yosintv-ligue1', file: 'laliga.json', title: 'Ligue 1' },
             { id: 'yosintv-bundesliga', file: 'bundesliga.json', title: 'Bundesliga' }
         ];
 
