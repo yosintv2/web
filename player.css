@@ -71,7 +71,7 @@ border: 1px solid #fff;
           overflow: hidden;
         }
         #iframe, #jwPlayer {
-          height: 550px !important;
+          height: 450px !important;
           padding: 0;
           margin: 0;
         }
