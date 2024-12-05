@@ -1,3 +1,22 @@
+/*  Section Styling */
+#yosintv-npl .event, 
+#yosintv-laliga .event, 
+#yosintv-epl .event, 
+#yosintv-bundesliga .event, 
+#yosintv-seriea .event, 
+#yosintv-cricket .event,
+#yosintv-football .event {
+border-color: #000000;
+}
+
+
+
+#yosintv-football h2,
+#yosintv-cricket h2 {
+color: #1a73e8;
+}
+
+
 /* Match Containers */
 .yosintv-container {
     width: 100%;
@@ -91,28 +110,6 @@
 .event-live {
     font-weight: bold;
     color: red;
-}
-
-/* Cricket Section Styling */
-#yosintv-cricket .event {
-    border-color: #000000;
-}
-
-#yosintv-cricket h2 {
-    color: #1a73e8;
-}
-
-/* Football Section Styling */
-#yosintv-laliga .event, 
-#yosintv-epl .event, 
-#yosintv-bundesliga .event, 
-#yosintv-seriea .event, 
-#yosintv-football .event {
-    border-color: #000000;
-}
-
-#yosintv-football h2 {
-    color: #1a73e8;
 }
 
 
