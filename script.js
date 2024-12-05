@@ -33,7 +33,7 @@
             // Check if matches are available
             if (!data.matches || data.matches.length === 0) {
                 const noEventsMessage = document.createElement('p');
-                noEventsMessage.textContent = `No Matches For ${leagueTitle} Today`;
+                noEventsMessage.textContent = `No ${leagueTitle} Matches Today`;
                 container.appendChild(noEventsMessage);
                 return;
             }
