@@ -3,30 +3,30 @@
 
         
         {
-            "name": " Espanyol vs Osasuna ",
-            "start": "2024-12-14T22:00:00+09:00",
+            "name": " Atlético Madrid vs Getafe ",
+            "start": "2024-12-15T22:00:00+09:00",
             "duration": 2.6,
-            "link": " https://blog.cricfoot.net/?yosintv=osasuna "
+            "link": " https://blog.cricfoot.net/?yosintv=altetico "
         },
 
 
 
         
             {
-            "name": " Mallorca vs Girona ",
-            "start": "2024-12-15T00:15:00+09:00",
+            "name": " Deportivo vs Athletic Club ",
+            "start": "2024-12-16T00:15:00+09:00",
             "duration": 2.6,
-            "link": " https://blog.cricfoot.net/?yosintv=girona "
+            "link": " https://blog.cricfoot.net/?yosintv=deportivo "
         },
 
 
         
         
                  {
-            "name": " Sevilla vs Celta de Vigo ",
-            "start": "2024-12-15T02:30:00+09:00",
+            "name": " Sociedad vs Las Palmas ",
+            "start": "2024-12-16T02:30:00+09:00",
             "duration": 2.6,
-            "link": " https://blog.cricfoot.net/?yosintv=sevilla "
+            "link": " https://blog.cricfoot.net/?yosintv=socidedad "
         },
         
 
@@ -34,11 +34,23 @@
 
         
         {
-            "name": " Rayo Vallecano vs Real Madrid ",
-            "start": "2024-12-15T05:00:00+09:00",
+            "name": " Villarreal vs Real Betis ",
+            "start": "2024-12-16T02:30:00+09:00",
             "duration": 2.6,
-            "link": " https://blog.cricfoot.net/?yosintv=realmadrid "
+            "link": " https://blog.cricfoot.net/?yosintv=villarreal "
+        },
+
+
+
+        
+        {
+            "name": " Barcelona vs Leganés ",
+            "start": "2024-12-16T05:00:00+09:00",
+            "duration": 2.6,
+            "link": " https://blog.cricfoot.net/?yosintv=barcelona "
         }
+
+        
         
         
 
