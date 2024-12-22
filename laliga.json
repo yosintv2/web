@@ -3,27 +3,47 @@
 
         
         {
-            "name": " Celta Vigo vs Real Sociedad ",
-            "start": "2024-12-22T00:15:00+09:00",
+            "name": "Valencia vs Deportivo Alavés ",
+            "start": "2024-12-22T22:00:00+09:00",
             "duration": 2.6,
-            "link": " https://blog.cricfoot.net/?yosintv=sociedad "
+            "link": " https://blog.cricfoot.net/?yosintv=valencia "
         },
 
 
         
             {
-            "name": " Osasuna vs Athletic Club ",
-            "start": "2024-12-22T02:30:00+09:00",
+            "name": " Real Madrid vs Sevilla ",
+            "start": "2024-12-23T00:15:00+09:00",
             "duration": 2.6,
-            "link": " https://blog.cricfoot.net/?yosintv=osasuna "
+            "link": " https://blog.cricfoot.net/?yosintv=realmadrid "
         },
 
 
-                    {
-            "name": " Barcelona vs Atlético Madrid ",
-            "start": "2024-12-22T05:00:00+09:00",
+        
+       {
+            "name": " Las Palmas vs Espanyol ",
+            "start": "2024-12-23T02:30:00+09:00",
             "duration": 2.6,
-            "link": " https://blog.cricfoot.net/?yosintv=barcelona "
+            "link": " https://blog.cricfoot.net/?yosintv=laspalmas "
+        },
+
+
+
+               {
+            "name": " Leganés vs Villarreal ",
+            "start": "2024-12-23T02:30:00+09:00",
+            "duration": 2.6,
+            "link": " https://blog.cricfoot.net/?yosintv=leganes "
+        },
+
+
+
+
+               {
+            "name": " Real Betis vs Rayo Vallecano ",
+            "start": "2024-12-23T05:00:00+09:00",
+            "duration": 2.6,
+            "link": " https://blog.cricfoot.net/?yosintv=realbetis "
         }
         
 
