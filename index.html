@@ -41,11 +41,28 @@
 <link href='//fonts.googleapis.com' rel='dns-prefetch'/>
 <link href='style.css' rel='stylesheet'/>
 <link href='stylee.css' rel='stylesheet'/>
-<script integrity='sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z' src='//instant.page/5.2.0' type='module'></script>
-<script type='text/javascript'> 
-var mivetimer ="";
-cookieChoices = {};
-</script>
+  
+    <script>
+        (function () {
+            // Bypass cache by appending a unique query string to all resources
+            const elements = document.querySelectorAll('link[rel="stylesheet"], script[src], img[src]');
+            const timestamp = Date.now();
+
+            elements.forEach(el => {
+                const srcAttr = el.tagName === 'LINK' ? 'href' : 'src';
+                const originalSrc = el.getAttribute(srcAttr);
+
+                if (originalSrc) {
+                    const newSrc = originalSrc.split('?')[0] + `?cache-buster=${timestamp}`;
+                    el.setAttribute(srcAttr, newSrc);
+                }
+            });
+
+            console.log("Cache cleared on refresh.");
+        })();
+    </script>
+
+  
 
   <script type='application/ld+json'>
 {
