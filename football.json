@@ -5,7 +5,7 @@
 
 
             {
-            "name": " Brentford vs Man City ",
+            "name": " Everton vs Aston Villa ",
             "start": "2025-01-15T04:30:00+09:00",
             "duration": 2.6,
             "link": " https://blog.cricfoot.net/?yosintv=mancity "
@@ -16,7 +16,7 @@
         
         
         {
-            "name": " Chelsea vs Bournemouth ",
+            "name": " Leicester vs Crystal Palace ",
             "start": "2025-01-15T04:30:00+09:00",
             "duration": 2.6,
             "link": " https://blog.cricfoot.net/?yosintv=chelsea "
@@ -25,7 +25,7 @@
 
 
                 {
-            "name": " West Ham vs Fulham ",
+            "name": " Newcastle vs Wolves ",
             "start": "2025-01-15T04:30:00+09:00",
             "duration": 2.6,
             "link": " https://blog.cricfoot.net/?yosintv=fulham "
@@ -34,20 +34,10 @@
 
 
         {
-            "name": " Nottingham vs Liverpool ",
+            "name": " Arsenal vs Tottenham ",
             "start": "2025-01-15T05:00:00+09:00",
             "duration": 2.6,
             "link": " https://blog.cricfoot.net/?yosintv=liverpool "
-        },
-
-
-
-
-         {
-            "name": " Farense vs Benfica ",
-            "start": "2025-01-15T05:15:00+09:00",
-            "duration": 2.6,
-            "link": " https://blog.cricfoot.net/?yosintv=benfica "
         }
         
         
