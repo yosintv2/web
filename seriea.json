@@ -2,23 +2,10 @@
     "matches": [
 
 
-
-            {
-            "name": " Inter Milan vs Bologna ",
-            "start": "2025-01-16T04:45:00+09:00",
-            "duration": 2.6,
-            "link": " https://blog.cricfoot.net/?yosintv=intermilan "
-        }
-
-
-
-
-
-
-
+{ "name": " Espanyol vs Real Valladolid ",       "start": "2025-01-18T05:00:00+09:00",      "duration": 2.6,      "link": " https://blog.cricfoot.net/?yosintv=espanyol " },
+        
+{ "name": "  Girona vs Sevilla ",                "start": "2025-01-18T22:15:00+09:00",      "duration": 2.6,       "link": " https://blog.cricfoot.net/?yosintv=sevilla " }
 
         
-
-        
-    ]
+]
 }
