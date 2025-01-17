@@ -1,38 +1,11 @@
 {
-    "matches": [
+"matches": [
 
 
-
-        {
-            "name": " Barcelona vs Real Betis ",
-            "start": "2025-01-16T05:00:00+09:00",
-            "duration": 2.6,
-            "link": " https://blog.cricfoot.net/?yosintv=barcelona "
-        },
+{ "name": " Espanyol vs Real Valladolid ",       "start": "2025-01-18T05:00:00+09:00",      "duration": 2.6,      "link": " https://blog.cricfoot.net/?yosintv=espanyol " },
+        
+{ "name": "  Girona vs Sevilla ",                "start": "2025-01-18T22:15:00+09:00",      "duration": 2.6,       "link": " https://blog.cricfoot.net/?yosintv=sevilla " }
 
         
-        
-            {
-            "name": " Pontevedra vs Getafe ",
-            "start": "2025-01-16T03:30:00+09:00",
-            "duration": 2.6,
-            "link": " https://blog.cricfoot.net/?yosintv=getafe "
-        },
-
-
-
-        
-        
-            {
-            "name": " Elche vs Atlético Madrid ",
-            "start": "2025-01-16T05:30:00+09:00",
-            "duration": 2.6,
-            "link": " https://blog.cricfoot.net/?yosintv=atletico "
-        }
-        
-        
-        
-
-        
-    ]
+]
 }
