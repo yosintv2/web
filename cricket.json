@@ -1,45 +1,14 @@
-{
-    "matches": [
+{ "matches": [
 
 
+{ "name": " Pakistan vs Windies,1st Test ",       "start": "2025-01-06T14:30:00+09:00",       "duration": 10, "link": " https://blog.cricfoot.net/?yosintv=pakistan " },
 
+    
+ { "name": " New Zealand vs Sri Lanka ",       "start": "2025-01-11T09:55:00+09:00",       "duration": 8, "link": " https://blog.cricfoot.net/?yosintv=srilanka " },
 
-         {
-            "name": " Pakistan vs Windies,1dt Test ",
-            "start": "2025-01-06T14:30:00+09:00",
-            "duration": 10,
-            "link": " https://blog.cricfoot.net/?yosintv=pakistan "
-        },
-
-
-
-        
-        {
-            "name": " New Zealand vs Sri Lanka ",
-            "start": "2025-01-11T09:55:00+09:00",
-            "duration": 8,
-            "link": " https://blog.cricfoot.net/?yosintv=srilanka "
-        },
-        
+    
+ { "name": " Zimbabwe vs Afghanistan, 2nd Test ",       "start": "2025-01-02T17:00:00+09:00",       "duration": 5, "link": " https://blog.cricfoot.net/?yosintv=afghanistan " }
         
 
-
-          {
-            "name": " Zimbabwe vs Afghanistan, 2nd Test ",
-            "start": "2025-01-02T17:00:00+09:00",
-            "duration": 5,
-            "link": " https://blog.cricfoot.net/?yosintv=afghanistan "
-        }
         
-
-
-
-
-
-
-
-
-        
-        
-    ]
-}
+]}
