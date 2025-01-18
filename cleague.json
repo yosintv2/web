@@ -1,55 +1,24 @@
-{
-    "matches": [
-
-
-
-        
-         {
-            "name": " Pretoria Capitals vs Durban Giants ",
-            "start": "2025-01-12T22:30:00+09:00",
-            "duration": 5,
-            "link": " https://blog.cricfoot.net/?yosintv=sa20 "
-        },
-
-
-
-         {
-            "name": " Gulf Giants vs Sharjah Warriorz ",
-            "start": "2025-01-12T23:00:00+09:00",
-            "duration": 5,
-            "link": " https://blog.cricfoot.net/?yosintv=ilt "
-        },
-
+{ "matches": [
 
 
         
+{ "name": "    Pretoria Capitals vs Paarl Royals ",      "start": "2025-01-18T20:30:00+09:00",      "duration": 5,        "link": " https://blog.cricfoot.net/?yosintv=sa20 " },
+
+    
+{ "name": "    MI Cape Town vs Joburg Super Kings ",      "start": "2025-01-19T00:30:00+09:00",      "duration": 5,        "link": " https://blog.cricfoot.net/?yosintv=sa20 " },
+
+    
+{ "name": "    Desert Vipers vs Abu Dhabi  ",      "start": "2025-01-18T19:30:00+09:00",      "duration": 5,        "link": " https://blog.cricfoot.net/?yosintv=ilt " },
+
+    
+{ "name": "    Gulf Giants vs Dubai Capitals ",      "start": "2025-01-18T22:30:00+09:00",      "duration": 5,        "link": " https://blog.cricfoot.net/?yosintv=ilt " },
+
+    
+{ "name": "    Melbourne Renegades vs Brisbane Heat  ",      "start": "2025-01-18T15:00:00+09:00",      "duration": 5,        "link": " https://blog.cricfoot.net/?yosintv=bbl " },
+
+    
+{ "name": "   Perth Scorchers vs Adelaide Strikers ",      "start": "2025-01-18T18:15:00+09:00",      "duration": 5,        "link": " https://blog.cricfoot.net/?yosintv=bbl " },
         
-         {
-            "name": " Hobart vs Melbourne Renegades ",
-            "start": "2025-01-14T17:10:00+09:00",
-            "duration": 5,
-            "link": " https://blog.cricfoot.net/?yosintv=bbl "
-        },
-        
 
 
-        
-          {
-            "name": " Northern Braves vs Auckland Aces ",
-            "start": "2024-12-26T12:55:00+09:00",
-            "duration": 5,
-            "link": " https://blog.cricfoot.net/?yosintv=nzsmash "
-        }
-        
-
-
-
-
-
-
-
-
-        
-        
-    ]
-}
+]}
