@@ -1,16 +1,16 @@
-{
-"matches": [
-
-
+{ "matches": [
+        
 
         
-{ "name": "  Girona vs Sevilla ",       "start": "2025-01-18T22:00:00+09:00",      "duration": 2.6,       "link": " https://blog.cricfoot.net/?yosintv=sevilla " },
+{ "name": "  Celta Vigo vs Athletic Club ",       "start": "2025-01-19T22:00:00+09:00",      "duration": 2.6,       "link": " https://blog.cricfoot.net/?yosintv=celtavigo " },
 
-{ "name": " Leganés vs Atlético Madrid ",       "start": "2025-01-19T00:15:00+09:00",      "duration": 2.6,      "link": " https://blog.cricfoot.net/?yosintv=atletico " },
+{ "name": " Real Madrid vs Las Palmas ",       "start": "2025-01-20T00:15:00+09:00",      "duration": 2.6,      "link": " https://blog.cricfoot.net/?yosintv=realmadrid " },
   
-{ "name": " Real Betis vs D. Alavés ",       "start": "2025-01-19T02:30:00+09:00",      "duration": 2.6,      "link": " https://blog.cricfoot.net/?yosintv=realbetis " },
+{ "name": " Osasuna vs Rayo Vallecano ",       "start": "2025-01-20T02:30:00+09:00",      "duration": 2.6,      "link": " https://blog.cricfoot.net/?yosintv=osasuna " },
 
-{ "name": " Getafe vs Barcelona ",       "start": "2025-01-19T05:00:00+09:00",      "duration": 2.6,      "link": " https://blog.cricfoot.net/?yosintv=barcelona " }
+{ "name": " Valencia vs Real Sociedad",       "start": "2025-01-20T05:00:00+09:00",      "duration": 2.6,      "link": " https://blog.cricfoot.net/?yosintv=valencia " }
+
+
+
         
-]
-}
+]}
