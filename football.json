@@ -2,21 +2,51 @@
 
 
 { 
-"name": "  Las Palmas vs Osasuna ",       
-"start": "2025-01-25T05:00:00+09:00",  "duration": 2.6,       
-"link": " https://blog.cricfoot.net/?yosintv=osasuna " 
+"name": "  Liverpool vs Ipswich Town ",       
+"start": "2025-01-26T00:00:00+09:00",  "duration": 2.6,       
+"link": " https://blog.cricfoot.net/?yosintv=liverpool " 
 },
 
         
         
 { 
-"name": "  Torino vs Cagliari ",       
-"start": "2025-01-25T04:45:00+09:00",  "duration": 2.6,       
-"link": " https://blog.cricfoot.net/?yosintv=cagliari " 
-}
-
+"name": "  Arsenal vs Wolves ",       
+"start": "2025-01-26T00:00:00+09:00",  "duration": 2.6,       
+"link": " https://blog.cricfoot.net/?yosintv=arsenal " 
+},
 
         
+
+{ 
+"name": "  Southampton vs Newcastle",       
+"start": "2025-01-26T00:00:00+09:00",  "duration": 2.6,       
+"link": " https://blog.cricfoot.net/?yosintv=newcastle " 
+},
+
+
+
+{ 
+"name": "  Nottm Forest vs Bournemouth ",       
+"start": "2025-01-26T00:00:00+09:00",  "duration": 2.6,       
+"link": " https://blog.cricfoot.net/?yosintv=nottingham " 
+},
+
         
+
+{ 
+"name": "  Everton vs Brighton ",       
+"start": "2025-01-26T00:00:00+09:00",  "duration": 2.6,       
+"link": " https://blog.cricfoot.net/?yosintv=everton " 
+},
+
+
+
+{ 
+"name": "  Chelsea vs Man City ",       
+"start": "2025-01-26T02:30:00+09:00",  "duration": 2.6,       
+"link": " https://blog.cricfoot.net/?yosintv=chelsea " 
+}        
+
+
         
 ]}
