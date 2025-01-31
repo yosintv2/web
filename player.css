@@ -99,3 +99,21 @@ border: 1px solid #fff;
           font-size: 20px;
           z-index: 9999;
         }
+
+
+
+/* Style for error message */
+.error-message {
+  font-size: 20px;
+  color: #ff6347;  /* Tomato color */
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  border: 2px dashed #ff6347;
+  border-radius: 5px;
+  background-color: #fef8f6;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
