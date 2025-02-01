@@ -1,18 +1,12 @@
   {
     "matches": [
-      {
-        "name": "Leganés vs Rayo Vallecano",
-        "start": "2025-02-01T05:00:00+09:00",
-        "duration": "2.5",
-        "link": "https://blog.cricfoot.net/?yosintv=_____"
-      },
       
       
       {
         "name": "Getafe vs Sevilla",
         "start": "2025-02-01T22:00:00+09:00",
         "duration": "2.5",
-        "link": "https://blog.cricfoot.net/?yosintv=_____"
+        "link": "https://blog.cricfoot.net/?yosintv=sevilla"
       },
       
       
@@ -20,7 +14,7 @@
         "name": "Villarreal vs Real Valladolid",
         "start": "2025-02-02T00:15:00+09:00",
         "duration": "2.5",
-        "link": "https://blog.cricfoot.net/?yosintv=_____"
+        "link": "https://blog.cricfoot.net/?yosintv=villarreal"
       },
       
       
@@ -28,7 +22,7 @@
         "name": "Atlético Madrid vs Mallorca",
         "start": "2025-02-02T02:30:00+09:00",
         "duration": "2.5",
-        "link": "https://blog.cricfoot.net/?yosintv=_____"
+        "link": "https://blog.cricfoot.net/?yosintv=atletico"
       },
       
       
@@ -36,7 +30,7 @@
         "name": "Espanyol vs Real Madrid",
         "start": "2025-02-02T05:00:00+09:00",
         "duration": "2.5",
-        "link": "https://blog.cricfoot.net/?yosintv=_____"
+        "link": "https://blog.cricfoot.net/?yosintv=realmadrid"
       }
       
     ]
