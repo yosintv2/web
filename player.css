@@ -71,12 +71,12 @@ border: 1px solid #fff;
           overflow: hidden;
         }
         #iframe, #jwPlayer {
-          height: 450px !important;
+          height: 700px !important;
           padding: 0;
           margin: 0;
         }
         body {
-          height: 450px;
+          height: 700px;
           margin: 0;
           padding: 0;
         }
