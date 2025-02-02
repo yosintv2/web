@@ -1,54 +1,26 @@
-{
-  "matches": [
-    
-    
-    {
-      "name": " Bournemouth vs Liverpool ",
-      "start": "2025-02-02T00:00:00+09:00",
-      "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=liverpool"
-    },
-    
-    
-    {
-      "name": "Nottingham vs Brighton",
-      "start": "2025-02-01T21:30:00+09:00",
-      "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=brighton"
-    },
-    
-    
-    {
-      "name": "Everton vs Leicester",
-      "start": "2025-02-02T00:00:00+09:00",
-      "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=everton"
-    },
-    
-    
-    {
-      "name": "Ipswich Town vs Southampton",
-      "start": "2025-02-02T00:00:00+09:00",
-      "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=southampton"
-    },
-    
-    
-    {
-      "name": "Newcastle vs Fulham",
-      "start": "2025-02-02T00:00:00+09:00",
-      "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=fulham"
-    },
-    
-    
-    {
-      "name": "Wolves vs Aston Villa",
-      "start": "2025-02-02T02:30:00+09:00",
-      "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=aston"
-    }
-    
-    
-  ]
-}
+  {
+    "matches": [
+      {
+        "name": "Brentford vs Tottenham",
+        "start": "2025-02-02T23:00:00+09:00",
+        "duration": "2.5",
+        "link": "https://blog.cricfoot.net/?yosintv=tottenham"
+      },
+      
+      
+      {
+        "name": "Man United vs Crystal Palace",
+        "start": "2025-02-02T23:00:00+09:00",
+        "duration": "2.5",
+        "link": "https://blog.cricfoot.net/?yosintv=manunited"
+      },
+      
+      
+      {
+        "name": "Arsenal vs Man City",
+        "start": "2025-02-03T01:30:00+09:00",
+        "duration": "2.5",
+        "link": "https://blog.cricfoot.net/?yosintv=mancity"
+      }
+    ]
+  }
