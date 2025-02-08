@@ -33,8 +33,8 @@ leagues.forEach(league => {
                     
                     if (isLiveA && !isLiveB) return -1;
                     if (!isLiveA && isLiveB) return 1;
-                    if (isEndedA && !isEndedB) return 1;
                     if (!isEndedA && isEndedB) return -1;
+                    if (isEndedA && !isEndedB) return 1;
                     return startA - startB;
                 });
             }
