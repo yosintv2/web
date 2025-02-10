@@ -1,64 +1,24 @@
-{
-  "matches": [
-    {
-      "name": "Venezia vs Roma",
-      "start": "2025-02-09T20:30:00+09:00",
-      "duration": "2.5",
-      "link": "https://blog.cricfoot.net/?yosintv=roma"
-    },
-    {
-      "name": "Blackburn Rovers vs Wolves",
-      "start": "2025-02-09T21:30:00+09:00",
-      "duration": "2.5",
-      "link": "https://blog.cricfoot.net/?yosintv=wolves"
-    },
-    {
-      "name": "Sevilla vs Barcelona",
-      "start": "2025-02-10T05:00:00+09:00",
-      "duration": "2.5",
-      "link": "https://blog.cricfoot.net/?yosintv=barcelona"
-    },
-    {
-      "name": "Plymouth vs Liverpool",
-      "start": "2025-02-10T00:00:00+09:00",
-      "duration": "2.5",
-      "link": "https://blog.cricfoot.net/?yosintv=liverpool"
-    },
-    {
-      "name": "Aston Villa vs Tottenham",
-      "start": "2025-02-10T02:35:00+09:00",
-      "duration": "2.5",
-      "link": "https://blog.cricfoot.net/?yosintv=tottenham"
-    },
-    {
-      "name": "Novorizontino vs Santos",
-      "start": "2025-02-10T04:00:00+09:00",
-      "duration": "2.5",
-      "link": "https://blog.cricfoot.net/?yosintv=santos"
-    },
-    {
-      "name": "Napoli vs Udinese",
-      "start": "2025-02-10T04:45:00+09:00",
-      "duration": "2.5",
-      "link": "https://blog.cricfoot.net/?yosintv=napoli"
-    },
-    {
-      "name": "Valencia vs Leganés",
-      "start": "2025-02-10T00:15:00+09:00",
-      "duration": "2.5",
-      "link": "https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/tv/midd.html?mid=4140386"
-    },
-    {
-      "name": "Real Sociedad vs Espanyol",
-      "start": "2025-02-10T02:30:00+09:00",
-      "duration": "2.5",
-      "link": "https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/tv/midd.html?mid=4145398"
-    },
-    {
-      "name": "Angers SCO vs Marseille",
-      "start": "2025-02-10T04:45:00+09:00",
-      "duration": "2.5",
-      "link": "https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/tv/midd.html?mid=4143951"
-    }
-  ]
-}
+  {
+    "matches": [
+      {
+        "name": "Mallorca vs Osasuna",
+        "start": "2025-02-13T05:00:00+09:00",
+        "duration": "2.5",
+        "link": "https://blog.cricfoot.net/?yosintv=osasuna"
+      },
+  
+      {
+        "name": "Inter Milan vs Fiorentina",
+        "start": "2025-02-13T04:45:00+09:00",
+        "duration": "2.5",
+        "link": "https://blog.cricfoot.net/?yosintv=intermilan"
+      },
+  
+      {
+        "name": "Doncaster vs Crystal Palace",
+        "start": "2025-02-13T04:45:00+09:00",
+        "duration": "2.5",
+        "link": "https://blog.cricfoot.net/?yosintv=crystal"
+      }
+    ]
+  }
