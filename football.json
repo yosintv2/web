@@ -1,58 +1,24 @@
 {
   "matches": [
     {
-      "name": "Al-Ahli vs Al Nassr",
-      "start": "2025-02-14T02:30:00+09:00",
+      "name": "Brighton vs Chelsea",
+      "start": "2025-02-15T05:00:00+09:00",
       "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=alnassr"
-    },
-
-
-    {
-      "name": "Gent vs Real Betis",
-      "start": "2025-02-14T05:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/tv/alpha.html?mid=kaa-gent-vs-real-betis"
-    },
-
-
-    {
-      "name": "Porto vs Roma",
-      "start": "2025-02-14T05:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=roma"
-    },
-
-
-    
-    {
-      "name": "Union Saint-Gilloise vs Ajax",
-      "start": "2025-02-14T02:45:00+09:00",
-      "duration": "2.6",
-      "link": "https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/tv/midd.html?mid=4281479"
+      "link": "https://blog.cricfoot.net/?yosintv=chelsea"
     },
     
     {
-      "name": "Fenerbahçe vs Anderlecht",
-      "start": "2025-02-14T02:45:00+09:00",
+      "name": "Girona vs Getafe",
+      "start": "2025-02-15T05:00:00+09:00",
       "duration": "2.6",
-      "link": "https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/tv/midd.html?mid=4282625"
-    },
-    
-
-    
-    {
-      "name": "PAOK vs FCSB",
-      "start": "2025-02-14T05:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/tv/midd.html?mid=4281473"
+      "link": "https://blog.cricfoot.net/?yosintv=girona"
     },
     
     {
-      "name": "AZ vs Galatasaray",
-      "start": "2025-02-14T05:00:00+09:00",
+      "name": "Inter Miami vs Orlando City",
+      "start": "2025-02-15T09:30:00+09:00",
       "duration": "2.6",
-      "link": "https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/tv/midd.html?mid=4281468"
+      "link": "https://blog.cricfoot.net/?yosintv=intermiami"
     }
   ]
 }
