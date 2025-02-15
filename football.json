@@ -1,43 +1,115 @@
-{  "events": [
+{
+  "matches": [
+    {
+      "name": "Osasuna vs Real Madrid",
+      "start": "2025-02-16T00:15:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
 
+    {
+      "name": "Leverkusen vs Bayern München",
+      "start": "2025-02-16T02:30:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
 
-{ "name": " No Lag - Inter Miami vs Orlando City ",       
-"link": " https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/tv/alpha.html?mid=admin-inter-miami-vs-orlando-city "  },
+    {
+      "name": "Toulouse vs PSG",
+      "start": "2025-02-16T05:05:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
 
+    {
+      "name": "Man City vs Newcastle",
+      "start": "2025-02-16T00:00:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
 
-{ "name": " No Lag - Inter Miami vs Orlando City ",        
-"link": " https://yosintv2.github.io/tv/ads.html" },
+    {
+      "name": "Leicester City vs Arsenal",
+      "start": "2025-02-15T21:30:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
 
+    {
+      "name": "Atlético Madrid vs Celta de Vigo",
+      "start": "2025-02-16T02:30:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
 
- { "name": " Link 1 - Inter Miami vs Orlando City ",       
-"link": " https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/tv/alpha.html?mid=admin-inter-miami-vs-orlando-city "  },
+    {
+      "name": "Milan vs Hellas Verona",
+      "start": "2025-02-16T04:45:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
 
+    {
+      "name": "Lazio vs Napoli",
+      "start": "2025-02-16T02:00:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
 
-{ "name": " Link 2 - Inter Miami vs Orlando City ",        
-"link": " https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/soco.html?m=486629 "  },
+    {
+      "name": "Villarreal vs Valencia",
+      "start": "2025-02-16T05:00:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
 
+    {
+      "name": "Crystal Palace vs Everton",
+      "start": "2025-02-16T02:30:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
 
-{ "name": " Link 3 - Inter Miami vs Orlando City ",      
-"link": " https://yosintv2.github.io/tv/ads.html" },
+    {
+      "name": "West Ham vs Brentford",
+      "start": "2025-02-16T00:00:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
 
+    {
+      "name": "Southampton vs AFC Bournemouth",
+      "start": "2025-02-16T00:00:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
 
-{ "name": " iOS - Inter Miami vs Orlando City ",      
-"link": " https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/soco.html?m=9912035 "  },
+    {
+      "name": "Fulham vs Nottingham Forest",
+      "start": "2025-02-16T00:00:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
 
+    {
+      "name": "Aston Villa vs Ipswich Town",
+      "start": "2025-02-16T00:00:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
 
-{ "name": " PC/Laptop - Inter Miami vs Orlando City ",      
-"link": " https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/soco.html?m=290928 "  },
+    {
+      "name": "Atalanta vs Cagliari",
+      "start": "2025-02-15T23:00:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
 
-
-{ "name": " PC/Laptop - Inter Miami vs Orlando City ",      
-"link": " https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/soco.html?m=290928 "  }
-
-
-
-  ],
-  "styles": {
-    "livee": "display: flex; justify-content: space-between; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 5px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: red; color: white;",
-    "liveeHover": "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);",
-    "liveeName": "flex: 2; text-align: center; color: white; font-weight: bold;"
-  }
+    {
+      "name": "Leganés vs Deportivo Alavés",
+      "start": "2025-02-15T22:00:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    }
+  ]
 }
