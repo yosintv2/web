@@ -2,7 +2,7 @@
 const leagues = [
     { id: 'yosintv-cricket', file: 'cricket.json', title: 'Cricket' },
     { id: 'yosintv-cleague', file: 'cleague.json', title: 'Leagues' },
-    { id: 'yosintv-nepal', file: 'nepal.json', title: ' Nepal Upcoming Matches' },
+    { id: 'yosintv-nepal', file: 'nepal.json', title: ' Nepal Upcoming' },
     { id: 'yosintv-npl', file: 'npl.json', title: 'NPL T20' },
     { id: 'yosintv-ucl', file: 'ucl.json', title: 'Champions League' },
     { id: 'yosintv-football', file: 'football.json', title: 'Football' },
