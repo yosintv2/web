@@ -2,7 +2,7 @@
 const leagues = [
     { id: 'yosintv-cricket', file: 'cricket.json', title: 'Cricket' },
     { id: 'yosintv-cleague', file: 'cleague.json', title: 'Champions Trophy ' },
-    { id: 'yosintv-nepal', file: 'nepal.json', title: ' 4-Nations Women ' },
+    { id: 'yosintv-nepal', file: 'nepal.json', title: '4-Nations Women ' },
     { id: 'yosintv-npl', file: 'npl.json', title: 'NPL T20' },
     { id: 'yosintv-ucl', file: 'ucl.json', title: 'Champions League' },
     { id: 'yosintv-football', file: 'football.json', title: 'Football' },
@@ -86,6 +86,12 @@ function renderEvent(event, container) {
     eventElement.appendChild(eventName);
     eventElement.appendChild(countdown);
     container.appendChild(eventElement);
+
+    // Open the link in a new tab when clicked
+    eventElement.onclick = function () {
+        const link = eventElement.getAttribute('data-link');
+        window.open(link, '_blank');  // Opens the link in a new tab
+    };
 }
 
 // Update event statuses (Live, Countdown, Ended)
@@ -111,10 +117,6 @@ function updateStatus() {
         } else {
             eventCountdownElement.textContent = 'Match End';
         }
-
-        element.onclick = function () {
-            window.location.href = element.getAttribute('data-link');
-        };
     });
 }
 
