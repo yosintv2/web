@@ -1,24 +1,43 @@
-{
-  "matches": [
-    {
-      "name": "Brighton vs Chelsea",
-      "start": "2025-02-15T05:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=chelsea"
-    },
-    
-    {
-      "name": "Girona vs Getafe",
-      "start": "2025-02-15T05:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=girona"
-    },
-    
-    {
-      "name": "Inter Miami vs Orlando City",
-      "start": "2025-02-15T09:30:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=intermiami"
-    }
-  ]
+{  "events": [
+
+
+{ "name": " No Lag - Inter Miami vs Orlando City ",       
+"link": " https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/tv/alpha.html?mid=admin-inter-miami-vs-orlando-city "  },
+
+
+{ "name": " No Lag - Inter Miami vs Orlando City ",        
+"link": " https://yosintv2.github.io/tv/ads.html" },
+
+
+ { "name": " Link 1 - Inter Miami vs Orlando City ",       
+"link": " https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/tv/alpha.html?mid=admin-inter-miami-vs-orlando-city "  },
+
+
+{ "name": " Link 2 - Inter Miami vs Orlando City ",        
+"link": " https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/soco.html?m=486629 "  },
+
+
+{ "name": " Link 3 - Inter Miami vs Orlando City ",      
+"link": " https://yosintv2.github.io/tv/ads.html" },
+
+
+{ "name": " iOS - Inter Miami vs Orlando City ",      
+"link": " https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/soco.html?m=9912035 "  },
+
+
+{ "name": " PC/Laptop - Inter Miami vs Orlando City ",      
+"link": " https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/soco.html?m=290928 "  },
+
+
+{ "name": " PC/Laptop - Inter Miami vs Orlando City ",      
+"link": " https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/soco.html?m=290928 "  }
+
+
+
+  ],
+  "styles": {
+    "livee": "display: flex; justify-content: space-between; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 5px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: red; color: white;",
+    "liveeHover": "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);",
+    "liveeName": "flex: 2; text-align: center; color: white; font-weight: bold;"
+  }
 }
