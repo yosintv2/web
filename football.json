@@ -1,64 +1,17 @@
 {
   "matches": [
     {
-      "name": "Liverpool vs Wolves",
-      "start": "2025-02-16T23:00:00+09:00",
+      "name": "Persepolis vs Al Nassr",
+      "start": "2025-02-18T01:00:00+09:00",
       "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=wolves"
+      "link": "https://blog.cricfoot.net/?yosintv=alnassr"
     },
     
     {
-      "name": "Tottenham vs Man United",
-      "start": "2025-02-17T01:30:00+09:00",
+      "name": "Barcelona vs Rayo Vallecano",
+      "start": "2025-02-18T05:00:00+09:00",
       "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=tottenham"
-    },
-    
-    {
-      "name": "Juventus vs Inter Milan",
-      "start": "2025-02-17T04:45:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=juventus"
-    },
-    
-    {
-      "name": "Real Betis vs Real Sociedad",
-      "start": "2025-02-17T05:00:00+09:00",
-      "duration": "2.6",
-      "link": " https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/tc.html?m=3 "    },
-    
-    {
-      "name": "Espanyol vs Athletic Club",
-      "start": "2025-02-16T22:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=espanyol"
-    },
-    
-    {
-      "name": "Parma vs Roma",
-      "start": "2025-02-17T02:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=roma"
-    },
-    
-    {
-      "name": "Real Valladolid vs Sevilla",
-      "start": "2025-02-17T00:15:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=sevilla"
-    },
-    
-    {
-      "name": "Mallorca vs Las Palmas",
-      "start": "2025-02-17T02:30:00+09:00",
-      "duration": "2.6",
-      "link": " https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/tc.html?m=1 "    },
-    
-    {
-      "name": "Santos FC vs Água Santa",
-      "start": "2025-02-17T08:30:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=santos"
+      "link": "https://blog.cricfoot.net/?yosintv=barcelona"
     }
   ]
 }
