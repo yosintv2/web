@@ -1,24 +1,99 @@
-{ "matches": [
+{
+  "matches": [
+     
+      
+      { 
+      "name": " Womens Premier League",
+      "start": "2025-02-16T23:00:00+09:00",   
+      "duration": 1100, 
+      "link": " https://blog.cricfoot.net/?yosintv=wpl " 
+      },
+      
+      
+      {
+      "name": "Pakistan vs New Zealand",
+      "start": "2025-02-19T18:00:00+09:00",
+      "duration": "10",
+      "link": "https://blog.cricfoot.net/?yosintv=ct2025"
+    },
 
 
-{ "name": " Womens Premier League",
-"start": "2025-02-16T23:00:00+09:00",   
-"duration": 1100, 
-"link": " https://blog.cricfoot.net/?yosintv=wpl " },
-
-
-
-{ "name": " New Zealand vs Pakistan ",
-"start": "2025-02-14T18:00:00+09:00",   
-"duration": 11, 
-"link": " https://blog.cricfoot.net/?yosintv=pakistan " },
+      
+      {
+      "name": "Bangladesh vs India",
+      "start": "2025-02-20T18:00:00+09:00",
+      "duration": "10",
+      "link": "https://blog.cricfoot.net/?yosintv=ct2025"
+    },
     
+    {
+      "name": "Afghanistan vs South Africa",
+      "start": "2025-02-21T18:00:00+09:00",
+      "duration": "10",
+      "link": "https://blog.cricfoot.net/?yosintv=ct2025"
+    },
     
+    {
+      "name": "Australia vs England",
+      "start": "2025-02-22T18:00:00+09:00",
+      "duration": "10",
+      "link": "https://blog.cricfoot.net/?yosintv=ct2025"
+    },
     
-{ "name": " Zimbabwe vs Ireland ",
-"start": "2025-02-14T17:30:00+09:00",   
-"duration": 11, 
-"link": " https://blog.cricfoot.net/?yosintv=ireland " }
-
-
-]}
+    {
+      "name": "Pakistan vs India",
+      "start": "2025-02-23T18:00:00+09:00",
+      "duration": "10",
+      "link": "https://blog.cricfoot.net/?yosintv=ct2025"
+    },
+    
+    {
+      "name": "Bangladesh vs New Zealand",
+      "start": "2025-02-24T18:00:00+09:00",
+      "duration": "10",
+      "link": "https://blog.cricfoot.net/?yosintv=ct2025"
+    },
+    
+    {
+      "name": "Australia vs South Africa",
+      "start": "2025-02-25T18:00:00+09:00",
+      "duration": "10",
+      "link": "https://blog.cricfoot.net/?yosintv=ct2025"
+    },
+    
+    {
+      "name": "Afghanistan vs England",
+      "start": "2025-02-26T18:00:00+09:00",
+      "duration": "10",
+      "link": "https://blog.cricfoot.net/?yosintv=ct2025"
+    },
+    
+    {
+      "name": "Pakistan vs Bangladesh",
+      "start": "2025-02-27T18:00:00+09:00",
+      "duration": "10",
+      "link": "https://blog.cricfoot.net/?yosintv=ct2025"
+    },
+    
+    {
+      "name": "Afghanistan vs Australia",
+      "start": "2025-02-28T18:00:00+09:00",
+      "duration": "10",
+      "link": "https://blog.cricfoot.net/?yosintv=ct2025"
+    },
+    
+    {
+      "name": "South Africa vs England",
+      "start": "2025-03-01T18:00:00+09:00",
+      "duration": "10",
+      "link": "https://blog.cricfoot.net/?yosintv=ct2025"
+    },
+    
+    {
+      "name": "New Zealand vs India",
+      "start": "2025-03-02T18:00:00+09:00",
+      "duration": "10",
+      "link": "https://blog.cricfoot.net/?yosintv=ct2025"
+    }
+  ]
+}
