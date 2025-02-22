@@ -65,18 +65,18 @@ border: 1px solid #fff;
           margin: 0;
           padding: 0;
           width: 100%;
-          height: 600px;
+          height: 450px;
           background: #8a0000;
           color: #fff;
           overflow: hidden;
         }
         #iframe, #jwPlayer {
-          height: 600px !important;
+          height: 450px !important;
           padding: 0;
           margin: 0;
         }
         body {
-          height: 600px;
+          height: 450px;
           margin: 0;
           padding: 0;
         }
