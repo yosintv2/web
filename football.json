@@ -1,61 +1,59 @@
 {
   "matches": [
-
     {
-      "name": " Al Wehda vs Al Nassr ",
-      "start": "2025-02-26T01:50:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=alnassr"
+      "name": "Tottenham vs Man City",
+      "start": "2026-02-27T04:30:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=mancity"
     },
 
-    
     {
-      "name": "Wolves vs Fulham",
-      "start": "2025-02-26T04:30:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=wolves"
+      "name": "Man United vs Ipswich",
+      "start": "2026-02-27T04:30:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=manunited"
     },
-    
+
     {
-      "name": "Crystal Palace vs Aston Villa",
-      "start": "2025-02-26T04:30:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=crystal"
+      "name": "Brentford vs Everton",
+      "start": "2026-02-27T04:30:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=brentford"
     },
-    
+
     {
-      "name": "Brighton vs Bournemouth",
-      "start": "2025-02-26T04:30:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=brighton"
+      "name": "Nottingham vs Arsenal",
+      "start": "2026-02-27T04:30:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=arsenal"
     },
-    
+
     {
-      "name": "Chelsea vs Southampton",
-      "start": "2025-02-26T05:15:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=chelsea"
+      "name": "Liverpool vs Newcastle",
+      "start": "2026-02-27T05:15:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=liverpool"
     },
-    
+
     {
-      "name": "Inter Milan vs Lazio",
-      "start": "2025-02-26T05:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=intermilan"
+      "name": "Real Sociedad vs Real Madrid",
+      "start": "2026-02-27T05:30:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=realmadrid"
     },
-    
+
     {
-      "name": "Barcelona vs Atlético Madrid",
-      "start": "2025-02-26T05:30:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=barcelona"
+      "name": "Juventus vs Empoli",
+      "start": "2026-02-27T05:00:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=juventus"
     },
-    
+
     {
-      "name": "Inter Miami vs Sporting KC",
-      "start": "2025-02-26T10:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=intermiami"
+      "name": "Stade Briochin vs PSG",
+      "start": "2026-02-27T05:10:00+09:00",
+      "duration": 2.7,
+      "link": "https://blog.cricfoot.net/?yosintv=psg"
     }
   ]
 }
