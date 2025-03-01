@@ -6,8 +6,8 @@ const leagues = [
     { id: 'yosintv-npl', file: 'npl.json', title: 'NPL T20' },
     { id: 'yosintv-ucl', file: 'ucl.json', title: 'Champions League' },
     { id: 'yosintv-football', file: 'football.json', title: 'Top Football' },
+    { id: 'yosintv-laliga', file: 'more.json', title: 'More Football ' },
     { id: 'yosintv-epl', file: 'epl.json', title: 'EPL' },
-    { id: 'yosintv-laliga', file: 'laliga.json', title: 'More Football ' },
     { id: 'yosintv-seriea', file: 'seriea.json', title: 'Serie A' },
     { id: 'yosintv-ligue1', file: 'ligue1.json', title: 'Ligue 1' },
     { id: 'yosintv-bundesliga', file: 'bundesliga.json', title: 'Bundesliga' }
