@@ -5,7 +5,7 @@ const leagues = [
     { id: 'yosintv-nepal', file: 'nepal.json', title: ' 4-Nations Women ' },
     { id: 'yosintv-npl', file: 'npl.json', title: 'NPL T20' },
     { id: 'yosintv-ucl', file: 'ucl.json', title: 'Champions League' },
-    { id: 'yosintv-football', file: 'football.json', title: 'Football' },
+    { id: 'yosintv-football', file: 'football.json', title: 'Top Football' },
     { id: 'yosintv-epl', file: 'epl.json', title: 'EPL' },
     { id: 'yosintv-laliga', file: 'laliga.json', title: 'La Liga' },
     { id: 'yosintv-seriea', file: 'seriea.json', title: 'Serie A' },
