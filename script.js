@@ -1,7 +1,7 @@
 // List of leagues and their corresponding JSON files
 const leagues = [
     { id: 'yosintv-cricket', file: 'cricket.json', title: 'Cricket' },
-    { id: 'yosintv-cleague', file: 'cleague.json', title: 'Champions Trophy ' },
+    { id: 'yosintv-cleague', file: 'cleague.json', title: 'IPL T20 2025 ' },
     { id: 'yosintv-nepal', file: 'nepal.json', title: ' 4-Nations Women ' },
     { id: 'yosintv-npl', file: 'npl.json', title: 'NPL T20' },
     { id: 'yosintv-ucl', file: 'ucl.json', title: 'Champions League' },
