@@ -1,52 +1,38 @@
 {
   "matches": [
     {
-      "name": "Hoffenheim vs Heidenheim",
-      "start": "2025-03-10T01:30:00+09:00",
+      "name": "Frankfurt vs Ajax",
+      "start": "2025-03-14T02:45:00+09:00",
       "duration": 2.7,
-      "link": "https://yosintv2.github.io/ads/midst.html?url=4149366"
+      "link": "https://yosintv2.github.io/ads/midst.html?url=______"
     },
 
     {
-      "name": "Real Betis vs Las Palmas",
-      "start": "2025-03-10T02:30:00+09:00",
+      "name": "Lazio vs Viktoria",
+      "start": "2025-03-14T02:45:00+09:00",
       "duration": 2.7,
-      "link": "https://yosintv2.github.io/ads/midst.html?url=4140422"
+      "link": "https://yosintv2.github.io/ads/midst.html?url=______"
     },
 
     {
-      "name": "Athletic Club vs Mallorca",
-      "start": "2025-03-10T02:30:00+09:00",
+      "name": "Rangers vs Fenerbahçe",
+      "start": "2025-03-14T05:00:00+09:00",
       "duration": 2.7,
-      "link": "https://yosintv2.github.io/ads/midst.html?url=4140421"
+      "link": "https://yosintv2.github.io/ads/midst.html?url=______"
     },
 
     {
-      "name": "Nantes vs Strasbourg",
-      "start": "2025-03-10T01:15:00+09:00",
+      "name": "Lyon vs FCSB",
+      "start": "2025-03-14T05:00:00+09:00",
       "duration": 2.7,
-      "link": "https://yosintv2.github.io/ads/midst.html?url=4144014"
+      "link": "https://yosintv2.github.io/ads/midst.html?url=______"
     },
 
     {
-      "name": "Reims vs Auxerre",
-      "start": "2025-03-10T01:15:00+09:00",
+      "name": "Fiorentina vs Panathinaikos",
+      "start": "2025-03-14T05:00:00+09:00",
       "duration": 2.7,
-      "link": "https://yosintv2.github.io/ads/midst.html?url=4144016"
-    },
-
-    {
-      "name": "Le Havre vs Saint-Étienne",
-      "start": "2025-03-10T01:15:00+09:00",
-      "duration": 2.7,
-      "link": "https://yosintv2.github.io/ads/midst.html?url=4144011"
-    },
-
-    {
-      "name": "Nice vs Lyonnais",
-      "start": "2025-03-10T04:45:00+09:00",
-      "duration": 2.7,
-      "link": "https://yosintv2.github.io/ads/midst.html?url=4144015"
+      "link": "https://yosintv2.github.io/ads/midst.html?url=______"
     }
   ]
 }
