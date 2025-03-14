@@ -1,44 +1,46 @@
-[
-  {
-    "name": "Mallorca vs Espanyol",
-    "start": "2025-03-16 00:15",
-    "duration": "2.6",
-    "link": "https://blog.cricfoot.net/?yosintv=_____"
-  },
-  {
-    "name": "Girona vs Valencia",
-    "start": "2025-03-16 05:00",
-    "duration": "2.6",
-    "link": "https://blog.cricfoot.net/?yosintv=_____"
-  },
-  {
-    "name": "Milan vs Como",
-    "start": "2025-03-16 02:00",
-    "duration": "2.6",
-    "link": "https://blog.cricfoot.net/?yosintv=_____"
-  },
-  {
-    "name": "Torino vs Empoli",
-    "start": "2025-03-16 04:45",
-    "duration": "2.6",
-    "link": "https://blog.cricfoot.net/?yosintv=_____"
-  },
-  {
-    "name": "Nantes vs Lille",
-    "start": "2025-03-16 01:00",
-    "duration": "2.6",
-    "link": "https://blog.cricfoot.net/?yosintv=_____"
-  },
-  {
-    "name": "Angers SCO vs Monaco",
-    "start": "2025-03-16 03:00",
-    "duration": "2.6",
-    "link": "https://blog.cricfoot.net/?yosintv=_____"
-  },
-  {
-    "name": "Lens vs Rennes",
-    "start": "2025-03-16 05:05",
-    "duration": "2.6",
-    "link": "https://blog.cricfoot.net/?yosintv=_____"
-  }
-]
+{
+  "matches": [
+    {
+      "name": "Mallorca vs Espanyol",
+      "start": "2025-03-16 00:15",
+      "duration": "2.6",
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
+    {
+      "name": "Girona vs Valencia",
+      "start": "2025-03-16 05:00",
+      "duration": "2.6",
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
+    {
+      "name": "Milan vs Como",
+      "start": "2025-03-16 02:00",
+      "duration": "2.6",
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
+    {
+      "name": "Torino vs Empoli",
+      "start": "2025-03-16 04:45",
+      "duration": "2.6",
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
+    {
+      "name": "Nantes vs Lille",
+      "start": "2025-03-16 01:00",
+      "duration": "2.6",
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
+    {
+      "name": "Angers SCO vs Monaco",
+      "start": "2025-03-16 03:00",
+      "duration": "2.6",
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    },
+    {
+      "name": "Lens vs Rennes",
+      "start": "2025-03-16 05:05",
+      "duration": "2.6",
+      "link": "https://blog.cricfoot.net/?yosintv=_____"
+    }
+  ]
+}
