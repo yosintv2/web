@@ -1,16 +1,16 @@
 // List of leagues and their corresponding JSON files
 const leagues = [
-    { id: 'yosintv-cricket', file: 'cricket.json', title: 'Cricket' },
-    { id: 'yosintv-cleague', file: 'cleague.json', title: 'IPL T20 2025 ' },
-    { id: 'yosintv-nepal', file: 'nepal.json', title: ' 4-Nations Women ' },
-    { id: 'yosintv-npl', file: 'npl.json', title: 'NPL T20' },
-    { id: 'yosintv-ucl', file: 'ucl.json', title: 'Champions League' },
-    { id: 'yosintv-football', file: 'football.json', title: 'Top Football' },
-    { id: 'yosintv-laliga', file: 'more.json', title: 'More Football ' },
-    { id: 'yosintv-epl', file: 'epl.json', title: 'EPL' },
-    { id: 'yosintv-seriea', file: 'seriea.json', title: 'Serie A' },
-    { id: 'yosintv-ligue1', file: 'ligue1.json', title: 'Ligue 1' },
-    { id: 'yosintv-bundesliga', file: 'bundesliga.json', title: 'Bundesliga' }
+    { id: 'yosintv-cricket', file: 'https://web.cricfoot.net/cricket.json', title: 'Cricket' },
+    { id: 'yosintv-cleague', file: 'https://web.cricfoot.net/cleague.json', title: 'IPL T20 2025 ' },
+    { id: 'yosintv-nepal', file: 'https://web.cricfoot.net/nepal.json', title: ' 4-Nations Women ' },
+    { id: 'yosintv-npl', file: 'https://web.cricfoot.net/npl.json', title: 'NPL T20' },
+    { id: 'yosintv-ucl', file: 'https://web.cricfoot.net/ucl.json', title: 'Champions League' },
+    { id: 'yosintv-football', file: 'https://web.cricfoot.net/football.json', title: 'Top Football' },
+    { id: 'yosintv-laliga', file: 'https://web.cricfoot.net/more.json', title: 'More Football ' },
+    { id: 'yosintv-epl', file: 'https://web.cricfoot.net/epl.json', title: 'EPL' },
+    { id: 'yosintv-seriea', file: 'https://web.cricfoot.net/seriea.json', title: 'Serie A' },
+    { id: 'yosintv-ligue1', file: 'https://web.cricfoot.net/ligue1.json', title: 'Ligue 1' },
+    { id: 'yosintv-bundesliga', file: 'https://web.cricfoot.net/bundesliga.json', title: 'Bundesliga' }
 ];
 
 // Fetch and render data for each league
