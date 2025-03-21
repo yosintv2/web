@@ -1,60 +1,20 @@
 {
   "matches": [
-    {
-      "name": "Nepal vs Singapore",
-      "start": "2025-03-21T22:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/soco.html?m=9912008 "
-    },
-    
-    
-    {
-      "name": "Ghana vs Chad",
-      "start": "2025-03-22T04:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/soco.html?m=_____ "
-    },
-    
+
+  
     {
       "name": "England vs Albania",
       "start": "2025-03-22T04:45:00+09:00",
       "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=____"
+      "link": "https://blog.cricfoot.net/?yosintv=england"
     },
     
-    {
-      "name": "Poland vs Lithuania",
-      "start": "2025-03-22T04:45:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=____"
-    },
-    
-    {
-      "name": "Ecuador vs Venezuela",
-      "start": "2025-03-22T06:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/soco.html?m=_____ "
-    },
-    
-    {
-      "name": "Ethiopia vs Egypt",
-      "start": "2025-03-22T06:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/soco.html?m=_____ "
-    },
-    
-    {
-      "name": "Niger vs Morocco",
-      "start": "2025-03-22T06:30:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=____"
-    },
     
     {
       "name": "Uruguay vs Argentina",
       "start": "2025-03-22T08:30:00+09:00",
       "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=____"
+      "link": "https://blog.cricfoot.net/?yosintv=argentina"
     }
   ]
 }
