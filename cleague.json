@@ -19,6 +19,36 @@
       "start": "2025-03-23T23:00:00+09:00",
       "duration": 3.6,
       "link": " https://blog.cricfoot.net/?yosintv=ipl2025ii "
+    },
+
+    {
+      "name": "DC vs LSG, 4th Match",
+      "start": "2025-03-24T23:00:00+09:00",
+      "duration": 3.6,
+      "link": " https://blog.cricfoot.net/?yosintv=ipl2025 "
+    },
+
+    {
+      "name": "GT vs PBKS, 5th Match",
+      "start": "2025-03-25T23:00:00+09:00",
+      "duration": 3.6,
+      "link": " https://blog.cricfoot.net/?yosintv=ipl2025 "
+    },
+
+    {
+      "name": "RR vs KKR, 6th Match",
+      "start": "2025-03-26T23:00:00+09:00",
+      "duration": 3.6,
+      "link": " https://blog.cricfoot.net/?yosintv=ipl2025 "
+    },
+
+    {
+      "name": "SRH vs LSG, 7th Match",
+      "start": "2025-03-27T23:00:00+09:00",
+      "duration": 3.6,
+      "link": " https://blog.cricfoot.net/?yosintv=ipl2025 "
     }
+
+    
   ]
 }
