@@ -1,59 +1,17 @@
 {
   "matches": [
     {
-      "name": "Hungary vs Turkey",
-      "start": "2025-03-24T02:00:00+09:00",
+      "name": "England vs Latvia",
+      "start": "2025-03-25T04:45:00+09:00",
       "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=hungary"
+      "link": "https://blog.cricfoot.net/?yosintv=england"
     },
     
     {
-      "name": "Spain vs Netherlands",
-      "start": "2025-03-24T04:45:00+09:00",
+      "name": "Poland vs Malta",
+      "start": "2025-03-25T04:45:00+09:00",
       "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=spain"
-    },
-    
-    {
-      "name": "France vs Croatia",
-      "start": "2025-03-24T04:45:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=france"
-    },
-    
-    {
-      "name": "Portugal vs Denmark",
-      "start": "2025-03-24T04:45:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=portugal"
-    },
-    
-    {
-      "name": "Germany vs Italy",
-      "start": "2025-03-24T04:45:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=germany"
-    },
-    
-    {
-      "name": "Belgium vs Ukraine",
-      "start": "2025-03-24T04:45:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=belgium"
-    },
-    
-    {
-      "name": "Canada vs USA",
-      "start": "2025-03-24T07:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=usa"
-    },
-    
-    {
-      "name": "Mexico vs Panama",
-      "start": "2025-03-24T10:30:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=mexico"
+      "link": "https://blog.cricfoot.net/?yosintv=poland"
     }
   ]
 }
