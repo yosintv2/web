@@ -1,45 +1,10 @@
 {
   "matches": [
     {
-      "name": "Israel vs Norway",
-      "start": "2025-03-26T04:45:00+09:00",
+      "name": "Barcelona vs Osasuna",
+      "start": "2025-03-27T05:00:00+09:00",
       "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=norway"
-    },
-    
-    {
-      "name": "Bolivia vs Uruguay",
-      "start": "2025-03-26T05:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=uruguay"
-    },
-    
-    {
-      "name": "Morocco vs Tanzania",
-      "start": "2025-03-26T06:30:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=morocco"
-    },
-    
-    {
-      "name": "Argentina vs Brazil",
-      "start": "2025-03-26T09:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=argentina"
-    },
-    
-    {
-      "name": "Venezuela vs Peru",
-      "start": "2025-03-26T09:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=venezuela"
-    },
-    
-    {
-      "name": "Colombia vs Paraguay",
-      "start": "2025-03-26T09:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=colombia"
+      "link": "https://blog.cricfoot.net/?yosintv=barcelona"
     }
   ]
 }
