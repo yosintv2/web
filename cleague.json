@@ -2,19 +2,27 @@
   "matches": [
 
     
-     {
-      "name": "DC vs SRH, 10th Match",
-      "start": "2025-03-30T19:00:00+09:00",
+    {
+      "name": "MI vs KKR, 12th Match",
+      "start": "2025-03-31T23:00:00+09:00",
       "duration": 3.6,
       "link": " https://blog.cricfoot.net/?yosintv=ipl2025 "
     },
 
     
     {
-      "name": "RR vs CSK, 11th Match",
-      "start": "2025-03-30T23:00:00+09:00",
+      "name": "LSG vs PBKS, 13th Match",
+      "start": "2025-04-01T23:00:00+09:00",
       "duration": 3.6,
-      "link": " https://blog.cricfoot.net/?yosintv=ipl2025ii "
+      "link": " https://blog.cricfoot.net/?yosintv=ipl2025 "
+    },
+
+    
+    {
+      "name": "RCB vs GT, 14th Match",
+      "start": "2025-04-02T23:00:00+09:00",
+      "duration": 3.6,
+      "link": " https://blog.cricfoot.net/?yosintv=ipl2025 "
     }
 
     
