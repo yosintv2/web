@@ -2,18 +2,28 @@
   "matches": [
 
     {
-      "name": "SRH vs GT, 19th Match",
-      "start": "2025-04-06T23:00:00+09:00",
-      "duration": 3.6,
-      "link": " https://blog.cricfoot.net/?yosintv=ipl2025ii "
-    },
-
-    {
       "name": "MI vs RCB, 20th Match",
       "start": "2025-04-07T23:00:00+09:00",
       "duration": 3.6,
       "link": " https://blog.cricfoot.net/?yosintv=ipl2025 "
+    },
+
+
+    {
+      "name": "KKR vs LSG, 21st Match",
+      "start": "2025-04-08T19:00:00+09:00",
+      "duration": 3.6,
+      "link": " https://blog.cricfoot.net/?yosintv=ipl2025 "
+    },
+
+
+    {
+      "name": "PBKS vs CSK, 22nd Match",
+      "start": "2025-04-08T23:00:00+09:00",
+      "duration": 3.6,
+      "link": " https://blog.cricfoot.net/?yosintv=ipl2025 "
     }
-    
+
+
   ]
 }
