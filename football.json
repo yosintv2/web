@@ -1,24 +1,17 @@
 {
   "matches": [
     {
-      "name": "Bologna vs Napoli",
-      "start": "2025-04-08T03:45:00+09:00",
+      "name": "Arsenal vs Real Madrid",
+      "start": "2025-04-08T04:00:00+09:00",
       "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=napoli"
+      "link": "https://blog.cricfoot.net/?yosintv=realmadrid"
     },
     
     {
-      "name": "Leicester vs Newcastle",
+      "name": "Bayern München vs Inter Milan",
       "start": "2025-04-08T04:00:00+09:00",
       "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=newcastle"
-    },
-    
-    {
-      "name": "Leganés vs Osasuna",
-      "start": "2025-04-08T04:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=osasuna"
+      "link": "https://blog.cricfoot.net/?yosintv=munchen"
     }
   ]
 }
