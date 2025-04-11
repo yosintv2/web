@@ -1,31 +1,17 @@
 {
   "matches": [
     {
-      "name": "Warszawa vs Chelsea",
-      "start": "2025-04-11T01:45:00+09:00",
+      "name": "Udinese vs AC Milan",
+      "start": "2025-04-12T03:45:00+09:00",
       "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=chelsea"
+      "link": "https://blog.cricfoot.net/?yosintv=acmilan"
     },
     
     {
-      "name": "Lyon vs Man United",
-      "start": "2025-04-11T04:00:00+09:00",
+      "name": "Valencia vs Sevilla",
+      "start": "2025-04-12T04:00:00+09:00",
       "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=manunited"
-    },
-    
-    {
-      "name": "Tottenham vs Frankfurt",
-      "start": "2025-04-11T04:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=tottenham"
-    },
-    
-    {
-      "name": "Real Betis vs Jagiellonia",
-      "start": "2025-04-11T04:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://blog.cricfoot.net/?yosintv=realbetis"
+      "link": "https://blog.cricfoot.net/?yosintv=sevilla"
     }
   ]
 }
