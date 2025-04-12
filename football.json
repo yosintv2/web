@@ -6,6 +6,20 @@
       "duration": "2.6",
       "link": "https://blog.cricfoot.net/?yosintv=mancity"
     },
+
+    {
+      "name": "Southampton vs Aston Villa",
+      "start": "2025-04-12T23:00:00+09:00",
+      "duration": "2.6",
+      "link": "https://blog.cricfoot.net/?yosintv=astonvilla"
+    },
+    
+    {
+      "name": "Nottingham vs Everton",
+      "start": "2025-04-12T23:00:00+09:00",
+      "duration": "2.6",
+      "link": "https://blog.cricfoot.net/?yosintv=everton"
+    },
     
     {
       "name": "Arsenal vs Brentford",
