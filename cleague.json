@@ -2,22 +2,16 @@
   "matches": [
 
     {
-      "name": "GT vs SRH, 51st Match",
-      "start": "2025-05-02T23:00:00+09:00",
-      "duration": 3.6,
-      "link": " https://blog.cricfoot.net/?yosintv=ipl11 "
-    },
-
-    {
-      "name": "RCB vs CSK, 52nd Match",
-      "start": "2025-05-03T23:00:00+09:00",
-      "duration": 3.6,
-      "link": " https://blog.cricfoot.net/?yosintv=ipl11 "
-    },
-
-    {
       "name": "KKR vs RR, 53rd Match",
-      "start": "2025-05-03T19:00:00+09:00",
+      "start": "2025-05-04T19:00:00+09:00",
+      "duration": 3.6,
+      "link": " https://blog.cricfoot.net/?yosintv=ipl11 "
+    },
+    
+    
+    {
+      "name": "PBKS vs LSG, 54th Match",
+      "start": "2025-05-04T23:00:00+09:00",
       "duration": 3.6,
       "link": " https://blog.cricfoot.net/?yosintv=ipl11 "
     }
