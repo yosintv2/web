@@ -1,84 +1,27 @@
 {
   "matches": [
+    {
+      "name": " Crystal vs Nottingham ",
+      "start": "2025-05-06T04:00:00+09:00",
+      "duration": "2.6",
+      "link": " https://blog.cricfoot.net/?yosintv=nottingham "
+    },
+    
     
     {
-      "name": " Inter Miami vs New York ",
-      "start": "2025-05-04T08:30:00+09:00",
+      "name": " Genoa vs AC Milan ",
+      "start": "2025-05-06T03:45:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=intermiami "
+      "link": " https://blog.cricfoot.net/?yosintv=acmilan "
     },
 
-
     {
-      "name": " Chelsea vs Liverpool ",
-      "start": "2025-05-05T00:30:00+09:00",
+      "name": " Girona vs Mallorca ",
+      "start": "2025-05-06T04:00:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=liverpool "
-    },
-    
-    
-    {
-      "name": " Real Madrid vs Celta ",
-      "start": "2025-05-04T21:00:00+09:00",
-      "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=realmadrid "
-    },
-    
-    
-    {
-      "name": " West Ham vs Tottenham ",
-      "start": "2025-05-04T22:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/ak.html?m=360663 "
-    },
-    
-    
-    {
-      "name": " Brentford vs Man United ",
-      "start": "2025-05-04T22:00:00+09:00",
-      "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=manunited "
-    },
-    
-    
-    {
-      "name": " Brighton vs Newcastle ",
-      "start": "2025-05-04T22:00:00+09:00",
-      "duration": "2.6",
-      "link": "https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/ak.html?m=414317 "
-    },
-    
-    
-    {
-      "name": " Espanyol vs Real Betis ",
-      "start": "2025-05-05T01:30:00+09:00",
-      "duration": "2.6",
-      "link": " https://yosintv2.github.io/ads/foot.html?url=https://cr7tv.github.io/tv/ft.html?id=ssports  "
-    },
-    
-    
-    {
-      "name": " Roma vs Fiorentina ",
-      "start": "2025-05-05T01:00:00+09:00",
-      "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=serieatv "
-    },
-    
-    
-    {
-      "name": " Bologna vs Juventus ",
-      "start": "2025-05-05T03:45:00+09:00",
-      "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=serieatv "
-    },
-    
-    
-    {
-      "name": " Freiburg vs Leverkusen ",
-      "start": "2025-05-05T00:30:00+09:00",
-      "duration": "2.6",
-      "link": "https://yosintv2.github.io/ads/foot.html?url=https://yosintv2.github.io/ads/ak.html?m=427856 "
+      "link": " https://blog.cricfoot.net/?yosintv=girona "
     }
+
     
   ]
 }
