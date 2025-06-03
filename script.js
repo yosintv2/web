@@ -1,12 +1,13 @@
 // List of leagues and their corresponding JSON files
 const leagues = [
     { id: 'yosintv-cricket', file: 'cricket.json', title: 'Cricket' },
-    { id: 'yosintv-cleague', file: 'cleague.json', title: 'IPL T20 ' },
+    { id: 'yosintv-cleague', file: 'cleague.json', title: 'IPL T20 2025 ' },
+    { id: 'yosintv-nepal', file: 'nepal.json', title: ' 4-Nations Women ' },
     { id: 'yosintv-npl', file: 'npl.json', title: 'NPL T20' },
     { id: 'yosintv-ucl', file: 'ucl.json', title: 'Champions League' },
-    { id: 'yosintv-football', file: 'football.json', title: 'Football' },
+    { id: 'yosintv-football', file: 'football.json', title: 'Top Football' },
+    { id: 'yosintv-laliga', file: 'more.json', title: 'More Football ' },
     { id: 'yosintv-epl', file: 'epl.json', title: 'EPL' },
-    { id: 'yosintv-laliga', file: 'laliga.json', title: 'La Liga' },
     { id: 'yosintv-seriea', file: 'seriea.json', title: 'Serie A' },
     { id: 'yosintv-ligue1', file: 'ligue1.json', title: 'Ligue 1' },
     { id: 'yosintv-bundesliga', file: 'bundesliga.json', title: 'Bundesliga' }
@@ -19,18 +20,22 @@ leagues.forEach(league => {
         .then(data => {
             if (data.matches) {
                 const currentTime = new Date().getTime();
-
+                
                 data.matches.sort((a, b) => {
                     const startA = new Date(a.start).getTime();
                     const endA = startA + parseFloat(a.duration) * 60 * 60 * 1000;
                     const startB = new Date(b.start).getTime();
                     const endB = startB + parseFloat(b.duration) * 60 * 60 * 1000;
-
+                    
                     const isLiveA = currentTime >= startA && currentTime <= endA;
                     const isLiveB = currentTime >= startB && currentTime <= endB;
-
+                    const isEndedA = currentTime > endA;
+                    const isEndedB = currentTime > endB;
+                    
                     if (isLiveA && !isLiveB) return -1;
                     if (!isLiveA && isLiveB) return 1;
+                    if (!isEndedA && isEndedB) return -1;
+                    if (isEndedA && !isEndedB) return 1;
                     return startA - startB;
                 });
             }
@@ -42,7 +47,7 @@ leagues.forEach(league => {
 // Render a league's matches
 function renderLeague(data, containerId, leagueTitle) {
     const container = document.getElementById(containerId);
-
+    
     // Add league title
     const titleElement = document.createElement('div');
     titleElement.classList.add('league-title');
@@ -96,11 +101,11 @@ function updateStatus() {
 
         if (currentTime < startTime) {
             const timeDiff = startTime - currentTime;
-            const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const hours = Math.floor(timeDiff / (1000 * 60 * 60));
             const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
-            eventCountdownElement.innerHTML = `<span>${days}d</span> <span>${hours}h</span> <span>${minutes}m</span>`;
+            eventCountdownElement.innerHTML = `<span>${days}d</span><span>${hours}h</span> <span>${minutes}m</span>`;
         } else if (currentTime >= startTime && currentTime <= endTime) {
             eventCountdownElement.innerHTML = '<div class="live-now blink">Live Now</div>';
         } else {
