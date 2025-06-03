@@ -1,1 +1,118 @@
-const _0x19a9a3=_0x3860;(function(_0x2217e3,_0x24723f){const _0x3e8d00=_0x3860,_0x66e333=_0x2217e3();while(!![]){try{const _0x286a27=parseInt(_0x3e8d00(0x23c))/0x1+-parseInt(_0x3e8d00(0x20f))/0x2*(parseInt(_0x3e8d00(0x220))/0x3)+-parseInt(_0x3e8d00(0x206))/0x4*(-parseInt(_0x3e8d00(0x225))/0x5)+-parseInt(_0x3e8d00(0x203))/0x6+-parseInt(_0x3e8d00(0x23f))/0x7+parseInt(_0x3e8d00(0x233))/0x8*(-parseInt(_0x3e8d00(0x1fe))/0x9)+parseInt(_0x3e8d00(0x240))/0xa*(parseInt(_0x3e8d00(0x207))/0xb);if(_0x286a27===_0x24723f)break;else _0x66e333['push'](_0x66e333['shift']());}catch(_0x2689e8){_0x66e333['push'](_0x66e333['shift']());}}}(_0x231e,0x949e9));const leagues=[{'id':_0x19a9a3(0x20d),'file':_0x19a9a3(0x223),'title':_0x19a9a3(0x226)},{'id':_0x19a9a3(0x23a),'file':_0x19a9a3(0x1f8),'title':_0x19a9a3(0x21c)},{'id':'yosintv-nepal','file':_0x19a9a3(0x211),'title':_0x19a9a3(0x229)},{'id':_0x19a9a3(0x224),'file':_0x19a9a3(0x214),'title':_0x19a9a3(0x22d)},{'id':_0x19a9a3(0x209),'file':'https://web.cricfoot.net/ucl.json','title':_0x19a9a3(0x237)},{'id':'yosintv-football','file':_0x19a9a3(0x22e),'title':'Top\x20Football'},{'id':_0x19a9a3(0x235),'file':_0x19a9a3(0x227),'title':_0x19a9a3(0x228)},{'id':_0x19a9a3(0x236),'file':_0x19a9a3(0x213),'title':'EPL'},{'id':_0x19a9a3(0x23b),'file':_0x19a9a3(0x205),'title':'Serie\x20A'},{'id':_0x19a9a3(0x1fb),'file':_0x19a9a3(0x23d),'title':_0x19a9a3(0x234)},{'id':_0x19a9a3(0x204),'file':_0x19a9a3(0x202),'title':'Bundesliga'}];leagues['forEach'](_0x101136=>{const _0xc6d839=_0x19a9a3;fetch(_0x101136['file'])[_0xc6d839(0x216)](_0x262ac6=>_0x262ac6['json']())['then'](_0x519fe4=>{const _0x4a8636=_0xc6d839;if(_0x519fe4[_0x4a8636(0x22f)]){const _0x5242ce=new Date()['getTime']();_0x519fe4[_0x4a8636(0x22f)][_0x4a8636(0x200)]((_0x13a53c,_0x482999)=>{const _0x3817b1=_0x4a8636,_0x2bd9e2=new Date(_0x13a53c[_0x3817b1(0x232)])[_0x3817b1(0x218)](),_0x2b8058=_0x2bd9e2+parseFloat(_0x13a53c[_0x3817b1(0x22a)])*0x3c*0x3c*0x3e8,_0xb96686=new Date(_0x482999[_0x3817b1(0x232)])[_0x3817b1(0x218)](),_0x40e690=_0xb96686+parseFloat(_0x482999[_0x3817b1(0x22a)])*0x3c*0x3c*0x3e8,_0x105d21=_0x5242ce>=_0x2bd9e2&&_0x5242ce<=_0x2b8058,_0x3b0965=_0x5242ce>=_0xb96686&&_0x5242ce<=_0x40e690,_0x10ebef=_0x5242ce>_0x2b8058,_0x1da3c0=_0x5242ce>_0x40e690;if(_0x105d21&&!_0x3b0965)return-0x1;if(!_0x105d21&&_0x3b0965)return 0x1;if(!_0x10ebef&&_0x1da3c0)return-0x1;if(_0x10ebef&&!_0x1da3c0)return 0x1;return _0x2bd9e2-_0xb96686;});}renderLeague(_0x519fe4,_0x101136['id'],_0x101136[_0x4a8636(0x1f6)]);})['catch'](_0x7df1d2=>console[_0xc6d839(0x21f)](_0xc6d839(0x20b)+_0x101136[_0xc6d839(0x1f6)]+_0xc6d839(0x1f4),_0x7df1d2));});function _0x231e(){const _0x5ebf48=['Error\x20loading\x20','add','yosintv-cricket','data-duration','136yEybPz','event-countdown','https://web.cricfoot.net/nepal.json','s</span>','https://web.cricfoot.net/epl.json','https://web.cricfoot.net/npl.json','league-title','then','querySelectorAll','getTime','link','\x20Matches','href','IPL\x20T20\x202025\x20','getAttribute','length','error','16602QuLhVJ','onclick','location','https://web.cricfoot.net/cricket.json','yosintv-npl','3685UovPls','Cricket','https://web.cricfoot.net/more.json','More\x20Football\x20','\x204-Nations\x20Women\x20','duration','appendChild','textContent','NPL\x20T20','https://web.cricfoot.net/football.json','matches','<div\x20class=\x22live-now\x20blink\x22>Live\x20Now</div>','<span>','start','16UbjgAL','Ligue\x201','yosintv-laliga','yosintv-epl','Champions\x20League','No\x20','Match\x20End','yosintv-cleague','yosintv-seriea','808304oHREEK','https://web.cricfoot.net/ligue1.json','setAttribute','7263802zSiirz','6575500QvWYza','forEach','div','data-link','\x20Matches\x20Today','\x20events:','data-start','title','name','https://web.cricfoot.net/cleague.json','createElement','querySelector','yosintv-ligue1','.event','event','3472569oQNVlt','getElementById','sort','floor','https://web.cricfoot.net/bundesliga.json','2178816lKagKY','yosintv-bundesliga','https://web.cricfoot.net/seriea.json','2044PeIzPl','33VnpVDf','innerHTML','yosintv-ucl','classList'];_0x231e=function(){return _0x5ebf48;};return _0x231e();}function renderLeague(_0x4fbea5,_0x3ac340,_0x1d01bb){const _0x1cef54=_0x19a9a3,_0x4f3509=document[_0x1cef54(0x1ff)](_0x3ac340),_0x1afe01=document['createElement']('div');_0x1afe01[_0x1cef54(0x20a)][_0x1cef54(0x20c)](_0x1cef54(0x215)),_0x1afe01[_0x1cef54(0x22c)]=_0x1d01bb+_0x1cef54(0x21a),_0x4f3509['appendChild'](_0x1afe01);if(!_0x4fbea5[_0x1cef54(0x22f)]||_0x4fbea5[_0x1cef54(0x22f)][_0x1cef54(0x21e)]===0x0){const _0x85c08f=document['createElement']('p');_0x85c08f[_0x1cef54(0x22c)]=_0x1cef54(0x238)+_0x1d01bb+_0x1cef54(0x1f3),_0x4f3509['appendChild'](_0x85c08f);return;}_0x4fbea5[_0x1cef54(0x22f)][_0x1cef54(0x241)](_0x1b3141=>{renderEvent(_0x1b3141,_0x4f3509);});}function _0x3860(_0x561c94,_0x8bc121){const _0x231e2f=_0x231e();return _0x3860=function(_0x3860be,_0x54c3e0){_0x3860be=_0x3860be-0x1f1;let _0x5d99dc=_0x231e2f[_0x3860be];return _0x5d99dc;},_0x3860(_0x561c94,_0x8bc121);}function renderEvent(_0x13cd34,_0x27268d){const _0xcc66bf=_0x19a9a3,_0x317456=document[_0xcc66bf(0x1f9)]('div');_0x317456['classList'][_0xcc66bf(0x20c)](_0xcc66bf(0x1fd)),_0x317456[_0xcc66bf(0x23e)](_0xcc66bf(0x1f2),_0x13cd34[_0xcc66bf(0x219)]),_0x317456[_0xcc66bf(0x23e)](_0xcc66bf(0x1f5),_0x13cd34[_0xcc66bf(0x232)]),_0x317456[_0xcc66bf(0x23e)](_0xcc66bf(0x20e),_0x13cd34['duration']);const _0x551acb=document[_0xcc66bf(0x1f9)]('div');_0x551acb['classList'][_0xcc66bf(0x20c)]('event-name'),_0x551acb[_0xcc66bf(0x22c)]=_0x13cd34[_0xcc66bf(0x1f7)];const _0x15ddf5=document[_0xcc66bf(0x1f9)](_0xcc66bf(0x1f1));_0x15ddf5['classList'][_0xcc66bf(0x20c)](_0xcc66bf(0x210)),_0x317456[_0xcc66bf(0x22b)](_0x551acb),_0x317456['appendChild'](_0x15ddf5),_0x27268d[_0xcc66bf(0x22b)](_0x317456);}function updateStatus(){const _0x44cb1b=_0x19a9a3,_0x1c2fdc=document[_0x44cb1b(0x217)](_0x44cb1b(0x1fc)),_0x13915b=new Date()[_0x44cb1b(0x218)]();_0x1c2fdc['forEach'](_0xa0d07e=>{const _0x45b349=_0x44cb1b,_0x371d33=new Date(_0xa0d07e[_0x45b349(0x21d)](_0x45b349(0x1f5)))[_0x45b349(0x218)](),_0x422b6d=parseFloat(_0xa0d07e[_0x45b349(0x21d)]('data-duration')),_0xabfc5d=_0x371d33+_0x422b6d*0x3c*0x3c*0x3e8,_0x236efc=_0xa0d07e[_0x45b349(0x1fa)]('.event-countdown');if(_0x13915b<_0x371d33){const _0x38ac08=_0x371d33-_0x13915b,_0x2fc354=Math[_0x45b349(0x201)](_0x38ac08/(0x3e8*0x3c*0x3c)),_0x4494ac=Math['floor'](_0x38ac08%(0x3e8*0x3c*0x3c)/(0x3e8*0x3c)),_0xffa2a9=Math[_0x45b349(0x201)](_0x38ac08%(0x3e8*0x3c)/0x3e8);_0x236efc[_0x45b349(0x208)]=_0x45b349(0x231)+_0x2fc354+'h</span>\x20<span>'+_0x4494ac+'m</span>\x20<span>'+_0xffa2a9+_0x45b349(0x212);}else _0x13915b>=_0x371d33&&_0x13915b<=_0xabfc5d?_0x236efc[_0x45b349(0x208)]=_0x45b349(0x230):_0x236efc['textContent']=_0x45b349(0x239);_0xa0d07e[_0x45b349(0x221)]=function(){const _0x39267e=_0x45b349;window[_0x39267e(0x222)][_0x39267e(0x21b)]=_0xa0d07e[_0x39267e(0x21d)](_0x39267e(0x1f2));};});}setInterval(updateStatus,0x3e8),updateStatus();
+// List of leagues and their corresponding JSON files
+const leagues = [
+    { id: 'yosintv-cricket', file: 'cricket.json', title: 'Cricket' },
+    { id: 'yosintv-cleague', file: 'cleague.json', title: 'IPL T20 ' },
+    { id: 'yosintv-npl', file: 'npl.json', title: 'NPL T20' },
+    { id: 'yosintv-ucl', file: 'ucl.json', title: 'Champions League' },
+    { id: 'yosintv-football', file: 'football.json', title: 'Football' },
+    { id: 'yosintv-epl', file: 'epl.json', title: 'EPL' },
+    { id: 'yosintv-laliga', file: 'laliga.json', title: 'La Liga' },
+    { id: 'yosintv-seriea', file: 'seriea.json', title: 'Serie A' },
+    { id: 'yosintv-ligue1', file: 'ligue1.json', title: 'Ligue 1' },
+    { id: 'yosintv-bundesliga', file: 'bundesliga.json', title: 'Bundesliga' }
+];
+
+// Fetch and render data for each league
+leagues.forEach(league => {
+    fetch(league.file)
+        .then(response => response.json())
+        .then(data => {
+            if (data.matches) {
+                const currentTime = new Date().getTime();
+
+                data.matches.sort((a, b) => {
+                    const startA = new Date(a.start).getTime();
+                    const endA = startA + parseFloat(a.duration) * 60 * 60 * 1000;
+                    const startB = new Date(b.start).getTime();
+                    const endB = startB + parseFloat(b.duration) * 60 * 60 * 1000;
+
+                    const isLiveA = currentTime >= startA && currentTime <= endA;
+                    const isLiveB = currentTime >= startB && currentTime <= endB;
+
+                    if (isLiveA && !isLiveB) return -1;
+                    if (!isLiveA && isLiveB) return 1;
+                    return startA - startB;
+                });
+            }
+            renderLeague(data, league.id, league.title);
+        })
+        .catch(error => console.error(`Error loading ${league.title} events:`, error));
+});
+
+// Render a league's matches
+function renderLeague(data, containerId, leagueTitle) {
+    const container = document.getElementById(containerId);
+
+    // Add league title
+    const titleElement = document.createElement('div');
+    titleElement.classList.add('league-title');
+    titleElement.textContent = `${leagueTitle} Matches`;
+    container.appendChild(titleElement);
+
+    // Check if matches are available
+    if (!data.matches || data.matches.length === 0) {
+        const noEventsMessage = document.createElement('p');
+        noEventsMessage.textContent = `No ${leagueTitle} Matches Today`;
+        container.appendChild(noEventsMessage);
+        return;
+    }
+
+    // Loop through matches and render them in sorted order
+    data.matches.forEach(match => {
+        renderEvent(match, container);
+    });
+}
+
+// Render individual event
+function renderEvent(event, container) {
+    const eventElement = document.createElement('div');
+    eventElement.classList.add('event');
+    eventElement.setAttribute('data-link', event.link);
+    eventElement.setAttribute('data-start', event.start);
+    eventElement.setAttribute('data-duration', event.duration);
+
+    const eventName = document.createElement('div');
+    eventName.classList.add('event-name');
+    eventName.textContent = event.name;
+
+    const countdown = document.createElement('div');
+    countdown.classList.add('event-countdown');
+
+    eventElement.appendChild(eventName);
+    eventElement.appendChild(countdown);
+    container.appendChild(eventElement);
+}
+
+// Update event statuses (Live, Countdown, Ended)
+function updateStatus() {
+    const eventElements = document.querySelectorAll('.event');
+    const currentTime = new Date().getTime();
+
+    eventElements.forEach(element => {
+        const startTime = new Date(element.getAttribute('data-start')).getTime();
+        const durationHours = parseFloat(element.getAttribute('data-duration'));
+        const endTime = startTime + durationHours * 60 * 60 * 1000;
+        const eventCountdownElement = element.querySelector('.event-countdown');
+
+        if (currentTime < startTime) {
+            const timeDiff = startTime - currentTime;
+            const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+
+            eventCountdownElement.innerHTML = `<span>${days}d</span> <span>${hours}h</span> <span>${minutes}m</span>`;
+        } else if (currentTime >= startTime && currentTime <= endTime) {
+            eventCountdownElement.innerHTML = '<div class="live-now blink">Live Now</div>';
+        } else {
+            eventCountdownElement.textContent = 'Match End';
+        }
+
+        element.onclick = function () {
+            window.location.href = element.getAttribute('data-link');
+        };
+    });
+}
+
+// Update every second
+setInterval(updateStatus, 1000);
+updateStatus();
