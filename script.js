@@ -106,7 +106,7 @@ function updateStatus() {
             const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
-            eventCountdownElement.innerHTML = `<span>${days}d</span> <span>${hours}h</span> <span>${minutes}m</span> <span>${seconds}s</span>`;
+            eventCountdownElement.innerHTML = `<span>${days}d</span> <span>${hours}h</span> <span>${minutes}m</span> `;
         } else if (currentTime >= startTime && currentTime <= endTime) {
             eventCountdownElement.innerHTML = '<div class="live-now blink">Live Now</div>';
         } else {
