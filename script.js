@@ -1,7 +1,7 @@
 // List of leagues and their corresponding JSON files
 const leagues = [
     { id: 'yosintv-cricket', file: 'https://web.cricfoot.net/cricket.json', title: 'Cricket' },
-    { id: 'yosintv-cleague', file: 'https://web.cricfoot.net/cleague.json', title: 'IPL T20 2025 ' },
+    { id: 'yosintv-cleague', file: 'https://web.cricfoot.net/cleague.json', title: 'League ' },
     { id: 'yosintv-nepal', file: 'https://web.cricfoot.net/nepal.json', title: ' 4-Nations Women ' },
     { id: 'yosintv-npl', file: 'https://web.cricfoot.net/npl.json', title: 'NPL T20' },
     { id: 'yosintv-ucl', file: 'https://web.cricfoot.net/ucl.json', title: 'Champions League' },
