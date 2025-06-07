@@ -1,58 +1,42 @@
 {
   "matches": [
     {
-      "name": " Hungary vs Sweden ",
-      "start": "2025-06-07T02:30:00+09:00",
+      "name": " Germany vs France ",
+      "start": "2025-06-08T22:00:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=sweden "
-    },
-    
-  
-    {
-      "name": " Poland vs Moldova ",
-      "start": "2025-06-07T03:45:00+09:00",
-      "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=poland "
+      "link": " https://blog.cricfoot.net/?yosintv=france "
     },
     
     
     {
-      "name": " Macedonia vs Belgium ",
-      "start": "2025-06-07T03:45:00+09:00",
+      "name": " Andorra vs England ",
+      "start": "2025-06-08T01:00:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=belgium "
+      "link": " https://blog.cricfoot.net/?yosintv=england "
     },
     
     
     {
-      "name": " Norway vs Italy ",
-      "start": "2025-06-07T03:45:00+09:00",
+      "name": " Finland vs Netherlands ",
+      "start": "2025-06-08T03:45:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=norway "
+      "link": " https://blog.cricfoot.net/?yosintv=netherlands "
     },
     
     
     {
-      "name": " Gibraltar vs Croatia ",
-      "start": "2025-06-07T03:45:00+09:00",
+      "name": " USA vs Turkey ",
+      "start": "2025-06-08T04:30:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=croatia "
+      "link": " https://blog.cricfoot.net/?yosintv=turkey "
     },
     
     
     {
-      "name": " Colombia vs Peru ",
-      "start": "2025-06-07T05:30:00+09:00",
+      "name": " Mexico vs Switzerland ",
+      "start": "2025-06-08T05:00:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=colombia "
-    },
-    
-    
-    {
-      "name": " Venezuela vs Bolivia ",
-      "start": "2025-06-07T07:00:00+09:00",
-      "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=venezuela "
+      "link": " https://blog.cricfoot.net/?yosintv=switzerland "
     }
   ]
 }
