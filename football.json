@@ -1,34 +1,26 @@
 {
   "matches": [
     {
-      "name": " Hong Kong vs India ",
-      "start": "2025-06-10T21:00:00+09:00",
+      "name": " Argentina vs Colombia ",
+      "start": "2025-06-11T09:00:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=india "
+      "link": " https://blog.cricfoot.net/?yosintv=argentina "
     },
     
     
     {
-      "name": " Laos vs Nepal ",
-      "start": "2025-06-10T21:00:00+09:00",
+      "name": " Brazil vs Paraguay ",
+      "start": "2025-06-11T09:45:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=nepal2 "
+      "link": " https://blog.cricfoot.net/?yosintv=brazil "
     },
     
     
     {
-      "name": " Japan vs Indonesia ",
-      "start": "2025-06-10T19:35:00+09:00",
+      "name": " England vs Senegal ",
+      "start": "2025-06-11T03:45:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=japan "
-    },
-    
-    
-    {
-      "name": " Korea Republic vs Kuwait ",
-      "start": "2025-06-10T20:00:00+09:00",
-      "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=korea "
+      "link": " https://blog.cricfoot.net/?yosintv=england "
     }
   ]
 }
