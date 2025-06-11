@@ -1,31 +1,40 @@
 {
   "matches": [
     {
-      "team1": "Argentina",
-      "team1_logo": "https://yosintv2.github.io/cdn/argentina.png",
-      "team2": "Colombia",
-      "team2_logo": "https://yosintv2.github.io/cdn/colombia.png",
-      "match_time": "2025-06-11T09:00:00+09:00",
-      "details_url": "https://blog.cricfoot.net/?yosintv=argentina",
-      "duration": 90
+      "team1": "Chelsea",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8455_small.png",
+      "team2": "Los Angeles",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/867280_small.png",
+      "match_time": "2025-06-17T04:00:00+09:00",
+      "details_url": "https://blog.cricfoot.net/?yosintv=chelsea",
+      "duration": 115
     },
     {
-      "team1": "Brazil",
-      "team1_logo": "https://yosintv2.github.io/cdn/brazil.png",
-      "team2": "Paraguay",
-      "team2_logo": "https://yosintv2.github.io/cdn/paraguay.png",
-      "match_time": "2025-06-11T09:45:00+09:00",
-      "details_url": "https://blog.cricfoot.net/?yosintv=brazil",
-      "duration": 90
+      "team1": "Palmeiras",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10283_small.png",
+      "team2": "Porto",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9773_small.png",
+      "match_time": "2025-06-16T07:00:00+09:00",
+      "details_url": "https://blog.cricfoot.net/?yosintv=porto",
+      "duration": 115
     },
     {
-      "team1": "England",
-      "team1_logo": "https://yosintv2.github.io/cdn/england.png",
-      "team2": "Senegal",
-      "team2_logo": "https://yosintv2.github.io/cdn/senegal.png",
-      "match_time": "2025-06-11T03:45:00+09:00",
-      "details_url": "https://blog.cricfoot.net/?yosintv=england",
-      "duration": 90
+      "team1": "Boca Juniors",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10077_small.png",
+      "team2": "Benfica",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9772_small.png",
+      "match_time": "2025-06-17T07:00:00+09:00",
+      "details_url": "https://blog.cricfoot.net/?yosintv=benfica",
+      "duration": 115
+    },
+    {
+      "team1": "Flamengo",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9770_small.png",
+      "team2": "ES Tunis",
+      "team2_logo": "https://yosintv2.github.io/cdn/es-tunis.png",
+      "match_time": "2025-06-17T10:00:00+09:00",
+      "details_url": "https://blog.cricfoot.net/?yosintv=flamengo",
+      "duration": 115
     }
   ]
 }
