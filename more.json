@@ -1,1 +1,31 @@
-
+{
+  "matches": [
+    {
+      "team1": "Argentina",
+      "team1_logo": "https://yosintv2.github.io/cdn/argentina.png",
+      "team2": "Colombia",
+      "team2_logo": "https://yosintv2.github.io/cdn/colombia.png",
+      "match_time": "2025-06-11T09:00:00+09:00",
+      "details_url": "https://blog.cricfoot.net/?yosintv=argentina",
+      "duration": 90
+    },
+    {
+      "team1": "Brazil",
+      "team1_logo": "https://yosintv2.github.io/cdn/brazil.png",
+      "team2": "Paraguay",
+      "team2_logo": "https://yosintv2.github.io/cdn/paraguay.png",
+      "match_time": "2025-06-11T09:45:00+09:00",
+      "details_url": "https://blog.cricfoot.net/?yosintv=brazil",
+      "duration": 90
+    },
+    {
+      "team1": "England",
+      "team1_logo": "https://yosintv2.github.io/cdn/england.png",
+      "team2": "Senegal",
+      "team2_logo": "https://yosintv2.github.io/cdn/senegal.png",
+      "match_time": "2025-06-11T03:45:00+09:00",
+      "details_url": "https://blog.cricfoot.net/?yosintv=england",
+      "duration": 90
+    }
+  ]
+}
