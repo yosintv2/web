@@ -1,3 +1,4 @@
+//https://github.com/yosintv2/web/blob/1c4fddd5fc0c740270736f5d6ec239b7f2110d91/script.js
 // List of leagues and their corresponding JSON files
 const leagues = [
     { id: 'yosintv-cricket', file: 'https://web.cricfoot.net/cricket.json', title: 'Cricket' },
