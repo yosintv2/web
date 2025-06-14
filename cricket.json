@@ -1,8 +1,9 @@
 {
   "matches": [
     
+    
     {
-      "name": " S.Africa vs Australia, Final ",
+      "name": " S. Africa vs Australia, Final ",
       "start": "2025-06-14T18:30:00+09:00",
       "duration": "10",
       "link": " https://blog.cricfoot.net/?yosintv=australia "
@@ -11,18 +12,33 @@
     
     {
       "name": " Netherlands vs Nepal ",
-      "start": "2025-06-10T19:00:00+09:00",
-      "duration": "7.2",
+      "start": "2025-06-16T22:00:00+09:00",
+      "duration": "3.5",
       "link": " https://blog.cricfoot.net/?yosintv=nepal "
     },
-
+    
     
     {
-      "name": " England vs Windies, 2nd T20I ",
-      "start": "2025-06-08T22:30:00+09:00",
-      "duration": "5.2",
-      "link": " https://blog.cricfoot.net/?yosintv=england "
-    }
+      "name": " Scotland vs Nepal ",
+      "start": "2025-06-17T22:00:00+09:00",
+      "duration": "3.5",
+      "link": " https://blog.cricfoot.net/?yosintv=nepal "
+    },
     
+    
+    {
+      "name": " Nepal vs Netherlands ",
+      "start": "2025-06-19T22:00:00+09:00",
+      "duration": "3.5",
+      "link": " https://blog.cricfoot.net/?yosintv=nepal "
+    },
+    
+    
+    {
+      "name": " Scotland vs Nepal ",
+      "start": "2025-06-20T22:00:00+09:00",
+      "duration": "3.5",
+      "link": " https://blog.cricfoot.net/?yosintv=nepal "
+    }
   ]
 }
