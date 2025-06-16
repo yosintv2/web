@@ -1,34 +1,20 @@
 {
   "matches": [
     {
-      "name": " PSG vs Atlético Madrid ",
-      "start": "2025-06-16T04:00:00+09:00",
+      "name": " Chelsea vs Los Angeles FC ",
+      "start": "2025-06-17T04:00:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=psg "
+      "link": " https://blog.cricfoot.net/?yosintv=chelsea "
     },
     
     
     {
-      "name": " Bayern München vs Auckland ",
-      "start": "2025-06-16T01:00:00+09:00",
+      "name": " Boca Juniors vs Benfica ",
+      "start": "2025-06-17T07:00:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=club "
-    },
-    
-    
-    {
-      "name": " Al Ahly vs Inter Miami ",
-      "start": "2025-06-15T09:00:00+09:00",
-      "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=intermiami "
-    },
-    
-    
-    {
-      "name": " Palmeiras vs Porto ",
-      "start": "2025-06-16T07:00:00+09:00",
-      "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=porto "
+      "link": " https://blog.cricfoot.net/?yosintv=benfica "
     }
+
+    
   ]
 }
