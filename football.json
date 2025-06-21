@@ -1,34 +1,18 @@
 {
   "matches": [
     {
-      "name": " Flamengo vs Chelsea ",
-      "start": "2025-06-21T03:00:00+09:00",
+      "name": " Inter Milan vs Urawa Reds ",
+      "start": "2025-06-22T04:00:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=chelsea "
+      "link": " https://blog.cricfoot.net/?yosintv=intermilan "
     },
     
     
     {
-      "name": " Bayern München vs Boca ",
-      "start": "2025-06-21T10:00:00+09:00",
+      "name": " Mamelodi vs Dortmund ",
+      "start": "2025-06-22T01:00:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=munchen "
-    },
-    
-    
-    {
-      "name": " Benfica vs Auckland ",
-      "start": "2025-06-21T01:00:00+09:00",
-      "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=benfica "
-    },
-    
-    
-    {
-      "name": " Los Angeles vs Tunis ",
-      "start": "2025-06-21T07:00:00+09:00",
-      "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=club "
+      "link": " https://blog.cricfoot.net/?yosintv=dortmund "
     }
   ]
 }
