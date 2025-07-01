@@ -238,16 +238,16 @@ function loadStreamExtras() {
       }
 
       // iframe for live tracker if id param present
-      if (liveTrackerId) {
-        const iframe = document.createElement('iframe');
-        iframe.src = `https://widgets-livetracker.nami.com/en/football?profile=g9rzlugz3uxie81&trend=0&id=${liveTrackerId}`;
-        iframe.style.width = '100%';
-        iframe.style.height = '500px';
-        iframe.style.border = 'none';
-        iframe.style.marginTop = '20px';
-        iframe.loading = 'lazy';
-        liveTrackerDiv.appendChild(iframe);
-      }
+if (liveTrackerId) {
+  const iframe = document.createElement('iframe');
+  iframe.src = `https://widgets-livetracker.nami.com/en/football?profile=g9rzlugz3uxie81&trend=0&id=${liveTrackerId}`;
+  iframe.style.width = '100%';
+  iframe.style.height = '500px';
+  iframe.style.border = 'none';
+  iframe.style.marginTop = '20px';
+  iframe.loading = 'lazy';
+  liveTrackerDiv.appendChild(iframe);
+}
     })
     .catch(e => console.error('Failed to load streamdata.json', e));
 }
