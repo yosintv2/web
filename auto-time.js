@@ -1,6 +1,6 @@
-// match_viewer.js
 const params = new URLSearchParams(window.location.search);
 const matchId = params.get('yosintv');
+const liveTrackerId = params.get('id');
 
 const leagues = [
   { id: 'yosintv-cricket', file: 'cricket.json', title: 'Cricket' },
@@ -15,44 +15,46 @@ const leagues = [
   { id: 'yosintv-bundesliga', file: 'bundesliga.json', title: 'Bundesliga' }
 ];
 
+// If matchId present, show single match card + streams
 if (matchId) {
   loadMatchCard();
   loadStreamExtras();
 } else {
+  // Else show all leagues + matches list
   leagues.forEach(league => {
     fetch(league.file)
       .then(response => response.json())
       .then(data => {
         if (data.matches) {
-          const currentTime = new Date().getTime();
+          const now = Date.now();
           data.matches.sort((a, b) => {
             const startA = new Date(a.start).getTime();
             const endA = startA + parseFloat(a.duration) * 60 * 60 * 1000;
             const startB = new Date(b.start).getTime();
             const endB = startB + parseFloat(b.duration) * 60 * 60 * 1000;
-            const isLiveA = currentTime >= startA && currentTime <= endA;
-            const isLiveB = currentTime >= startB && currentTime <= endB;
-            if (isLiveA && !isLiveB) return -1;
-            if (!isLiveA && isLiveB) return 1;
+            const liveA = now >= startA && now <= endA;
+            const liveB = now >= startB && now <= endB;
+            if (liveA && !liveB) return -1;
+            if (!liveA && liveB) return 1;
             return startA - startB;
           });
         }
         renderLeague(data, league.id, league.title);
       })
-      .catch(error => console.error(`Error loading ${league.title} events:`, error));
+      .catch(e => console.error(`Error loading ${league.title}:`, e));
   });
 
   function renderLeague(data, containerId, leagueTitle) {
     const container = document.getElementById(containerId);
-    const titleElement = document.createElement('div');
-    titleElement.classList.add('league-title');
-    titleElement.textContent = `${leagueTitle} Matches`;
-    container.appendChild(titleElement);
+    const title = document.createElement('div');
+    title.classList.add('league-title');
+    title.textContent = `${leagueTitle} Matches`;
+    container.appendChild(title);
 
     if (!data.matches || data.matches.length === 0) {
-      const noEventsMessage = document.createElement('p');
-      noEventsMessage.textContent = `No ${leagueTitle} Matches Today`;
-      container.appendChild(noEventsMessage);
+      const p = document.createElement('p');
+      p.textContent = `No ${leagueTitle} Matches Today`;
+      container.appendChild(p);
       return;
     }
 
@@ -62,53 +64,53 @@ if (matchId) {
   }
 
   function renderEvent(event, container) {
-    const eventElement = document.createElement('div');
-    eventElement.classList.add('event');
-    eventElement.setAttribute('data-id', event.id);
-    eventElement.setAttribute('data-link', event.link);
-    eventElement.setAttribute('data-start', event.start);
-    eventElement.setAttribute('data-duration', event.duration);
+    const ev = document.createElement('div');
+    ev.classList.add('event');
+    ev.setAttribute('data-id', event.id || event.name.trim().toLowerCase().replace(/\s+/g, ''));
+    ev.setAttribute('data-link', event.link);
+    ev.setAttribute('data-start', event.start);
+    ev.setAttribute('data-duration', event.duration);
 
-    const eventName = document.createElement('div');
-    eventName.classList.add('event-name');
-    eventName.textContent = event.name;
+    const nameDiv = document.createElement('div');
+    nameDiv.classList.add('event-name');
+    nameDiv.textContent = event.name;
 
-    const countdown = document.createElement('div');
-    countdown.classList.add('event-countdown');
+    const countdownDiv = document.createElement('div');
+    countdownDiv.classList.add('event-countdown');
 
-    eventElement.appendChild(eventName);
-    eventElement.appendChild(countdown);
-    container.appendChild(eventElement);
+    ev.appendChild(nameDiv);
+    ev.appendChild(countdownDiv);
+    container.appendChild(ev);
   }
 
   function updateStatus() {
-    const eventElements = document.querySelectorAll('.event');
-    const currentTime = new Date().getTime();
+    const events = document.querySelectorAll('.event');
+    const now = Date.now();
 
-    eventElements.forEach(element => {
-      const startTime = new Date(element.getAttribute('data-start')).getTime();
-      const durationHours = parseFloat(element.getAttribute('data-duration'));
-      const endTime = startTime + durationHours * 60 * 60 * 1000;
-      const eventCountdownElement = element.querySelector('.event-countdown');
+    events.forEach(el => {
+      const start = new Date(el.getAttribute('data-start')).getTime();
+      const durHours = parseFloat(el.getAttribute('data-duration'));
+      const end = start + durHours * 60 * 60 * 1000;
+      const cd = el.querySelector('.event-countdown');
 
-      if (currentTime < startTime) {
-        const timeDiff = startTime - currentTime;
-        const hours = Math.floor(timeDiff / (1000 * 60 * 60));
-        const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
-        eventCountdownElement.innerHTML = `<span>${hours}h</span> <span>${minutes}m</span> <span>${seconds}s</span>`;
-      } else if (currentTime >= startTime && currentTime <= endTime) {
-        eventCountdownElement.innerHTML = '<div class="live-now blink">Live Now</div>';
+      if (now < start) {
+        const diff = start - now;
+        const h = Math.floor(diff / (1000 * 60 * 60));
+        const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        const s = Math.floor((diff % (1000 * 60)) / 1000);
+        cd.innerHTML = `<span>${h}h</span> <span>${m}m</span> <span>${s}s</span>`;
+      } else if (now >= start && now <= end) {
+        cd.innerHTML = '<div class="live-now blink">Live Now</div>';
       } else {
-        eventCountdownElement.textContent = 'Match End';
+        cd.textContent = 'Match End';
       }
 
-      element.onclick = function () {
-        const id = element.getAttribute('data-id');
+      el.onclick = () => {
+        const id = el.getAttribute('data-id');
         if (id) {
           window.location.href = `?yosintv=${id}`;
         } else {
-          window.location.href = element.getAttribute('data-link');
+          window.location.href = el.getAttribute('data-link');
         }
       };
     });
@@ -119,36 +121,42 @@ if (matchId) {
 }
 
 function loadMatchCard() {
-  let foundMatch = null;
-  const matchContainer = document.createElement('div');
-  matchContainer.classList.add('yosintv-container');
+  let found = false;
+  const container = document.createElement('div');
+  container.classList.add('yosintv-container');
 
   leagues.forEach(league => {
     fetch(league.file)
-      .then(response => response.json())
+      .then(res => res.json())
       .then(data => {
         if (data.matches) {
-          const match = data.matches.find(m => m.id === matchId);
-          if (match && !foundMatch) {
-            foundMatch = match;
+          const match = data.matches.find(m => {
+            const id = m.id || m.name.trim().toLowerCase().replace(/\s+/g, '');
+            return id === matchId;
+          });
+          if (match && !found) {
+            found = true;
             const title = document.createElement('div');
             title.classList.add('league-title');
             title.textContent = match.name;
-            matchContainer.appendChild(title);
+            container.appendChild(title);
 
             const card = document.createElement('div');
             card.classList.add('event');
-            const name = document.createElement('div');
-            name.classList.add('event-name');
-            name.textContent = `Kickoff Time: ${new Date(match.start).toLocaleString()}`;
+
+            const kickoff = document.createElement('div');
+            kickoff.classList.add('event-name');
+            kickoff.textContent = `Kickoff Time: ${new Date(match.start).toLocaleString()}`;
+
             const countdown = document.createElement('div');
             countdown.classList.add('event-countdown');
             countdown.id = 'countdown-single';
 
-            card.appendChild(name);
+            card.appendChild(kickoff);
             card.appendChild(countdown);
-            matchContainer.appendChild(card);
-            document.body.appendChild(matchContainer);
+            container.appendChild(card);
+
+            document.body.appendChild(container);
 
             setInterval(() => updateSingleCountdown(match), 1000);
             updateSingleCountdown(match);
@@ -162,7 +170,7 @@ function updateSingleCountdown(match) {
   const el = document.getElementById('countdown-single');
   if (!el) return;
   const start = new Date(match.start).getTime();
-  const now = new Date().getTime();
+  const now = Date.now();
   const end = start + parseFloat(match.duration) * 60 * 60 * 1000;
 
   if (now < start) {
@@ -179,53 +187,67 @@ function updateSingleCountdown(match) {
 }
 
 function loadStreamExtras() {
-  const liveTrackerId = params.get('id');
-
   fetch('streamdata.json')
     .then(res => res.json())
     .then(data => {
       const { events, styles } = data;
-      const box = document.createElement('div');
-      box.classList.add('yosintv-container');
 
+      const liveContainer = document.getElementById('live-container');
+      if (!liveContainer) {
+        console.error('Missing #live-container');
+        return;
+      }
+      liveContainer.innerHTML = '';
+
+      const liveTrackerDiv = document.getElementById('live-tracker');
+      if (!liveTrackerDiv) {
+        console.error('Missing #live-tracker');
+        return;
+      }
+      liveTrackerDiv.innerHTML = '';
+
+      // Telegram join
       if (events[0]) {
         const t = document.createElement('a');
         t.href = events[0].link;
         t.target = '_blank';
         t.style = styles.livee;
-        t.onmouseover = () => t.style.cssText += styles.liveeHover;
+        t.onmouseover = () => (t.style.cssText += styles.liveeHover);
         const txt = document.createElement('div');
         txt.style = styles.liveeName;
         txt.innerText = events[0].name;
         t.appendChild(txt);
-        box.appendChild(t);
+        liveContainer.appendChild(t);
       }
 
+      // Stream links
       if (events[1]) {
         events[1].links.forEach((raw, i) => {
-          const link = raw.trim().replace(/_____/g, matchId);
+          const link = raw.trim().replace(/_____/g, matchId || '');
           const a = document.createElement('a');
           a.href = link;
           a.target = '_blank';
           a.style = styles.livee;
-          a.onmouseover = () => a.style.cssText += styles.liveeHover;
+          a.onmouseover = () => (a.style.cssText += styles.liveeHover);
           const label = document.createElement('div');
           label.style = styles.liveeName;
           label.innerText = `Stream Link ${i + 1}`;
           a.appendChild(label);
-          box.appendChild(a);
+          liveContainer.appendChild(a);
         });
       }
 
+      // iframe for live tracker if id param present
       if (liveTrackerId) {
         const iframe = document.createElement('iframe');
         iframe.src = `https://widgets-livetracker.nami.com/en/football?profile=g9rzlugz3uxie81&trend=0&id=${liveTrackerId}`;
-        iframe.style = "width:100%;height:500px;border:none;margin-top:20px;";
-        iframe.loading = "lazy";
-        box.appendChild(iframe);
+        iframe.style.width = '100%';
+        iframe.style.height = '500px';
+        iframe.style.border = 'none';
+        iframe.style.marginTop = '20px';
+        iframe.loading = 'lazy';
+        liveTrackerDiv.appendChild(iframe);
       }
-
-      document.body.appendChild(box);
     })
     .catch(e => console.error('Failed to load streamdata.json', e));
 }
