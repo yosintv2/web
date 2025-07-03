@@ -1,4 +1,3 @@
-// List of leagues and their corresponding JSON files
 const leagues = [
   { id: 'yosintv-cricket', file: 'https://yosintv11.pages.dev/cricket.json', title: 'Cricket' },
   { id: 'yosintv-cleague', file: 'https://yosintv11.pages.dev/cleague.json', title: 'League' },
@@ -18,33 +17,33 @@ leagues.forEach(league => {
     .then(response => response.json())
     .then(data => {
       if (data.matches) {
-        const currentTime = new Date().getTime();
-
+        const now = Date.now();
         data.matches.sort((a, b) => {
-          const currentTime = new Date().getTime();
-
-          function getLiveStatus(match) {
+          const getStatus = match => {
             const repeat = match.repeat || 1;
-            const baseStart = new Date(match.start).getTime();
-            const duration = parseFloat(match.duration) * 60 * 60 * 1000;
-
             for (let i = 0; i < repeat; i++) {
-              const startTime = baseStart + i * 24 * 60 * 60 * 1000;
-              const endTime = startTime + duration;
-
-              if (currentTime >= startTime && currentTime <= endTime) {
-                return { isLive: true, time: startTime };
-              }
+              const s = new Date(match.start).getTime() + i * 86400000;
+              const e = s + parseFloat(match.duration) * 3600000;
+              if (now >= s && now <= e) return 0; // Live
+              if (now < s) return 1; // Upcoming
             }
-            return { isLive: false, time: baseStart };
-          }
+            return 2; // Ended
+          };
 
-          const aStatus = getLiveStatus(a);
-          const bStatus = getLiveStatus(b);
+          const priA = getStatus(a);
+          const priB = getStatus(b);
+          if (priA !== priB) return priA - priB;
 
-          if (aStatus.isLive && !bStatus.isLive) return -1;
-          if (!aStatus.isLive && bStatus.isLive) return 1;
-          return aStatus.time - bStatus.time;
+          const nextTime = m => {
+            const repeat = m.repeat || 1;
+            for (let i = 0; i < repeat; i++) {
+              const s = new Date(m.start).getTime() + i * 86400000;
+              if (now <= s) return s;
+            }
+            return new Date(m.start).getTime();
+          };
+
+          return nextTime(a) - nextTime(b);
         });
       }
       renderLeague(data, league.id, league.title);
@@ -54,79 +53,80 @@ leagues.forEach(league => {
 
 function renderLeague(data, containerId, leagueTitle) {
   const container = document.getElementById(containerId);
-  const titleElement = document.createElement('div');
-  titleElement.classList.add('league-title');
-  titleElement.textContent = `${leagueTitle} Matches`;
-  container.appendChild(titleElement);
+  container.innerHTML = '';
+  const title = document.createElement('div');
+  title.className = 'league-title';
+  title.textContent = `${leagueTitle} Matches`;
+  container.appendChild(title);
 
   if (!data.matches || data.matches.length === 0) {
-    const noEventsMessage = document.createElement('p');
-    noEventsMessage.textContent = `No ${leagueTitle} Matches Today`;
-    container.appendChild(noEventsMessage);
+    const noMatch = document.createElement('p');
+    noMatch.textContent = `No ${leagueTitle} Matches Today`;
+    container.appendChild(noMatch);
     return;
   }
 
-  data.matches.forEach(match => {
-    renderEvent(match, container);
-  });
+  data.matches.forEach(match => renderEvent(match, container));
 }
 
-function renderEvent(event, container) {
-  const eventElement = document.createElement('div');
-  eventElement.classList.add('event');
-  eventElement.setAttribute('data-link', event.link);
-  eventElement.setAttribute('data-start', event.start);
-  eventElement.setAttribute('data-duration', event.duration);
-  eventElement.setAttribute('data-repeat', event.repeat || 1);
+function renderEvent(match, container) {
+  const el = document.createElement('div');
+  el.className = 'event';
+  el.setAttribute('data-link', match.link);
+  el.setAttribute('data-start', match.start);
+  el.setAttribute('data-duration', match.duration);
+  el.setAttribute('data-repeat', match.repeat || 1);
 
-  const eventName = document.createElement('div');
-  eventName.classList.add('event-name');
-  eventName.textContent = event.name;
+  const name = document.createElement('div');
+  name.className = 'event-name';
+  name.textContent = match.name;
 
   const countdown = document.createElement('div');
-  countdown.classList.add('event-countdown');
+  countdown.className = 'event-countdown';
 
-  eventElement.appendChild(eventName);
-  eventElement.appendChild(countdown);
-  container.appendChild(eventElement);
+  el.appendChild(name);
+  el.appendChild(countdown);
+  container.appendChild(el);
 }
 
 function updateStatus() {
-  const eventElements = document.querySelectorAll('.event');
-  const currentTime = new Date().getTime();
+  const now = Date.now();
 
-  eventElements.forEach(element => {
-    const baseStart = new Date(element.getAttribute('data-start')).getTime();
-    const duration = parseFloat(element.getAttribute('data-duration')) * 60 * 60 * 1000;
-    const repeat = parseInt(element.getAttribute('data-repeat')) || 1;
-    const countdownEl = element.querySelector('.event-countdown');
+  document.querySelectorAll('.event').forEach(el => {
+    const start = new Date(el.getAttribute('data-start')).getTime();
+    const duration = parseFloat(el.getAttribute('data-duration')) * 3600000;
+    const repeat = parseInt(el.getAttribute('data-repeat')) || 1;
+    const countdown = el.querySelector('.event-countdown');
 
-    let found = false;
+    let shown = false;
+
     for (let i = 0; i < repeat; i++) {
-      const start = baseStart + i * 24 * 60 * 60 * 1000;
-      const end = start + duration;
+      const s = start + i * 86400000;
+      const e = s + duration;
 
-      if (currentTime < start) {
-        const timeDiff = start - currentTime;
-        const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((timeDiff / (1000 * 60 * 60)) % 24);
-        const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
-        countdownEl.innerHTML = `<span>${days}d</span> <span>${hours}h</span> <span>${minutes}m</span>`;
-        found = true;
+      if (now >= s && now <= e) {
+        countdown.innerHTML = `<div class="live-now blink">Live Now</div>`;
+        shown = true;
         break;
-      } else if (currentTime >= start && currentTime <= end) {
-        countdownEl.innerHTML = '<div class="live-now blink">Live Now</div>';
-        found = true;
+      }
+
+      if (now < s && !shown) {
+        const diff = s - now;
+        const d = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        countdown.innerHTML = `<span>${d}d</span> <span>${h}h</span> <span>${m}m</span>`;
+        shown = true;
         break;
       }
     }
 
-    if (!found) {
-      countdownEl.textContent = 'Match End';
+    if (!shown) {
+      countdown.textContent = 'Match End';
     }
 
-    element.onclick = function () {
-      window.location.href = element.getAttribute('data-link');
+    el.onclick = () => {
+      window.location.href = el.getAttribute('data-link');
     };
   });
 }
