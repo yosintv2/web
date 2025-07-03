@@ -1,3 +1,4 @@
+// List of leagues and their corresponding JSON files
 const leagues = [
   { id: 'yosintv-cricket', file: 'https://yosintv11.pages.dev/cricket.json', title: 'Cricket' },
   { id: 'yosintv-cleague', file: 'https://yosintv11.pages.dev/cleague.json', title: 'League' },
@@ -18,12 +19,32 @@ leagues.forEach(league => {
     .then(data => {
       if (data.matches) {
         const currentTime = new Date().getTime();
+
         data.matches.sort((a, b) => {
-          const startA = new Date(a.start).getTime();
-          const endA = startA + parseFloat(a.duration) * 60 * 60 * 1000;
-          const startB = new Date(b.start).getTime();
-          const endB = startB + parseFloat(b.duration) * 60 * 60 * 1000;
-          return startA - startB;
+          const currentTime = new Date().getTime();
+
+          function getLiveStatus(match) {
+            const repeat = match.repeat || 1;
+            const baseStart = new Date(match.start).getTime();
+            const duration = parseFloat(match.duration) * 60 * 60 * 1000;
+
+            for (let i = 0; i < repeat; i++) {
+              const startTime = baseStart + i * 24 * 60 * 60 * 1000;
+              const endTime = startTime + duration;
+
+              if (currentTime >= startTime && currentTime <= endTime) {
+                return { isLive: true, time: startTime };
+              }
+            }
+            return { isLive: false, time: baseStart };
+          }
+
+          const aStatus = getLiveStatus(a);
+          const bStatus = getLiveStatus(b);
+
+          if (aStatus.isLive && !bStatus.isLive) return -1;
+          if (!aStatus.isLive && bStatus.isLive) return 1;
+          return aStatus.time - bStatus.time;
         });
       }
       renderLeague(data, league.id, league.title);
@@ -75,43 +96,32 @@ function updateStatus() {
   const currentTime = new Date().getTime();
 
   eventElements.forEach(element => {
-    const startBase = new Date(element.getAttribute('data-start')).getTime();
-    const durationHours = parseFloat(element.getAttribute('data-duration'));
+    const baseStart = new Date(element.getAttribute('data-start')).getTime();
+    const duration = parseFloat(element.getAttribute('data-duration')) * 60 * 60 * 1000;
     const repeat = parseInt(element.getAttribute('data-repeat')) || 1;
     const countdownEl = element.querySelector('.event-countdown');
 
-    let isLive = false;
-    let isUpcoming = false;
-    let matchedDayIndex = -1;
-
+    let found = false;
     for (let i = 0; i < repeat; i++) {
-      const dayStart = startBase + i * 24 * 60 * 60 * 1000;
-      const dayEnd = dayStart + durationHours * 60 * 60 * 1000;
+      const start = baseStart + i * 24 * 60 * 60 * 1000;
+      const end = start + duration;
 
-      if (currentTime >= dayStart && currentTime <= dayEnd) {
-        isLive = true;
-        matchedDayIndex = i;
+      if (currentTime < start) {
+        const timeDiff = start - currentTime;
+        const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeDiff / (1000 * 60 * 60)) % 24);
+        const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+        countdownEl.innerHTML = `<span>${days}d</span> <span>${hours}h</span> <span>${minutes}m</span>`;
+        found = true;
         break;
-      } else if (currentTime < dayStart) {
-        isUpcoming = true;
-        matchedDayIndex = i;
+      } else if (currentTime >= start && currentTime <= end) {
+        countdownEl.innerHTML = '<div class="live-now blink">Live Now</div>';
+        found = true;
         break;
       }
     }
 
-    if (isLive) {
-      countdownEl.innerHTML = '<div class="live-now blink">Live Now</div>';
-    } else if (isUpcoming && matchedDayIndex !== -1) {
-      const nextDayStart = startBase + matchedDayIndex * 24 * 60 * 60 * 1000;
-      const timeDiff = nextDayStart - currentTime;
-
-      const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
-      const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
-
-      countdownEl.innerHTML = `<span>${days}d</span> <span>${hours}h</span> <span>${minutes}m</span>`;
-    } else {
+    if (!found) {
       countdownEl.textContent = 'Match End';
     }
 
@@ -123,15 +133,3 @@ function updateStatus() {
 
 setInterval(updateStatus, 1000);
 updateStatus();
-
-const searchInput = document.getElementById('searchInput');
-if (searchInput) {
-  searchInput.addEventListener('input', function () {
-    const query = this.value.toLowerCase();
-    const eventElements = document.querySelectorAll('.event');
-    eventElements.forEach(eventEl => {
-      const nameText = eventEl.querySelector('.event-name')?.textContent?.toLowerCase() || '';
-      eventEl.style.display = nameText.includes(query) ? '' : 'none';
-    });
-  });
-}
