@@ -1,7 +1,6 @@
 {
   "matches": [
     
-    
     {
       "name": " England vs India, 3rd Test ",
       "start": "2025-07-10T19:00:00+09:00",
@@ -13,19 +12,18 @@
   
     
     {
-      "name": " Sri Lanka vs Bangladesh, 2nd T20I ",
-      "start": "2025-07-13T22:30:00+09:00",
+      "name": " Sri Lanka vs Bangladesh, 3rd T20I ",
+      "start": "2025-07-16T22:00:00+09:00",
       "duration": "6",
       "link": " https://blog.cricfoot.net/?yosintv=bangladesh "
     },
     
     
     {
-      "name": " Zimbabwe vs South Africa, 2nd Test ",
-      "start": "2025-07-07T17:00:00+09:00",
+      "name": " South Africa vs New Zealand",
+      "start": "2025-07-16T20:00:00+09:00",
       "duration": "6",
-      "repeat": 4,
-      "link": " https://blog.cricfoot.net/?yosintv=bangladesh "
+      "link": " https://blog.cricfoot.net/?yosintv=newzealand "
     }
   ]
 }
