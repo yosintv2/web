@@ -2,17 +2,25 @@
   "matches": [
     {
       "name": " Liverpool vs AC Milan ",
-      "start": "2025-07-25T11:30:00.000Z",
+      "start": "2025-07-26T20:30:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosint=acmilan "
+      "link": " https://blog.cricfoot.net/?yosintv=acmilan "
+    },
+
+
+    {
+      "name": " Córdoba vs Real Betis ",
+      "start": "2025-07-26T23:00:00+09:00",
+      "duration": "2.6",
+      "link": " https://blog.cricfoot.net/?yosintv=realbetis "
     },
 
 
     {
       "name": " Stoke City vs Wolves ",
-      "start": "2025-07-30T14:00:00.000Z",
+      "start": "2025-07-26T23:00:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosint=wolves "
+      "link": " https://blog.cricfoot.net/?yosintv=wolves "
     }
   ]
 }
