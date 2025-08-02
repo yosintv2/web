@@ -1,5 +1,5 @@
 const leagues = [
-  { id: 'yosintv-ufc', file: 'https://yosintv11.pages.dev/ufc.json', title: 'UFC/Boxing' },
+  { id: 'yosintv-ufc', file: 'https://yosintv11.pages.dev/ufc.json', title: 'UFC/MMA/Boxing' },
   { id: 'yosintv-cricket', file: 'https://yosintv11.pages.dev/cricket.json', title: 'Cricket' },
   { id: 'yosintv-cleague', file: 'https://yosintv11.pages.dev/cleague.json', title: 'League' },
   { id: 'yosintv-nepal', file: 'https://yosintv11.pages.dev/nepal.json', title: '4-Nations Women' },
