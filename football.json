@@ -1,34 +1,26 @@
 {
   "matches": [
     {
-      "name": " Arsenal vs Tottenham ",
-      "start": "2025-07-31T20:30:00+09:00",
+      "name": " Juventus vs Reggiana ",
+      "start": "2025-08-02T18:00:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=arsenal "
+      "link": " https://blog.cricfoot.net/?yosintv=juventus "
     },
 
 
     {
-      "name": " Perth Glory vs AC Milan ",
-      "start": "2025-07-31T19:00:00+09:00",
+      "name": " Sunderland vs Real Betis ",
+      "start": "2025-08-02T22:00:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=acmilan "
+      "link": " https://blog.cricfoot.net/?yosintv=realbetis "
     },
 
 
     {
-      "name": " Seoul vs Barcelona ",
-      "start": "2025-07-31T20:00:00+09:00",
+      "name": " Bayern München vs Lyon ",
+      "start": "2025-08-02T22:30:00+09:00",
       "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=barcelona "
-    },
-
-
-    {
-      "name": " Roma vs Cannes ",
-      "start": "2025-08-01T01:00:00+09:00",
-      "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=roma "
+      "link": " https://blog.cricfoot.net/?yosintv=munchen "
     }
   ]
 }
