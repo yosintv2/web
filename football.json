@@ -1,49 +1,14 @@
-{
-  "matches": [
-
-    {
-      "name": " Newcastle vs Tottenham ",
-      "start": "2025-08-03T20:00:00+09:00",
-      "duration": "2.6",
-      "link": " https://blog.cricfoot.net/?yosintv=tottenham "
-    },
-
-{
-    "name": "Napoli vs Brest",
-    "start": "2025-08-04T02:00:00+09:00",
+[
+  {
+    "name": "Liverpool vs Athletic",
+    "start": "2025-08-05T01:00:00+09:00",
     "duration": 2.6,
-    "link": "https://blog.cricfoot.net/?yosintv=napoli"
+    "link": "https://blog.cricfoot.net/?yosintv=liverpool"
   },
   {
-    "name": "Bournemouth vs West Ham",
-    "start": "2025-08-04T03:00:00+09:00",
+    "name": "Santos vs Juventude",
+    "start": "2025-08-05T08:00:00+09:00",
     "duration": 2.6,
-    "link": "https://blog.cricfoot.net/?yosintv=westham"
-  },
-  {
-    "name": "Man United vs Everton",
-    "start": "2025-08-04T06:00:00+09:00",
-    "duration": 2.6,
-    "link": "https://blog.cricfoot.net/?yosintv=manunited"
-  },
-  {
-    "name": "Porto vs Atlético",
-    "start": "2025-08-04T03:00:00+09:00",
-    "duration": 2.6,
-    "link": "https://blog.cricfoot.net/?yosintv=atletico"
-  },
-  {
-    "name": "Girona vs Wolves",
-    "start": "2025-08-04T03:00:00+09:00",
-    "duration": 2.6,
-    "link": "https://blog.cricfoot.net/?yosintv=wolves"
-  },
-  {
-    "name": "Daegu vs Barcelona",
-    "start": "2025-08-04T20:00:00+09:00",
-    "duration": 2.6,
-    "link": "https://blog.cricfoot.net/?yosintv=barcelona"
+    "link": "https://blog.cricfoot.net/?yosintv=santos"
   }
-    
-  ]
-}
+]
