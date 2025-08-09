@@ -2,14 +2,22 @@
   "matches": [
 
 {
-      "name": "Brighton vs Wolfsburg",
-      "start": "2025-08-09T19:30:00+09:00",
-      "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=brighton"
+  "name": "Brighton vs Wolfsburg",
+  "start": "2025-08-10T01:00:00.000+09:00",
+  "duration": 2.6,
+  "link": "https://blog.cricfoot.net/?yosintv=brighton"
 },
     
     
 {
+  "name": "West Ham vs Lille",
+  "start": "2025-08-09T23:00:00.000+09:00",
+  "duration": 2.6,
+  "link": "https://blog.cricfoot.net/?yosintv=westham"
+},
+    
+    
+    {
   "name": "Leeds vs AC Milan",
   "start": "2025-08-09T23:00:00.000+09:00",
   "duration": 2.6,
