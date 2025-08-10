@@ -3,18 +3,18 @@
 
     {
       "name": "AUS vs South Africa, 1st T20I ",
-      "start": "2025-08-10T18:00:00.000+09:00",
+      "start": "2025-08-10T18:15:00+09:00",
       "duration": "8",
       "repeat": 5,
-      "link": " https://blog.cricfoot.net/?yosintv=pakistan "
+      "link": " https://blog.cricfoot.net/?yosintv=australia "
     },
     
   {
     "name": " WI vs Pakistan, 2nd ODI ",
-    "start": "2025-08-06T17:00:00+09:00",
+    "start": "2025-08-10T22:30:00+09:00",
     "duration": "8",
-    "repeat": 5,
-    "link": "https://blog.cricfoot.net/?yosintv=newzealand"
+    "repeat": 8,
+    "link": "https://blog.cricfoot.net/?yosintv=pakistan"
   }
     
   ]
