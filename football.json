@@ -1,67 +1,34 @@
 {
   "matches": [
     {
-      "name": "Chelsea vs Crystal Palace",
-      "start": "2025-08-17T22:00:00+09:00",
+      "name": "Leeds vs Everton",
+      "start": "2025-08-19T04:00:00+09:00",
       "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=chelsea"
+      "link": "https://blog.cricfoot.net/?yosintv=everton"
     },
 
 
     {
-      "name": "Nottingham vs Brentford",
-      "start": "2025-08-17T22:00:00+09:00",
+      "name": "Elche vs Real Betis",
+      "start": "2025-08-19T04:00:00+09:00",
       "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=nottingham"
-    },
-
-    {
-      "name": "Man United vs Arsenal",
-      "start": "2025-08-18T00:30:00+09:00",
-      "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=manunited"
+      "link": "https://blog.cricfoot.net/?yosintv=realbetis"
     },
 
 
     {
-      "name": "Athletic vs Sevilla",
-      "start": "2025-08-18T02:30:00+09:00",
+      "name": "Gil Vicente vs Porto",
+      "start": "2025-08-19T04:15:00+09:00",
       "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=sevilla"
+      "link": "https://blog.cricfoot.net/?yosintv=porto"
     },
 
 
     {
-      "name": "Espanyol vs Atlético",
-      "start": "2025-08-18T04:30:00+09:00",
+      "name": "Al Nassr vs Al Ittihad",
+      "start": "2025-08-19T21:00:00+09:00",
       "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=atletico"
-    },
-
-
-    {
-      "name": "Nantes vs PSG",
-      "start": "2025-08-18T03:45:00+09:00",
-      "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=psg"
-    },
-
-
-    {
-      "name": "Milan vs Bari 1908",
-      "start": "2025-08-18T04:15:00+09:00",
-      "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=acmilan"
-    },
-
-
-    {
-      "name": "Santos vs Vasco Gama",
-      "start": "2025-08-18T04:00:00+09:00",
-      "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=santos"
+      "link": "https://blog.cricfoot.net/?yosintv=alnassr"
     }
-
-    
   ]
 }
