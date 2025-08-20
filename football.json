@@ -1,18 +1,18 @@
 {
   "matches": [
     {
-      "name": "Real Madrid vs Osasuna",
-      "start": "2025-08-20T04:00:00+09:00",
+      "name": "Inter Miami vs Tigres",
+      "start": "2025-08-21T09:00:00+09:00",
       "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=realmadrid"
+      "link": "https://blog.cricfoot.net/?yosintv=intermiami"
     },
 
 
     {
-      "name": "Sudan vs Senegal",
-      "start": "2025-08-20T02:00:00+09:00",
+      "name": "Fenerbahçe vs Benfica",
+      "start": "2025-08-21T04:00:00+09:00",
       "duration": 2.6,
-      "link": "https://blog.cricfoot.net/?yosintv=senegal"
+      "link": "https://blog.cricfoot.net/?yosintv=benfica"
     }
   ]
 }
