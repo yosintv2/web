@@ -1,76 +1,58 @@
 {
   "matches": [
-
     {
-      "name": " Bournemouth vs Wolves ",
-      "start": "2025-08-23T23:00:00+09:00",
+      "name": " Crystal Palace vs Nottingham ",
+      "start": "2025-08-24T22:00:00+09:00",
       "duration": 2.6,
-      "link": " https://blog.cricfoot.net/?yosintv=wolves "
+      "link": " https://blog.cricfoot.net/?yosintv=nottingham "
     },
 
 
     {
-      "name": " Brentford vs Aston Villa ",
-      "start": "2025-08-23T23:00:00+09:00",
+      "name": " Everton vs Brighton ",
+      "start": "2025-08-24T22:00:00+09:00",
       "duration": 2.6,
-      "link": " https://blog.cricfoot.net/?yosintv=astonvilla "
+      "link": " https://blog.cricfoot.net/?yosintv=brighton "
     },
 
 
     {
-      "name": " Leverkusen vs Hoffenheim ",
-      "start": "2025-08-23T22:30:00+09:00",
+      "name": " Fulham vs Man United ",
+      "start": "2025-08-25T00:30:00+09:00",
       "duration": 2.6,
-      "link": " https://blog.cricfoot.net/?yosintv=leverkusen "
-    },
-
-{
-      "name": " Arsenal vs Leeds ",
-      "start": "2025-08-24T01:30:00+09:00",
-      "duration": 2.6,
-      "link": " https://blog.cricfoot.net/?yosintv=arsenal "
+      "link": " https://blog.cricfoot.net/?yosintv=manunited "
     },
 
 
     {
-      "name": " Atlético vs Elche ",
-      "start": "2025-08-24T02:30:00+09:00",
+      "name": " Real Oviedo vs Real Madrid ",
+      "start": "2025-08-25T04:30:00+09:00",
       "duration": 2.6,
-      "link": " https://blog.cricfoot.net/?yosintv=atletico "
+      "link": " https://blog.cricfoot.net/?yosintv=realmadrid "
     },
 
 
     {
-      "name": " Levante vs Barcelona ",
-      "start": "2025-08-24T04:30:00+09:00",
+      "name": " Juventus vs Parma ",
+      "start": "2025-08-25T03:45:00+09:00",
       "duration": 2.6,
-      "link": " https://blog.cricfoot.net/?yosintv=barcelona "
+      "link": " https://blog.cricfoot.net/?yosintv=juventus "
     },
 
 
     {
-      "name": " Sassuolo vs Napoli ",
-      "start": "2025-08-24T01:30:00+09:00",
+      "name": " Lille vs Monaco ",
+      "start": "2025-08-25T03:45:00+09:00",
       "duration": 2.6,
-      "link": " https://blog.cricfoot.net/?yosintv=napoli "
+      "link": " https://blog.cricfoot.net/?yosintv=monaco "
     },
 
 
     {
-      "name": " AC Milan vs Cremonese ",
-      "start": "2025-08-24T03:45:00+09:00",
+      "name": " Porto vs Casa Pia ",
+      "start": "2025-08-25T02:00:00+09:00",
       "duration": 2.6,
-      "link": " https://blog.cricfoot.net/?yosintv=acmilan "
-    },
-
-
-    {
-      "name": " DC United vs Inter Miami ",
-      "start": "2025-08-24T08:30:00+09:00",
-      "duration": 2.6,
-      "link": " https://blog.cricfoot.net/?yosintv=intermiami "
+      "link": " https://blog.cricfoot.net/?yosintv=porto "
     }
-
-    
   ]
 }
