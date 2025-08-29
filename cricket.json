@@ -8,12 +8,25 @@
       "link": " https://blog.cricfoot.net/?yosintv=nepal "
     },
 
+  {
+    "name": " NAM vs Scotland, 81st Match",
+    "start": "2025-08-30T00:00:00+09:00",
+    "duration": "8",
+    "link": " https://blog.cricfoot.net/?yosintv=scotland "
+  },
     
     {
-    "name": " WI vs Pakistan, 2nd ODI ",
-    "start": "2025-08-12T22:30:00+09:00",
+    "name": " ZIM vs Sri Lanka, 1st ODI ",
+    "start": "2025-08-29T16:30:00+09:00",
     "duration": "8",
-    "link": "https://blog.cricfoot.net/?yosintv=pakistan"
+    "link": " https://blog.cricfoot.net/?yosintv=srilanka "
+  },
+
+    {
+    "name": " AFG vs Pakistan, 1st T20 ",
+    "start": "2025-08-30T00:00:00+09:00",
+    "duration": "5",
+    "link": " https://blog.cricfoot.net/?yosintv=pakistan "
   }
     
   ]
