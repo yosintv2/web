@@ -7,27 +7,28 @@
       "duration": "8",
       "link": " https://blog.cricfoot.net/?yosintv=nepal "
     },
-
-  {
-    "name": " NAM vs Scotland, 81st Match",
-    "start": "2025-08-30T00:00:00+09:00",
-    "duration": "8",
-    "link": " https://blog.cricfoot.net/?yosintv=scotland "
-  },
     
     {
-    "name": " ZIM vs Sri Lanka, 1st ODI ",
-    "start": "2025-08-29T16:30:00+09:00",
-    "duration": "8",
-    "link": " https://blog.cricfoot.net/?yosintv=srilanka "
-  },
+      "name": " ZIM vs Sri Lanka, 2nd ODI ",
+      "start": "2025-08-31T04:30:00+09:00",
+      "duration": 8,
+      "link": " https://blog.cricfoot.net/?yosintv=srilanka "
+    },
 
     {
-    "name": " AFG vs Pakistan, 2nd T20 ",
-    "start": "2025-08-31T00:00:00+09:00",
-    "duration": "5",
-    "link": " https://blog.cricfoot.net/?yosintv=pakistan "
-  }
+      "name": " BAN vs Netherlands, 2nd T20I ",
+      "start": "2025-09-01T21:00:00+09:00",
+      "duration": 5,
+      "link": " https://blog.cricfoot.net/?yosintv=bangladesh "
+    },
+
+
+    {
+      "name": " UAE vs Afghanistan, 3rd Match ",
+      "start": "2025-09-02T00:00:00+09:00",
+      "duration": 5,
+      "link": " https://blog.cricfoot.net/?yosintv=uae "
+    }
     
   ]
 }
