@@ -123,7 +123,10 @@ function updateStatus() {
     }
 
     if (!shown) {
-      countdown.textContent = 'Match End';
+      // Hide ended matches instead of showing "Match End"
+      el.style.display = "none";
+    } else {
+      el.style.display = "block"; // keep visible if Live or Upcoming
     }
 
     el.onclick = () => {
