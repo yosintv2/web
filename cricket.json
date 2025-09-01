@@ -1,48 +1,43 @@
 {
   "matches": [
-
-    {
-      "name": " CRO vs Serbia, 6th Match ",
-      "start": "2025-08-31T16:00:00+09:00",
-      "duration": 10,
-      "link": " https://blog.cricfoot.net/?yosintv=croatia "
-    },
-
     
-    {
-      "name": " GUE vs Switzerland, 3rd T20I ",
-      "start": "2025-08-31T19:00:00+09:00",
-      "duration": 10,
-      "link": " https://blog.cricfoot.net/?yosintv=guernsey "
-    },
-    
-    {
-      "name": "Nepal A vs Assam ",
-      "start": "2025-08-31T20:15:00+09:00",
-      "duration": "8",
-      "link": " https://blog.cricfoot.net/?yosintv=nepal "
-    },
-    
-    {
-      "name": " ZIM vs Sri Lanka, 2nd ODI ",
-      "start": "2025-08-31T16:30:00+09:00",
-      "duration": 8,
-      "link": " https://blog.cricfoot.net/?yosintv=srilanka "
-    },
-
     {
       "name": " BAN vs Netherlands, 2nd T20I ",
       "start": "2025-09-01T21:00:00+09:00",
       "duration": 5,
       "link": " https://blog.cricfoot.net/?yosintv=bangladesh "
     },
-    
+
+
     {
       "name": " UAE vs Afghanistan, 3rd Match ",
-      "start": "2025-09-02T00:00:00+09:00",
+      "start": "2025-09-01T00:00:00+09:00",
       "duration": 5,
       "link": " https://blog.cricfoot.net/?yosintv=uae "
+    },
+
+
+    {
+      "name": " ENG vs S. Africa, 1st ODI ",
+      "start": "2025-09-02T21:00:00+09:00",
+      "duration": 8,
+      "link": " https://blog.cricfoot.net/?yosintv=england "
+    },
+
+
+    {
+      "name": " PAK vs Afghanistan, 4th Match ",
+      "start": "2025-09-02T00:00:00+09:00",
+      "duration": 5,
+      "link": " https://blog.cricfoot.net/?yosintv=pakistan "
+    },
+
+
+    {
+      "name": " CAN vs Namibia, 83rd Match ",
+      "start": "2025-09-02T00:00:00+09:00",
+      "duration": 8,
+      "link": " https://blog.cricfoot.net/?yosintv=canada "
     }
-    
   ]
 }
