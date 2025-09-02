@@ -1,24 +1,7 @@
 {
   "matches": [
-    
     {
-      "name": " BAN vs Netherlands, 2nd T20I ",
-      "start": "2025-09-01T21:00:00+09:00",
-      "duration": 5,
-      "link": " https://blog.cricfoot.net/?yosintv=bangladesh "
-    },
-
-
-    {
-      "name": " UAE vs Afghanistan, 3rd Match ",
-      "start": "2025-09-01T00:00:00+09:00",
-      "duration": 5,
-      "link": " https://blog.cricfoot.net/?yosintv=uae "
-    },
-
-
-    {
-      "name": " ENG vs S. Africa, 1st ODI ",
+      "name": " ENG vs South Africa, 1st ODI ",
       "start": "2025-09-02T21:00:00+09:00",
       "duration": 8,
       "link": " https://blog.cricfoot.net/?yosintv=england "
@@ -26,18 +9,18 @@
 
 
     {
-      "name": " PAK vs Afghanistan, 4th Match ",
-      "start": "2025-09-02T00:00:00+09:00",
-      "duration": 5,
-      "link": " https://blog.cricfoot.net/?yosintv=pakistan "
+      "name": " CAN vs Namibia, Match 83 ",
+      "start": "2025-09-02T23:30:00+09:00",
+      "duration": 8,
+      "link": " https://blog.cricfoot.net/?yosintv=canada "
     },
 
 
     {
-      "name": " CAN vs Namibia, 83rd Match ",
+      "name": " AFG vs Pakistan, Match 4 ",
       "start": "2025-09-02T00:00:00+09:00",
-      "duration": 8,
-      "link": " https://blog.cricfoot.net/?yosintv=canada "
+      "duration": 5,
+      "link": " https://blog.cricfoot.net/?yosintv=pakistan "
     }
   ]
 }
