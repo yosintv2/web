@@ -1,26 +1,18 @@
 {
   "matches": [
     {
-      "name": " ENG vs South Africa, 1st ODI ",
-      "start": "2025-09-02T21:00:00+09:00",
-      "duration": 8,
-      "link": " https://blog.cricfoot.net/?yosintv=england "
-    },
-
-
-    {
-      "name": " CAN vs Namibia, Match 83 ",
-      "start": "2025-09-02T23:30:00+09:00",
-      "duration": 8,
-      "link": " https://blog.cricfoot.net/?yosintv=canada "
-    },
-
-
-    {
-      "name": " AFG vs Pakistan, Match 4 ",
-      "start": "2025-09-03T00:00:00+09:00",
+      "name": " ZIM vs Sri Lanka, 1st T20I ",
+      "start": "2025-09-03T20:30:00+09:00",
       "duration": 5,
-      "link": " https://blog.cricfoot.net/?yosintv=pakistan "
+      "link": " https://blog.cricfoot.net/?yosintv=srilanka "
+    },
+
+
+    {
+      "name": " BAN vs Netherlands, 3rd T20I ",
+      "start": "2025-09-03T21:00:00+09:00",
+      "duration": 5,
+      "link": " https://blog.cricfoot.net/?yosintv=bangladesh "
     }
   ]
 }
