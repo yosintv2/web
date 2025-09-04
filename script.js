@@ -121,35 +121,38 @@ function updateStatus() {
       el.style.display = 'none';
       return;
     }
-    let shown = false;
+    let isLive = false;
+    let isUpcoming = false;
+    let latestEndTime = 0;
     for (let i = 0; i < repeat; i++) {
       const s = start + i * 86400000;
       const e = s + duration;
-      const hideTime = e + 7200000; // 2 hours after end
-      if (now > hideTime) {
-        el.style.display = 'none'; // Hide match if more than 2 hours past end
-        continue;
-      }
       if (now >= s && now <= e) {
-        el.style.display = ''; // Ensure visible
+        isLive = true;
+        el.style.display = '';
         countdown.innerHTML = `<div class="live-now blink">Live Now</div>`;
-        shown = true;
         break;
       }
       if (now < s) {
-        el.style.display = ''; // Ensure visible
+        isUpcoming = true;
+        el.style.display = '';
         const diff = s - now;
         const d = Math.floor(diff / (1000 * 60 * 60 * 24));
         const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
         countdown.innerHTML = `<span>${d}d</span> <span>${h}h</span> <span>${m}m</span>`;
-        shown = true;
         break;
       }
+      latestEndTime = Math.max(latestEndTime, e);
     }
-    if (!shown) {
-      el.style.display = ''; // Visible for ended matches within 2 hours
-      countdown.textContent = 'Match End';
+    if (!isLive && !isUpcoming) {
+      const hideTime = latestEndTime + 7200000; // 2 hours after end
+      if (now > hideTime) {
+        el.style.display = 'none';
+      } else {
+        el.style.display = '';
+        countdown.textContent = 'Match End';
+      }
     }
     el.onclick = () => {
       const link = el.getAttribute('data-link');
