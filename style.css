@@ -1,185 +1,175 @@
-/* Section Styling */
-#yosintv-npl .event, 
-#yosintv-laliga .event, 
-#yosintv-epl .event, 
-#yosintv-bundesliga .event, 
-#yosintv-seriea .event, 
-#yosintv-cricket .event,
-#yosintv-football .event {
-    border-color: #000000;
-}
+    /* === Your Custom CSS === */
 
-/* Heading Colors */
-#yosintv-football h2,
-#yosintv-cricket h2 {
-    color: #1a73e8;
-}
+    #yosintv-npl .event,
+    #yosintv-laliga .event,
+    #yosintv-epl .event,
+    #yosintv-bundesliga .event,
+    #yosintv-seriea .event,
+    #yosintv-cricket .event,
+    #yosintv-football .event {
+      border-color: #000000;
+    }
 
-/* Match Containers */
-.yosintv-container {
-    width: 100%;
-    margin: 0 auto;
-}
+    #yosintv-football h2,
+    #yosintv-cricket h2 {
+      color: #1a73e8;
+    }
 
-/* League Title */
-.league-title {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 20px;
-    background-color: #d10000;
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-}
+    .yosintv-container {
+      width: 100%;
+      margin: 0 auto;
+    }
 
-/* Match Buttons */
-.yosintv-button {
-    font-weight: 700;
-    font-family: Arial, sans-serif;
-    display: block;
-    width: 100%;
-    padding: 2px;
-    margin: 20px 0;
-    background-color: rgb(244, 17, 17);
-    color: #fff;
-    text-align: center;
-    text-decoration: none; /* Remove default underline for anchor elements */
-    border: none;
-    border-radius: 4px;
-    box-sizing: border-box; /* Include padding and border in the element's total width */
-    cursor: pointer;
-}
+    .league-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 20px;
+      background-color: #d10000;
+      color: white;
+      border-radius: 5px;
+      text-align: center;
+    }
 
-.yosintv-button:hover {
-    background-color: rgb(220, 0, 0); /* Darker red when hovered */
-}
+    .yosintv-button {
+      font-weight: 700;
+      font-family: Arial, sans-serif;
+      display: block;
+      width: 100%;
+      padding: 2px;
+      margin: 20px 0;
+      background-color: rgb(244, 17, 17);
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      border: none;
+      border-radius: 4px;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
 
-/* Countdown Styling */
-.countdown span {
-    background-color: black;
-    font-family: Arial, sans-serif;
-    color: white;
-    padding: 1px 2px;
-    border-radius: 4px;
-    margin: 0 1px;
-    font-size: 16px;
-}
+    .yosintv-button:hover {
+      background-color: rgb(220, 0, 0);
+    }
 
-/* Event Styling */
-.event {
-    display: flex;
-    justify-content: space-between;
-    font-family: Arial, sans-serif;
-    align-items: center;
-    text-decoration: none;
-    color: inherit;
-    margin: 10px 0;
-    padding: 10px;
-    border: 2px solid #000;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #fff;
-    transition: box-shadow 0.3s ease;
-}
+    .countdown span {
+      background-color: black;
+      font-family: Arial, sans-serif;
+      color: white;
+      padding: 1px 2px;
+      border-radius: 4px;
+      margin: 0 1px;
+      font-size: 16px;
+    }
 
-.event:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+    .event {
+      display: flex;
+      justify-content: space-between;
+      font-family: Arial, sans-serif;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+      margin: 10px 0;
+      padding: 10px;
+      border: 2px solid #000;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #fff;
+      transition: box-shadow 0.3s ease;
+    }
 
-/* Event Name */
-.event-name {
-    flex: 2;
-    text-align: left;
-    color: black;
-    font-weight: bold;
-}
+    .event:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
 
-/* Countdown Section */
-.event-countdown {
-    flex: 1;
-    text-align: right;
-    color: black;
-}
+    .event-name {
+      flex: 2;
+      text-align: left;
+      color: black;
+      font-weight: bold;
+    }
 
-/* Live Event Highlight */
-.event-live {
-    font-weight: bold;
-    color: red;
-}
+    .event-countdown {
+      flex: 1;
+      text-align: right;
+      color: black;
+    }
 
-/* League Button Styling */
-#league-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 20px;
-}
+    .event-live {
+      font-weight: bold;
+      color: red;
+    }
 
-.league-button {
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 14px;
-}
+    #league-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
 
-.league-button:hover {
-    background-color: #0056b3;
-}
+    .league-button {
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 14px;
+    }
 
-/* Matches Styling */
-#league-matches {
-    margin-top: 20px;
-}
+    .league-button:hover {
+      background-color: #0056b3;
+    }
 
-.yosintv-button {
-    font-weight: bold;
-    margin-top: 20px;
-}
+    #league-matches {
+      margin-top: 20px;
+    }
 
-.yosintv-container {
-    margin: 10px 0;
-}
+    .yosintv-button {
+      font-weight: bold;
+      margin-top: 20px;
+    }
 
-.event {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
+    .yosintv-container {
+      margin: 10px 0;
+    }
 
-.event-live {
-    color: red;
-    font-weight: bold;
-}
+    .blink {
+      color: red;
+      font-weight: bold;
+      animation: blink-animation 1.5s linear infinite;
+    }
 
-/* Blinking Text */
-.blink {
-    color: red;
-    font-weight: bold;
-    animation: blink-animation 1.5s linear infinite;
-}
+    @keyframes blink-animation {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
 
-@keyframes blink-animation {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
-}
+    .error-message {
+      font-size: 20px;
+      color: #ff6347;
+      font-weight: bold;
+      text-align: center;
+      padding: 20px;
+      border: 2px dashed #ff6347;
+      border-radius: 5px;
+      background-color: #fef8f6;
+      margin-top: 20px;
+      width: 100%;
+      max-width: 500px;
+      box-sizing: border-box;
+    }
 
+    /* Search Bar */
+    #matchSearch {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
 
-/* Style for error message */
-.error-message {
-  font-size: 20px;
-  color: #ff6347;  /* Tomato color */
-  font-weight: bold;
-  text-align: center;
-  padding: 20px;
-  border: 2px dashed #ff6347;
-  border-radius: 5px;
-  background-color: #fef8f6;
-  margin-top: 20px;
-  width: 100%;
-  max-width: 500px;
-  box-sizing: border-box;
-}
+    /* Ads container */
+    #adsContainer {
+      margin-top: 20px;
+    }
