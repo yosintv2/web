@@ -81,6 +81,7 @@ function renderLeague(data, containerId, leagueTitle) {
   container.appendChild(title);
   if (!data.matches || data.matches.length === 0) {
     const noMatch = document.createElement('p');
+    noMatch.className = 'no-matches';
     noMatch.textContent = `No ${leagueTitle} Matches Today`;
     container.appendChild(noMatch);
     return;
