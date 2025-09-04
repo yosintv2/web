@@ -30,11 +30,9 @@ leagues.forEach(league => {
             }
             return 2; // Ended
           };
-
           const priA = getStatus(a);
           const priB = getStatus(b);
           if (priA !== priB) return priA - priB;
-
           const nextTime = m => {
             const repeat = m.repeat || 1;
             for (let i = 0; i < repeat; i++) {
@@ -43,7 +41,6 @@ leagues.forEach(league => {
             }
             return new Date(m.start).getTime();
           };
-
           return nextTime(a) - nextTime(b);
         });
       }
@@ -59,14 +56,12 @@ function renderLeague(data, containerId, leagueTitle) {
   title.className = 'league-title';
   title.textContent = `${leagueTitle} Matches`;
   container.appendChild(title);
-
   if (!data.matches || data.matches.length === 0) {
     const noMatch = document.createElement('p');
     noMatch.textContent = `No ${leagueTitle} Matches Today`;
     container.appendChild(noMatch);
     return;
   }
-
   data.matches.forEach(match => renderEvent(match, container));
 }
 
@@ -77,14 +72,11 @@ function renderEvent(match, container) {
   el.setAttribute('data-start', match.start);
   el.setAttribute('data-duration', match.duration);
   el.setAttribute('data-repeat', match.repeat || 1);
-
   const name = document.createElement('div');
   name.className = 'event-name';
   name.textContent = match.name;
-
   const countdown = document.createElement('div');
   countdown.className = 'event-countdown';
-
   el.appendChild(name);
   el.appendChild(countdown);
   container.appendChild(el);
@@ -92,26 +84,28 @@ function renderEvent(match, container) {
 
 function updateStatus() {
   const now = Date.now();
-
   document.querySelectorAll('.event').forEach(el => {
     const start = new Date(el.getAttribute('data-start')).getTime();
     const duration = parseFloat(el.getAttribute('data-duration')) * 3600000;
     const repeat = parseInt(el.getAttribute('data-repeat')) || 1;
     const countdown = el.querySelector('.event-countdown');
-
     let shown = false;
-
     for (let i = 0; i < repeat; i++) {
       const s = start + i * 86400000;
       const e = s + duration;
-
+      const hideTime = e + 7200000; // 2 hours after end
+      if (now > hideTime) {
+        el.style.display = 'none'; // Hide match if more than 2 hours past end
+        continue;
+      }
       if (now >= s && now <= e) {
+        el.style.display = ''; // Ensure visible
         countdown.innerHTML = `<div class="live-now blink">Live Now</div>`;
         shown = true;
         break;
       }
-
       if (now < s && !shown) {
+        el.style.display = ''; // Ensure visible
         const diff = s - now;
         const d = Math.floor(diff / (1000 * 60 * 60 * 24));
         const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -121,11 +115,10 @@ function updateStatus() {
         break;
       }
     }
-
     if (!shown) {
+      el.style.display = ''; // Ensure visible for ended matches within 2 hours
       countdown.textContent = 'Match End';
     }
-
     el.onclick = () => {
       window.location.href = el.getAttribute('data-link');
     };
