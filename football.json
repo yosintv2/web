@@ -1,37 +1,18 @@
 {
   "matches": [
-
     {
-      "name": " Argentina vs Venezuela ",
-      "start": "2025-09-05T08:30:00+09:00",
+      "name": " Australia vs New Zealand ",
+      "start": "2025-09-05T18:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=argentina "
+      "link": " https://blog.cricfoot.net/?yosintv=australia "
     },
 
 
     {
-      "name": " Colombia vs Bolivia ",
-      "start": "2025-09-05T08:30:00+09:00",
+      "name": " Indonesia vs Chinese Taipei ",
+      "start": "2025-09-05T22:30:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=colombia "
-    },
-
-
-    {
-      "name": " Uruguay vs Peru ",
-      "start": "2025-09-05T08:30:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=uruguay "
-    },
-
-
-    {
-      "name": " Brazil vs Chile ",
-      "start": "2025-09-05T09:30:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=brazil "
+      "link": " https://blog.cricfoot.net/?yosintv=indonesia "
     }
-
-    
   ]
 }
