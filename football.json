@@ -1,10 +1,18 @@
 {
   "matches": [
     {
-      "name": " Australia vs New Zealand ",
-      "start": "2025-09-05T18:45:00+09:00",
+      "name": " Slovenia vs Sweden ",
+      "start": "2025-09-05T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=australia "
+      "link": " https://blog.cricfoot.net/?yosintv=sweden "
+    },
+
+
+    {
+      "name": " Switzerland vs Kosovo ",
+      "start": "2025-09-05T03:45:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=switzerland "
     },
 
 
@@ -13,6 +21,30 @@
       "start": "2025-09-05T22:30:00+09:00",
       "duration": 2.2,
       "link": " https://blog.cricfoot.net/?yosintv=indonesia "
+    },
+    
+    
+    {
+      "name": " Denmark vs Scotland ",
+      "start": "2025-09-05T03:45:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=denmark "
+    },
+
+
+    {
+      "name": " Ukraine vs France ",
+      "start": "2025-09-05T03:45:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=france "
+    },
+
+
+    {
+      "name": " Italy vs Estonia ",
+      "start": "2025-09-05T03:45:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=Italy "
     }
   ]
 }
