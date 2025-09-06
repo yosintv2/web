@@ -1,51 +1,42 @@
 {
   "matches": [
-  
     {
-      "name": " Slovenia vs Sweden ",
-      "start": "2025-09-06T03:45:00+09:00",
+      "name": " Nepal vs Bangladesh ",
+      "start": "2025-09-06T20:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=sweden "
+      "link": " https://blog.cricfoot.net/?yosintv=nepal "
     },
 
 
     {
-      "name": " Switzerland vs Kosovo ",
-      "start": "2025-09-06T03:45:00+09:00",
+      "name": " Nepal U23 vs Syria U23 ",
+      "start": "2025-09-06T22:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=switzerland "
+      "link": " https://blog.cricfoot.net/?yosintv=nepal "
     },
 
 
     {
-      "name": " Indonesia vs Chinese Taipei ",
-      "start": "2025-09-05T22:30:00+09:00",
+      "name": " Armenia vs Portugal ",
+      "start": "2025-09-06T01:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=indonesia "
-    },
-    
-    
-    {
-      "name": " Denmark vs Scotland ",
-      "start": "2025-09-06T03:45:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=denmark "
+      "link": " https://blog.cricfoot.net/?yosintv=portugal "
     },
 
 
     {
-      "name": " Ukraine vs France ",
-      "start": "2025-09-06T03:45:00+09:00",
+      "name": " England vs Andorra ",
+      "start": "2025-09-06T01:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=france "
+      "link": " https://blog.cricfoot.net/?yosintv=england "
     },
 
 
     {
-      "name": " Italy vs Estonia ",
+      "name": " Ireland vs Hungary ",
       "start": "2025-09-06T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=Italy "
+      "link": " https://blog.cricfoot.net/?yosintv=ireland "
     }
   ]
 }
