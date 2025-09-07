@@ -1,57 +1,42 @@
 {
   "matches": [
     {
-      "name": " Nepal vs Bangladesh ",
-      "start": "2025-09-06T20:45:00+09:00",
+      "name": " Lithuania vs Netherlands ",
+      "start": "2025-09-08T01:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=nepal "
+      "link": " https://blog.cricfoot.net/?yosintv=netherlands "
     },
 
 
     {
-      "name": " Nepal U23 vs Syria U23 ",
-      "start": "2025-09-06T22:00:00+09:00",
+      "name": " Germany vs Northern Ireland ",
+      "start": "2025-09-08T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=nepal1 "
+      "link": " https://blog.cricfoot.net/?yosintv=germany "
     },
 
 
     {
-      "name": " Armenia vs Portugal ",
-      "start": "2025-09-07T01:00:00+09:00",
+      "name": " Türkiye vs Spain ",
+      "start": "2025-09-08T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=portugal "
+      "link": " https://blog.cricfoot.net/?yosintv=spain "
     },
 
 
     {
-      "name": " England vs Andorra ",
-      "start": "2025-09-07T01:00:00+09:00",
+      "name": " Poland vs Finland ",
+      "start": "2025-09-08T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=england "
+      "link": " https://blog.cricfoot.net/?yosintv=poland "
     },
 
 
     {
-      "name": " Ireland vs Hungary ",
-      "start": "2025-09-07T03:45:00+09:00",
+      "name": " Belgium vs Kazakhstan ",
+      "start": "2025-09-08T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=ireland "
-    },
-
-      {
-      "name": " Mexico vs Japan ",
-      "start": "2025-09-07T11:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=japan "
-    },
-
-
-    {
-      "name": " USA vs South Korea ",
-      "start": "2025-09-07T06:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=usa "
+      "link": " https://blog.cricfoot.net/?yosintv=belgium "
     }
   ]
 }
