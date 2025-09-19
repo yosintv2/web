@@ -1,34 +1,18 @@
 {
   "matches": [
     {
-      "name": " Club Brugge vs Monaco ",
-      "start": "2025-09-19T01:45:00+09:00",
+      "name": " Real Betis vs Real Sociedad ",
+      "start": "2025-09-20T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=monaco "
+      "link": " https://blog.cricfoot.net/?yosintv=realbetis "
     },
 
 
     {
-      "name": " København vs Leverkusen ",
-      "start": "2025-09-19T01:45:00+09:00",
+      "name": " Lyon vs Angers ",
+      "start": "2025-09-20T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=leverkusen "
-    },
-
-
-    {
-      "name": " Man City vs Napoli ",
-      "start": "2025-09-19T04:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=mancity "
-    },
-
-
-    {
-      "name": " Newcastle vs Barcelona ",
-      "start": "2025-09-19T04:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=barcelona "
+      "link": " https://blog.cricfoot.net/?yosintv=lyon "
     }
   ]
 }
