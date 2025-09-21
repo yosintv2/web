@@ -3,7 +3,7 @@
     {
       "name": " Bournemouth vs Newcastle ",
       "start": "2025-09-21T22:00:00+09:00",
-      "duration": null,
+      "duration": 2.2,
       "link": " https://blog.cricfoot.net/?yosintv=newcastle "
     },
 
@@ -11,7 +11,7 @@
     {
       "name": " Sunderland vs Aston Villa ",
       "start": "2025-09-21T22:00:00+09:00",
-      "duration": null,
+      "duration": 2.2,
       "link": " https://blog.cricfoot.net/?yosintv=astonvilla "
     },
 
@@ -19,7 +19,7 @@
     {
       "name": " Arsenal vs Man City ",
       "start": "2025-09-21T00:30:00+09:00",
-      "duration": null,
+      "duration": 2.2,
       "link": " https://blog.cricfoot.net/?yosintv=mancity "
     },
 
@@ -27,7 +27,7 @@
     {
       "name": " Mallorca vs Atlético ",
       "start": "2025-09-21T23:15:00+09:00",
-      "duration": null,
+      "duration": 2.2,
       "link": " https://blog.cricfoot.net/?yosintv=atletico "
     },
 
@@ -35,7 +35,7 @@
     {
       "name": " Barcelona vs Getafe ",
       "start": "2025-09-21T04:00:00+09:00",
-      "duration": null,
+      "duration": 2.2,
       "link": " https://blog.cricfoot.net/?yosintv=barcelona "
     },
 
@@ -43,7 +43,7 @@
     {
       "name": " Leverkusen vs M'gladbach ",
       "start": "2025-09-22T00:30:00+09:00",
-      "duration": null,
+      "duration": 2.2,
       "link": " https://blog.cricfoot.net/?yosintv=leverkusen "
     },
 
@@ -51,7 +51,7 @@
     {
       "name": " Dortmund vs Wolfsburg ",
       "start": "2025-09-22T02:30:00+09:00",
-      "duration": null,
+      "duration": 2.2,
       "link": " https://blog.cricfoot.net/?yosintv=dortmund "
     },
 
@@ -59,7 +59,7 @@
     {
       "name": " Inter vs Sassuolo ",
       "start": "2025-09-22T03:45:00+09:00",
-      "duration": null,
+      "duration": 2.2,
       "link": " https://blog.cricfoot.net/?yosintv=intermilan "
     },
 
@@ -67,7 +67,7 @@
     {
       "name": " Marseille vs PSG ",
       "start": "2025-09-22T03:45:00+09:00",
-      "duration": null,
+      "duration": 2.2,
       "link": " https://blog.cricfoot.net/?yosintv=psg "
     },
 
@@ -75,7 +75,7 @@
     {
       "name": " Santos vs São Paulo ",
       "start": "2025-09-22T08:30:00+09:00",
-      "duration": null,
+      "duration": 2.2,
       "link": " https://blog.cricfoot.net/?yosintv=santos "
     }
   ]
