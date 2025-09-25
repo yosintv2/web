@@ -1,58 +1,34 @@
 {
   "matches": [
     {
-      "name": " Huddersfield vs Man City ",
-      "start": "2025-09-25T03:45:00+09:00",
+      "name": " Real Oviedo vs Barcelona ",
+      "start": "2025-09-26T04:30:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=mancity "
+      "link": " https://blog.cricfoot.net/?yosintv=barcelona "
     },
 
 
     {
-      "name": " Newcastle vs Bradford ",
-      "start": "2025-09-25T03:45:00+09:00",
+      "name": " Aston Villa vs Bologna ",
+      "start": "2025-09-26T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=newcastle "
+      "link": " https://blog.cricfoot.net/?yosintv=astonvilla "
+    },
+
+    {
+      "name": " Lille vs SK Brann ",
+      "start": "2025-09-26T01:45:00+09:00",
+      "duration": 2.2,
+      "link": "https://yosintv2.github.io/ads/midd.html?url=_____"
     },
 
 
     {
-      "name": " Tottenham vs Doncaster ",
-      "start": "2025-09-25T03:45:00+09:00",
+      "name": " Stuttgart vs Celta Vigo ",
+      "start": "2025-09-26T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=tottenham "
-    },
-
-
-    {
-      "name": " Port Vale vs Arsenal ",
-      "start": "2025-09-25T04:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=arsenal "
-    },
-
-
-    {
-      "name": " Real Betis vs Nottingham ",
-      "start": "2025-09-25T04:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=realbetis "
-    },
-
-
-    {
-      "name": " Atlético vs Rayo Vallecano ",
-      "start": "2025-09-25T04:30:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=atletico "
-    },
-
-
-    {
-      "name": " New York vs Inter Miami ",
-      "start": "2025-09-25T08:30:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=intermiami "
+      "link": "https://yosintv2.github.io/ads/midd.html?url=_____"
     }
+    
   ]
 }
