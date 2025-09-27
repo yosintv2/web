@@ -48,7 +48,7 @@ leagues.forEach(league => {
         });
       }
       renderLeague(data, league.id, league.title);
-      updateStatus(); // 👈 run immediately after rendering
+      updateStatus(); // show right away
     })
     .catch(error => console.error(`Error loading ${league.title} events:`, error));
 });
@@ -122,8 +122,8 @@ function updateStatus() {
         break;
       }
 
-      // remove ended matches immediately
-      if (!shown && now > e) {
+      // remove ended matches only if they are 10+ hours past end
+      if (!shown && now > e + 10 * 3600000) {
         el.remove();
         return;
       }
@@ -136,4 +136,4 @@ function updateStatus() {
 }
 
 setInterval(updateStatus, 1000);
-updateStatus(); // 👈 also run once at start
+updateStatus(); // run instantly
