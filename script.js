@@ -92,6 +92,7 @@ function renderEvent(match, container) {
 
 function updateStatus() {
   const now = Date.now();
+  const TEN_HOURS = 10 * 3600000; // 10 hours in ms
 
   document.querySelectorAll('.event').forEach(el => {
     const start = new Date(el.getAttribute('data-start')).getTime();
@@ -120,10 +121,12 @@ function updateStatus() {
         shown = true;
         break;
       }
-    }
 
-    if (!shown) {
-      countdown.textContent = 'Match End';
+      // 👇 NEW: remove all ended matches (past the 10-hour window)
+      if (!shown && now > e) {
+        el.remove();
+        return; // stop processing this event
+      }
     }
 
     el.onclick = () => {
