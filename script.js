@@ -13,12 +13,33 @@ const leagues = [
   { id: 'yosintv-bundesliga', file: 'https://yosintv11.pages.dev/bundesliga.json', title: 'Bundesliga' }
 ];
 
+const TEN_HOURS = 10 * 3600000;
+
 leagues.forEach(league => {
   fetch(league.file)
     .then(response => response.json())
     .then(data => {
       if (data.matches) {
         const now = Date.now();
+
+        // ✅ Filter out matches ended more than 10 hours ago BEFORE rendering
+        data.matches = data.matches.filter(match => {
+          const repeat = match.repeat || 1;
+          let keep = false;
+
+          for (let i = 0; i < repeat; i++) {
+            const s = new Date(match.start).getTime() + i * 86400000;
+            const e = s + parseFloat(match.duration) * 3600000;
+
+            if (now < e + TEN_HOURS) {
+              keep = true;
+              break;
+            }
+          }
+          return keep;
+        });
+
+        // Sort after filtering
         data.matches.sort((a, b) => {
           const getStatus = match => {
             const repeat = match.repeat || 1;
@@ -28,7 +49,7 @@ leagues.forEach(league => {
               if (now >= s && now <= e) return 0; // Live
               if (now < s) return 1; // Upcoming
             }
-            return 2; // Ended
+            return 2; // Ended (but still within 10h window)
           };
 
           const priA = getStatus(a);
@@ -47,8 +68,9 @@ leagues.forEach(league => {
           return nextTime(a) - nextTime(b);
         });
       }
+
       renderLeague(data, league.id, league.title);
-      updateStatus(); // show right away
+      updateStatus(); // ✅ run immediately after rendering
     })
     .catch(error => console.error(`Error loading ${league.title} events:`, error));
 });
@@ -122,8 +144,8 @@ function updateStatus() {
         break;
       }
 
-      // remove ended matches only if they are 10+ hours past end
-      if (!shown && now > e + 10 * 3600000) {
+      // ✅ If ended beyond 10 hours → remove instantly
+      if (!shown && now > e + TEN_HOURS) {
         el.remove();
         return;
       }
@@ -136,4 +158,4 @@ function updateStatus() {
 }
 
 setInterval(updateStatus, 1000);
-updateStatus(); // run instantly
+updateStatus(); // run immediately on page load / yosintv
