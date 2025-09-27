@@ -48,6 +48,7 @@ leagues.forEach(league => {
         });
       }
       renderLeague(data, league.id, league.title);
+      updateStatus(); // 👈 run immediately after rendering
     })
     .catch(error => console.error(`Error loading ${league.title} events:`, error));
 });
@@ -92,7 +93,6 @@ function renderEvent(match, container) {
 
 function updateStatus() {
   const now = Date.now();
-  const TEN_HOURS = 10 * 3600000; // 10 hours in ms
 
   document.querySelectorAll('.event').forEach(el => {
     const start = new Date(el.getAttribute('data-start')).getTime();
@@ -122,10 +122,10 @@ function updateStatus() {
         break;
       }
 
-      // 👇 NEW: remove all ended matches (past the 10-hour window)
+      // remove ended matches immediately
       if (!shown && now > e) {
         el.remove();
-        return; // stop processing this event
+        return;
       }
     }
 
@@ -136,4 +136,4 @@ function updateStatus() {
 }
 
 setInterval(updateStatus, 1000);
-updateStatus();
+updateStatus(); // 👈 also run once at start
