@@ -1,82 +1,58 @@
 {
   "matches": [
     {
-      "name": " Kairat vs Real Madrid ",
-      "start": "2025-10-01T01:45:00+09:00",
+      "name": " Al Zawraa vs Al Nassr ",
+      "start": "2025-10-02T03:15:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=realmadrid "
+      "link": " https://blog.cricfoot.net/?yosintv=alnassr "
     },
 
 
     {
-      "name": " Atlético vs Frankfurt ",
-      "start": "2025-10-01T04:00:00+09:00",
+      "name": " Saint-Gilloise vs Newcastle ",
+      "start": "2025-10-02T01:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=atletico "
+      "link": " https://blog.cricfoot.net/?yosintv=newcastle "
     },
 
 
     {
-      "name": " Bodø/Glimt vs Tottenham ",
-      "start": "2025-10-01T04:00:00+09:00",
+      "name": " Monaco vs Man City ",
+      "start": "2025-10-02T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=tottenham "
+      "link": " https://blog.cricfoot.net/?yosintv=mancity "
     },
 
 
     {
-      "name": " Chelsea vs Benfica ",
-      "start": "2025-10-01T04:00:00+09:00",
+      "name": " Arsenal vs Olympiacos ",
+      "start": "2025-10-02T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=chelsea "
+      "link": " https://blog.cricfoot.net/?yosintv=arsenal "
     },
 
 
     {
-      "name": " Galatasaray vs Liverpool ",
-      "start": "2025-10-01T04:00:00+09:00",
+      "name": " Barcelona vs PSG ",
+      "start": "2025-10-02T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=liverpool "
+      "link": " https://blog.cricfoot.net/?yosintv=barcelona "
     },
 
 
     {
-      "name": " Inter vs Slavia Praha ",
-      "start": "2025-10-01T04:00:00+09:00",
+      "name": " Napoli vs Sporting ",
+      "start": "2025-10-02T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=intermilan "
+      "link": " https://blog.cricfoot.net/?yosintv=napoli "
     },
 
 
     {
-      "name": " Pafos vs Bayern München ",
-      "start": "2025-10-01T04:00:00+09:00",
+      "name": " Villarreal vs Juventus ",
+      "start": "2025-10-02T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=munchen "
-    },
-
-
-    {
-      "name": " Inter Miami vs Chicago ",
-      "start": "2025-10-01T08:30:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=intermiami "
-    },
-
-
-    {
-      "name": " Atalanta vs Club Brugge ",
-      "start": "2025-10-01T01:45:00+09:00",
-      "duration": 2.2,
-      "link": "https://yosintv2.github.io/ads/midd.html?url=109053"
-    },
-
-
-    {
-      "name": " Marseille vs Ajax ",
-      "start": "2025-10-01T04:00:00+09:00",
-      "duration": 2.2,
-      "link": "https://yosintv2.github.io/ads/midd.html?url=536185"
+      "link": " https://blog.cricfoot.net/?yosintv=juventus "
     }
   ]
 }
