@@ -1,7 +1,7 @@
 const leagues = [
   { id: 'yosintv-fight', file: 'https://yosintv11.pages.dev/fight.json', title: 'UFC/MMA/Boxing' },
-  { id: 'yosintv-cricket', file: 'https://yosintv11.pages.dev/cricket.json', title: 'Nepal vs West Indies' },
-  { id: 'yosintv-cleague', file: 'https://yosintv11.pages.dev/cleague.json', title: 'Top Cricket' },
+  { id: 'yosintv-cricket', file: 'https://yosintv11.pages.dev/cricket.json', title: 'Top Cricket' },
+  { id: 'yosintv-cleague', file: 'https://yosintv11.pages.dev/cleague.json', title: 'More Cricket' },
   { id: 'yosintv-nepal', file: 'https://yosintv11.pages.dev/nepal.json', title: '4-Nations Women' },
   { id: 'yosintv-npl', file: 'https://yosintv11.pages.dev/npl.json', title: 'NPL T20' },
   { id: 'yosintv-ucl', file: 'https://yosintv11.pages.dev/ucl.json', title: 'Champions League' },
