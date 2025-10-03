@@ -1,26 +1,18 @@
 {
   "matches": [
     {
-      "name": " Ludogorets vs Real Betis ",
-      "start": "2025-10-03T01:45:00+09:00",
+      "name": " Bournemouth vs Fulham ",
+      "start": "2025-10-04T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=realbetis "
+      "link": " https://blog.cricfoot.net/?yosintv=fulham "
     },
 
 
     {
-      "name": " Roma vs Lille ",
-      "start": "2025-10-03T01:45:00+09:00",
+      "name": " Osasuna vs Getafe ",
+      "start": "2025-10-04T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=roma "
-    },
-
-
-    {
-      "name": " Feyenoord vs Aston Villa ",
-      "start": "2025-10-03T04:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=astonvilla "
+      "link": " https://blog.cricfoot.net/?yosintv=getafe "
     }
   ]
 }
