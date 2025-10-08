@@ -1,90 +1,34 @@
 {
   "matches": [
     {
-      "name": " Celta Vigo vs Atlético ",
-      "start": "2025-10-06T04:00:00+09:00",
+      "name": " Djibouti vs Egypt ",
+      "start": "2025-10-09T01:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=atletico "
+      "link": " https://blog.cricfoot.net/?yosintv=egypt "
     },
 
 
     {
-      "name": " Everton vs Crystal ",
-      "start": "2025-10-05T22:00:00+09:00",
+      "name": " Indonesia vs Saudi Arabia ",
+      "start": "2025-10-09T02:15:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=everton "
+      "link": " https://blog.cricfoot.net/?yosintv=indonesia "
     },
 
 
     {
-      "name": " Newcastle vs Nottingham ",
-      "start": "2025-10-05T22:00:00+09:00",
+      "name": " Argentina U20 vs Nigeria U20 ",
+      "start": "2025-10-09T04:30:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=newcastle "
+      "link": " https://blog.cricfoot.net/?yosintv=argentina "
     },
 
 
     {
-      "name": " Wolves vs Brighton ",
-      "start": "2025-10-05T22:00:00+09:00",
+      "name": " Japan U20 vs France U20 ",
+      "start": "2025-10-09T08:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=wolves "
-    },
-
-
-    {
-      "name": " Sevilla vs Barcelona ",
-      "start": "2025-10-05T23:15:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=barcelona "
-    },
-
-
-    {
-      "name": " Fiorentina vs Roma ",
-      "start": "2025-10-05T22:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=roma "
-    },
-
-
-    {
-      "name": " Brentford vs Man City ",
-      "start": "2025-10-06T00:30:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=mancity "
-    },
-
-
-    {
-      "name": " Napoli vs Genoa ",
-      "start": "2025-10-06T01:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=napoli "
-    },
-
-
-    {
-      "name": " Juventus vs Milan ",
-      "start": "2025-10-06T03:45:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=juventus "
-    },
-
-
-    {
-      "name": " Lille vs PSG ",
-      "start": "2025-10-06T03:45:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=psg "
-    },
-
-
-    {
-      "name": " Porto vs Benfica ",
-      "start": "2025-10-06T05:15:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=benfica "
+      "link": " https://blog.cricfoot.net/?yosintv=france "
     }
   ]
 }
