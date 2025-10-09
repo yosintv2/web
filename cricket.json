@@ -1,22 +1,27 @@
 {
   "matches": [
-    
     {
-      "name": " Nepal vs Kuwait ",
-      "start": "2025-10-09T00:00:00+09:00",
+      "name": " India vs Windies, 2nd Test ",
+      "start": "2025-10-10T13:00:00+09:00",
       "duration": 10,
-      "link": " https://blog.cricfoot.net/?yosintv=nepal "
+      "repeat": 5,
+      "link": " https://blog.cricfoot.net/?yosintv=india "
     },
 
 
     {
-      "name": " IND vs West Indies, 1st Test ",
-      "start": "2025-10-02T13:00:00+09:00",
-      "duration": 10,
-      "repeat": 5,
-      "link": " https://blog.cricfoot.net/?yosintv=india "
-    }
+      "name": " UAE vs Malaysia ",
+      "start": "2025-10-10T15:00:00+09:00",
+      "duration": 5,
+      "link": " https://blog.cricfoot.net/?yosintv=uae "
+    },
 
-    
+
+    {
+      "name": " Nepal vs Japan ",
+      "start": "2025-10-10T19:30:00+09:00",
+      "duration": 5,
+      "link": " https://blog.cricfoot.net/?yosintv=nepal "
+    }
   ]
 }
