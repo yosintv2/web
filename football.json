@@ -1,43 +1,58 @@
 {
   "matches": [
-
     {
-      "name": " Oman vs Qatar ",
-      "start": "2025-10-09T00:00:00+09:00",
+      "name": " Singapore vs India ",
+      "start": "2025-10-09T20:30:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=oman "
-    },
-    
-    
-    {
-      "name": " Djibouti vs Egypt ",
-      "start": "2025-10-09T01:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=egypt "
+      "link": " https://blog.cricfoot.net/?yosintv=india "
     },
 
 
     {
-      "name": " Indonesia vs Saudi Arabia ",
-      "start": "2025-10-09T02:15:00+09:00",
+      "name": " Vietnam vs Nepal ",
+      "start": "2025-10-09T21:30:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=indonesia "
+      "link": " https://blog.cricfoot.net/?yosintv=nepal "
     },
 
 
     {
-      "name": " Argentina U20 vs Nigeria U20 ",
-      "start": "2025-10-09T04:30:00+09:00",
+      "name": " Bangladesh vs Hong Kong ",
+      "start": "2025-10-09T23:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=argentina "
+      "link": " https://blog.cricfoot.net/?yosintv=bangladesh "
     },
 
 
     {
-      "name": " Japan U20 vs France U20 ",
-      "start": "2025-10-09T08:00:00+09:00",
+      "name": " Belarus vs Denmark ",
+      "start": "2025-10-10T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=france "
+      "link": " https://blog.cricfoot.net/?yosintv=denmark "
+    },
+
+
+    {
+      "name": " Czechia vs Croatia ",
+      "start": "2025-10-10T03:45:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=croatia "
+    },
+
+
+    {
+      "name": " England vs Wales ",
+      "start": "2025-10-10T03:45:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=england "
+    },
+
+
+    {
+      "name": " Malta vs Netherlands ",
+      "start": "2025-10-10T03:45:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=netherlands "
     }
   ]
 }
