@@ -29,6 +29,30 @@
       "start": "2025-10-11T03:45:00+09:00",
       "duration": 2.2,
       "link": " https://blog.cricfoot.net/?yosintv=sweden "
+    },
+
+
+    {
+      "name": " Canada vs Australia ",
+      "start": "2025-10-11T08:30:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=canada "
+    },
+
+
+    {
+      "name": " Argentina vs Venezuela ",
+      "start": "2025-10-11T09:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=argentina "
+    },
+
+
+    {
+      "name": " USA vs Ecuador ",
+      "start": "2025-10-11T09:30:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=usa "
     }
   ]
 }
