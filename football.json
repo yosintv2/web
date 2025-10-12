@@ -1,50 +1,42 @@
 {
   "matches": [
     {
-      "name": " Netherlands vs Finland ",
-      "start": "2025-10-13T01:00:00+09:00",
+      "name": " Ireland vs Germany ",
+      "start": "2025-10-14T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=netherlands "
+      "link": " https://blog.cricfoot.net/?yosintv=germany "
     },
 
 
     {
-      "name": " Croatia vs Gibraltar ",
-      "start": "2025-10-13T03:45:00+09:00",
+      "name": " Iceland vs France ",
+      "start": "2025-10-14T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=croatia "
+      "link": " https://blog.cricfoot.net/?yosintv=france "
     },
 
 
     {
-      "name": " Denmark vs Greece ",
-      "start": "2025-10-13T03:45:00+09:00",
+      "name": " Slovenia vs Switzerland ",
+      "start": "2025-10-14T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=denmark "
+      "link": " https://blog.cricfoot.net/?yosintv=switzerland "
     },
 
 
     {
-      "name": " Ghana vs Comoros ",
-      "start": "2025-10-13T04:00:00+09:00",
+      "name": " Sweden vs Kosovo ",
+      "start": "2025-10-14T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=ghana "
+      "link": " https://blog.cricfoot.net/?yosintv=sweden "
     },
 
 
     {
-      "name": " USA U20 vs Morocco U20 ",
-      "start": "2025-10-13T05:00:00+09:00",
+      "name": " Wales vs Belgium ",
+      "start": "2025-10-14T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=usa "
-    },
-
-
-    {
-      "name": " Norway U20 vs France U20 ",
-      "start": "2025-10-13T08:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=norway "
+      "link": " https://blog.cricfoot.net/?yosintv=wales "
     }
   ]
 }
