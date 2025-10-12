@@ -1,19 +1,50 @@
 {
   "matches": [
+    {
+      "name": " Netherlands vs Finland ",
+      "start": "2025-10-13T01:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=netherlands "
+    },
+
 
     {
-      "name": " Mexico vs Colombia ",
-      "start": "2025-10-12T10:00:00+09:00",
+      "name": " Croatia vs Gibraltar ",
+      "start": "2025-10-13T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=mexico "
-    }
+      "link": " https://blog.cricfoot.net/?yosintv=croatia "
+    },
 
 
     {
-      "name": " Inter Miami vs Atlanta ",
-      "start": "2025-10-12T08:30:00+09:00",
+      "name": " Denmark vs Greece ",
+      "start": "2025-10-13T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=intermiami "
+      "link": " https://blog.cricfoot.net/?yosintv=denmark "
+    },
+
+
+    {
+      "name": " Ghana vs Comoros ",
+      "start": "2025-10-13T04:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=ghana "
+    },
+
+
+    {
+      "name": " USA U20 vs Morocco U20 ",
+      "start": "2025-10-13T05:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=usa "
+    },
+
+
+    {
+      "name": " Norway U20 vs France U20 ",
+      "start": "2025-10-13T08:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=norway "
     }
   ]
 }
