@@ -10,14 +10,6 @@
 
 
     {
-      "name": " Afghanistan vs Bangladesh",
-      "start": "2025-10-11T21:00:00+09:00",
-      "duration": 6,
-      "link": " https://blog.cricfoot.net/?yosintv=bangladesh "
-    },
-
-
-    {
       "name": " Pakistan vs SA, 1st Test ",
       "start": "2025-10-12T14:00:00+09:00",
       "duration": 5,
@@ -25,8 +17,16 @@
     },
 
     {
-      "name": " Nepal vs UAE, Super 6 ",
-      "start": "2025-10-12T19:30:00+09:00",
+      "name": " Oman vs UAE, Super Six ",
+      "start": "2025-10-13T19:30:00+09:00",
+      "duration": 5,
+      "link": " https://blog.cricfoot.net/?yosintv=uae "
+    },
+
+
+    {
+      "name": " Nepal vs Qatar, Super Six ",
+      "start": "2025-10-14T00:00:00+09:00",
       "duration": 5,
       "link": " https://blog.cricfoot.net/?yosintv=nepal "
     }
