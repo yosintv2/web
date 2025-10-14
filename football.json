@@ -1,42 +1,34 @@
 {
   "matches": [
     {
-      "name": " Ireland vs Germany ",
-      "start": "2025-10-14T03:45:00+09:00",
+      "name": " Japan vs Brazil ",
+      "start": "2025-10-14T19:30:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=germany "
+      "link": " https://blog.cricfoot.net/?yosintv=japan "
     },
 
 
     {
-      "name": " Iceland vs France ",
-      "start": "2025-10-14T03:45:00+09:00",
+      "name": " South Korea vs Paraguay ",
+      "start": "2025-10-14T20:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=france "
+      "link": " https://blog.cricfoot.net/?yosintv=korea "
     },
 
 
     {
-      "name": " Slovenia vs Switzerland ",
-      "start": "2025-10-14T03:45:00+09:00",
+      "name": " Nepal vs Vietnam ",
+      "start": "2025-10-14T21:30:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=switzerland "
+      "link": " https://blog.cricfoot.net/?yosintv=nepal "
     },
 
 
     {
-      "name": " Sweden vs Kosovo ",
-      "start": "2025-10-14T03:45:00+09:00",
+      "name": " India vs Singapore ",
+      "start": "2025-10-14T23:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=sweden "
-    },
-
-
-    {
-      "name": " Wales vs Belgium ",
-      "start": "2025-10-14T03:45:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=belgium "
+      "link": " https://blog.cricfoot.net/?yosintv=india "
     }
   ]
 }
