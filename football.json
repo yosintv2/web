@@ -1,34 +1,66 @@
 {
   "matches": [
     {
-      "name": " Japan vs Brazil ",
-      "start": "2025-10-14T19:30:00+09:00",
+      "name": " Latvia vs England ",
+      "start": "2025-10-14T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=japan "
+      "link": " https://blog.cricfoot.net/?yosintv=england "
     },
 
 
     {
-      "name": " South Korea vs Paraguay ",
-      "start": "2025-10-14T20:00:00+09:00",
+      "name": " Turkey vs Georgia ",
+      "start": "2025-10-14T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=korea "
+      "link": " https://blog.cricfoot.net/?yosintv=turkey "
     },
 
 
     {
-      "name": " Nepal vs Vietnam ",
-      "start": "2025-10-14T21:30:00+09:00",
+      "name": " Spain vs Bulgaria ",
+      "start": "2025-10-14T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=nepal "
+      "link": " https://blog.cricfoot.net/?yosintv=spain "
     },
 
 
     {
-      "name": " India vs Singapore ",
-      "start": "2025-10-14T23:00:00+09:00",
+      "name": " Italy vs Israel ",
+      "start": "2025-10-14T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=india "
+      "link": " https://blog.cricfoot.net/?yosintv=italy "
+    },
+
+
+    {
+      "name": " Portugal vs Hungary ",
+      "start": "2025-10-14T03:45:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=portugal "
+    },
+
+
+    {
+      "name": " Norway vs New Zealand ",
+      "start": "2025-10-14T01:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=norway "
+    },
+
+
+    {
+      "name": " Puerto Rico vs Argentina ",
+      "start": "2025-10-14T09:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=argentina "
+    },
+
+
+    {
+      "name": " Mexico vs Ecuador ",
+      "start": "2025-10-14T11:30:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=mexico "
     }
   ]
 }
