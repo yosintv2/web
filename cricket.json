@@ -1,33 +1,26 @@
 {
   "matches": [
     {
-      "name": " Australia W vs Bangladesh W ",
-      "start": "2025-10-16T18:30:00+09:00",
-      "duration": 10,
-      "link": " https://blog.cricfoot.net/?yosintv=australia "
+      "name": " NZ vs England, 1st T20I ",
+      "start": "2025-10-17T15:15:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=england "
     },
 
 
     {
-      "name": " Pakistan vs SA, 1st Test ",
-      "start": "2025-10-12T14:00:00+09:00",
-      "duration": 5,
-      "link": " https://blog.cricfoot.net/?yosintv=pakistan "
+      "name": " Bangladesh vs Windies, 1st ODI ",
+      "start": "2025-10-17T16:30:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=bangladesh "
     },
 
-    
+
     {
-      "name": " Oman vs Japan, Super Six ",
-      "start": "2025-10-17T15:00:00+09:00",
-      "duration": 5,
-      "link": " https://blog.cricfoot.net/?yosintv=japan "
-    },
-    
-    {
-      "name": " Nepal vs Samao, Super Six ",
-      "start": "2025-10-17T19:30:00+09:00",
-      "duration": 5,
-      "link": " https://blog.cricfoot.net/?yosintv=nepal "
+      "name": " NZ Women vs PAK Women ",
+      "start": "2025-10-17T18:30:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=womenwc "
     }
   ]
 }
