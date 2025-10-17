@@ -1,66 +1,18 @@
 {
   "matches": [
     {
-      "name": " Argentina U20 vs Colombia U20 ",
-      "start": "2025-10-16T08:00:00+09:00",
+      "name": " Chaves vs Benfica ",
+      "start": "2025-10-18T03:30:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=argentina "
+      "link": " https://blog.cricfoot.net/?yosintv=benfica "
     },
 
 
     {
-      "name": " Turkey vs Georgia ",
-      "start": "2025-10-14T03:45:00+09:00",
+      "name": " PSG vs Strasbourg ",
+      "start": "2025-10-18T03:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=turkey "
-    },
-
-
-    {
-      "name": " Spain vs Bulgaria ",
-      "start": "2025-10-14T03:45:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=spain "
-    },
-
-
-    {
-      "name": " Italy vs Israel ",
-      "start": "2025-10-14T03:45:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=italy "
-    },
-
-
-    {
-      "name": " Portugal vs Hungary ",
-      "start": "2025-10-14T03:45:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=portugal "
-    },
-
-
-    {
-      "name": " Norway vs New Zealand ",
-      "start": "2025-10-14T01:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=norway "
-    },
-
-
-    {
-      "name": " Puerto Rico vs Argentina ",
-      "start": "2025-10-15T09:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=argentina "
-    },
-
-
-    {
-      "name": " Mexico vs Ecuador ",
-      "start": "2025-10-15T11:30:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=mexico "
+      "link": " https://blog.cricfoot.net/?yosintv=psg "
     }
   ]
 }
