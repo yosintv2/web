@@ -1,18 +1,114 @@
 {
   "matches": [
     {
-      "name": " Chaves vs Benfica ",
-      "start": "2025-10-18T03:30:00+09:00",
+      "name": " Nottingham vs Chelsea ",
+      "start": "2025-10-18T20:30:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=benfica "
+      "link": " https://blog.cricfoot.net/?yosintv=chelsea "
     },
 
 
     {
-      "name": " PSG vs Strasbourg ",
-      "start": "2025-10-18T03:45:00+09:00",
+      "name": " Brighton vs Newcastle ",
+      "start": "2025-10-18T23:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=psg "
+      "link": " https://blog.cricfoot.net/?yosintv=newcastle "
+    },
+
+
+    {
+      "name": " Crystal Palace vs Bournemouth ",
+      "start": "2025-10-18T23:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=crystal "
+    },
+
+
+    {
+      "name": " Man City vs Everton ",
+      "start": "2025-10-18T23:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=mancity "
+    },
+
+
+    {
+      "name": " Sunderland vs Wolves ",
+      "start": "2025-10-18T23:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=wolves "
+    },
+
+
+    {
+      "name": " Fulham vs Arsenal ",
+      "start": "2025-10-19T01:30:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=arsenal "
+    },
+
+
+    {
+      "name": " Sevilla vs Mallorca ",
+      "start": "2025-10-18T21:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=sevilla "
+    },
+
+
+    {
+      "name": " Barcelona vs Girona ",
+      "start": "2025-10-18T23:15:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=barcelona "
+    },
+
+
+    {
+      "name": " Villarreal vs Real Betis ",
+      "start": "2025-10-19T01:30:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=realbetis "
+    },
+
+
+    {
+      "name": " Atlético vs Osasuna ",
+      "start": "2025-10-19T04:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=atletico "
+    },
+
+
+    {
+      "name": " Torino vs Napoli ",
+      "start": "2025-10-19T01:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=napoli "
+    },
+
+
+    {
+      "name": " Roma vs Inter Milan ",
+      "start": "2025-10-19T03:45:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=intermilan "
+    },
+
+
+    {
+      "name": " Mainz 05 vs Leverkusen ",
+      "start": "2025-10-18T22:30:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=leverkusen "
+    },
+
+
+    {
+      "name": " Bayern vs Dortmund ",
+      "start": "2025-10-19T01:30:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=dortmund "
     }
   ]
 }
