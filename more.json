@@ -1,34 +1,50 @@
 {
   "matches": [
     {
-      "name": " Burnley vs Leeds ",
-      "start": "2025-10-18T23:00:00+09:00",
+      "name": " Levante vs Rayo Vallecano ",
+      "start": "2025-10-20T01:30:00+09:00",
       "duration": 2.2,
-      "link": "https://yosintv2.github.io/ads/midd.html?url=304148"
+      "link": "https://yosintv2.github.io/ads/midd.html?url=_____"
     },
 
 
     {
-      "name": " Lecce vs Sassuolo ",
-      "start": "2025-10-18T22:00:00+09:00",
+      "name": " Atalanta vs Lazio ",
+      "start": "2025-10-20T01:00:00+09:00",
       "duration": 2.2,
-      "link": "https://yosintv2.github.io/ads/midd.html?url=375503"
+      "link": "https://yosintv2.github.io/ads/midd.html?url=_____"
     },
 
 
     {
-      "name": " Pisa vs Hellas Verona ",
-      "start": "2025-10-18T22:00:00+09:00",
+      "name": " Lorient vs Stade Brestois ",
+      "start": "2025-10-20T00:15:00+09:00",
       "duration": 2.2,
-      "link": "https://yosintv2.github.io/ads/midd.html?url=290928"
+      "link": "https://yosintv2.github.io/ads/midd.html?url=_____"
     },
 
 
     {
-      "name": " Nice vs Lyon ",
-      "start": "2025-10-19T00:00:00+09:00",
+      "name": " Stade Rennais vs Auxerre ",
+      "start": "2025-10-20T00:15:00+09:00",
       "duration": 2.2,
-      "link": "https://yosintv2.github.io/ads/midd.html?url=501412"
+      "link": "https://yosintv2.github.io/ads/midd.html?url=_____"
+    },
+
+
+    {
+      "name": " Toulouse vs Metz ",
+      "start": "2025-10-20T00:15:00+09:00",
+      "duration": 2.2,
+      "link": "https://yosintv2.github.io/ads/midd.html?url=_____"
+    },
+
+
+    {
+      "name": " Nantes vs Lille ",
+      "start": "2025-10-20T03:45:00+09:00",
+      "duration": 2.2,
+      "link": "https://yosintv2.github.io/ads/midd.html?url=_____"
     }
   ]
 }
