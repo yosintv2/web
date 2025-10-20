@@ -1,58 +1,18 @@
 {
   "matches": [
     {
-      "name": " Tottenham vs Aston Villa ",
-      "start": "2025-10-19T22:00:00+09:00",
+      "name": " West Ham vs Brentford ",
+      "start": "2025-10-21T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=tottenham "
+      "link": " https://blog.cricfoot.net/?yosintv=westham "
     },
 
 
     {
-      "name": " Liverpool vs Man United ",
-      "start": "2025-10-20T00:30:00+09:00",
+      "name": " Al Shorta vs AlIttihad ",
+      "start": "2025-10-21T01:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=liverpool "
-    },
-
-
-    {
-      "name": " Elche vs Athletic ",
-      "start": "2025-10-19T21:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=athetic "
-    },
-
-
-    {
-      "name": " Celta Vigo vs Sociedad ",
-      "start": "2025-10-19T23:15:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=sociedad "
-    },
-
-
-    {
-      "name": " Getafe vs Real Madrid ",
-      "start": "2025-10-20T04:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=realmadrid "
-    },
-
-
-    {
-      "name": " Milan vs Fiorentina ",
-      "start": "2025-10-20T03:45:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=acmilan "
-    },
-
-
-    {
-      "name": " Argentina U20 vs Morocco U20 ",
-      "start": "2025-10-20T08:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=argentina "
+      "link": " https://blog.cricfoot.net/?yosintv=alittihad "
     }
   ]
 }
