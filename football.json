@@ -1,66 +1,58 @@
 {
   "matches": [
     {
-      "name": " Barcelona vs Olympiacos ",
-      "start": "2025-10-22T01:45:00+09:00",
+      "name": " Athletic vs Qarabağ ",
+      "start": "2025-10-23T01:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=barcelona "
+      "link": " https://blog.cricfoot.net/?yosintv=athletic "
     },
 
 
     {
-      "name": " Arsenal vs Atlético ",
-      "start": "2025-10-22T04:00:00+09:00",
+      "name": " Monaco vs Tottenham ",
+      "start": "2025-10-23T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=arsenal "
+      "link": " https://blog.cricfoot.net/?yosintv=tottenham "
     },
 
 
     {
-      "name": " Leverkusen vs PSG ",
-      "start": "2025-10-22T04:00:00+09:00",
+      "name": " Chelsea vs Ajax ",
+      "start": "2025-10-23T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=psg "
+      "link": " https://blog.cricfoot.net/?yosintv=chelsea "
     },
 
 
     {
-      "name": " København vs Dortmund ",
-      "start": "2025-10-22T04:00:00+09:00",
+      "name": " Frankfurt vs Liverpool ",
+      "start": "2025-10-23T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=dortmund "
+      "link": " https://blog.cricfoot.net/?yosintv=liverpool "
     },
 
 
     {
-      "name": " Newcastle vs Benfica ",
-      "start": "2025-10-22T04:00:00+09:00",
+      "name": " Bayern München vs Brugge ",
+      "start": "2025-10-23T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=newcastle "
+      "link": " https://blog.cricfoot.net/?yosintv=bayern "
     },
 
 
     {
-      "name": " PSV vs Napoli ",
-      "start": "2025-10-22T04:00:00+09:00",
+      "name": " Real Madrid vs Juventus ",
+      "start": "2025-10-23T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=napoli "
+      "link": " https://blog.cricfoot.net/?yosintv=realmadrid "
     },
 
 
     {
-      "name": " Saint-Gilloise vs Inter Milan ",
-      "start": "2025-10-22T04:00:00+09:00",
+      "name": " Sporting CP vs Marseille ",
+      "start": "2025-10-23T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=intermilan "
-    },
-
-
-    {
-      "name": " Villarreal vs Man City ",
-      "start": "2025-10-22T04:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=mancity "
+      "link": " https://blog.cricfoot.net/?yosintv=marseille "
     }
   ]
 }
