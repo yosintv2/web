@@ -1,67 +1,42 @@
 {
-  "matches": [ 
-    
+  "matches": [
     {
-      "name": " FC Goa vs Al-Nassr ",
-      "start": "2025-10-22T22:45:00+09:00",
+      "name": " Genk vs Real Betis ",
+      "start": "2025-10-24T01:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=alnassr "
-    },
-
-    
-    {
-      "name": " Athletic vs Qarabağ ",
-      "start": "2025-10-23T01:45:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=athletic "
+      "link": " https://blog.cricfoot.net/?yosintv=realbetis "
     },
 
 
     {
-      "name": " Real Madrid vs Juventus ",
-      "start": "2025-10-23T04:00:00+09:00",
+      "name": " Eagles vs Aston Villa ",
+      "start": "2025-10-24T01:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=realmadrid "
-    },
-    
-    
-    {
-      "name": " Chelsea vs Ajax ",
-      "start": "2025-10-23T04:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=chelsea "
+      "link": " https://blog.cricfoot.net/?yosintv=astonvilla "
     },
 
 
     {
-      "name": " Frankfurt vs Liverpool ",
-      "start": "2025-10-23T04:00:00+09:00",
+      "name": " Celta Vigo vs Nice ",
+      "start": "2025-10-24T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=liverpool "
-    },
-    
-    
-    {
-      "name": " Bayern München vs Brugge ",
-      "start": "2025-10-23T04:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=munchen "
-    },
-    
-    
-    {
-      "name": " Monaco vs Tottenham ",
-      "start": "2025-10-23T04:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=tottenham "
+      "link": " https://blog.cricfoot.net/?yosintv=celtavigo "
     },
 
 
     {
-      "name": " Sporting CP vs Marseille ",
-      "start": "2025-10-23T04:00:00+09:00",
+      "name": " Roma vs Viktoria Plzeň ",
+      "start": "2025-10-24T04:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=marseille "
+      "link": " https://blog.cricfoot.net/?yosintv=roma "
+    },
+
+
+    {
+      "name": " Nottingham vs Porto ",
+      "start": "2025-10-24T04:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=nottingham "
     }
   ]
 }
