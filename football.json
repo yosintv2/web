@@ -1,66 +1,18 @@
 {
   "matches": [
     {
-      "name": " Arsenal vs Crystal Palace ",
-      "start": "2025-10-26T23:00:00+09:00",
+      "name": " Real Betis vs Atlético Madrid ",
+      "start": "2025-10-28T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=arsenal "
+      "link": " https://blog.cricfoot.net/?yosintv=atletico "
     },
 
 
     {
-      "name": " Aston Villa vs Man City ",
-      "start": "2025-10-26T23:00:00+09:00",
+      "name": " Moreirense vs Porto ",
+      "start": "2025-10-28T05:15:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=mancity "
-    },
-
-
-    {
-      "name": " Bournemouth vs Nottingham ",
-      "start": "2025-10-26T23:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=nottingham "
-    },
-
-
-    {
-      "name": " Everton vs Tottenham ",
-      "start": "2025-10-27T01:30:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=tottenham "
-    },
-
-
-    {
-      "name": " Real Madrid vs Barcelona ",
-      "start": "2025-10-27T00:15:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=barcelona "
-    },
-
-
-    {
-      "name": " Leverkusen vs Freiburg ",
-      "start": "2025-10-26T23:30:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=leverkusen "
-    },
-
-
-    {
-      "name": " Sassuolo vs Roma ",
-      "start": "2025-10-26T23:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=roma "
-    },
-
-
-    {
-      "name": " Lazio vs Juventus ",
-      "start": "2025-10-27T04:45:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=juventus "
+      "link": " https://blog.cricfoot.net/?yosintv=porto "
     }
   ]
 }
