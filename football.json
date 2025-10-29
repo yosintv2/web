@@ -1,6 +1,5 @@
 {
   "matches": [
-    
     {
       "name": " Paderborn vs Leverkusen ",
       "start": "2025-10-30T02:00:00+09:00",
@@ -70,6 +69,14 @@
       "start": "2025-10-30T04:45:00+09:00",
       "duration": 2.2,
       "link": " https://blog.cricfoot.net/?yosintv=chelsea "
+    },
+
+
+    {
+      "name": " Newcastle vs Tottenham ",
+      "start": "2025-10-30T05:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=tottenham "
     }
   ]
 }
