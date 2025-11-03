@@ -1,50 +1,18 @@
 {
   "matches": [
     {
-      "name": " Verona vs Inter Milan ",
-      "start": "2025-11-02T20:30:00+09:00",
+      "name": " Sunderland vs Everton ",
+      "start": "2025-11-04T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=intermilan "
+      "link": " https://blog.cricfoot.net/?yosintv=everton "
     },
 
 
     {
-      "name": " West Ham vs Newcastle ",
-      "start": "2025-11-02T23:00:00+09:00",
+      "name": " Real Oviedo vs Osasuna ",
+      "start": "2025-11-04T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=westham "
-    },
-
-
-    {
-      "name": " Man City vs Bournemouth ",
-      "start": "2025-11-03T01:30:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=mancity "
-    },
-
-
-    {
-      "name": " Barcelona vs Elche ",
-      "start": "2025-11-03T02:30:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=barcelona "
-    },
-
-
-    {
-      "name": " Real Betis vs Mallorca ",
-      "start": "2025-11-03T05:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=realbetis "
-    },
-
-
-    {
-      "name": " AC Milan vs Roma ",
-      "start": "2025-11-03T04:45:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=acmilan "
+      "link": " https://blog.cricfoot.net/?yosintv=osasuna "
     }
   ]
 }
