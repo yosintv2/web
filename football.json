@@ -1,58 +1,66 @@
 {
   "matches": [
     {
-      "name": " Napoli vs Frankfurt ",
-      "start": "2025-11-05T02:45:00+09:00",
+      "name": " Pafos vs Villarreal ",
+      "start": "2025-11-06T02:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=napoli "
+      "link": " https://blog.cricfoot.net/?yosintv=villarreal "
     },
 
 
     {
-      "name": " Slavia Praha vs Arsenal ",
-      "start": "2025-11-05T02:45:00+09:00",
+      "name": " Qarabağ vs Chelsea ",
+      "start": "2025-11-06T02:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=arsenal "
+      "link": " https://blog.cricfoot.net/?yosintv=chelsea "
     },
 
 
     {
-      "name": " Liverpool vs Real Madrid ",
-      "start": "2025-11-05T05:00:00+09:00",
+      "name": " Al Nassr vs FC Goa ",
+      "start": "2025-11-06T03:15:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=liverpool "
+      "link": " https://blog.cricfoot.net/?yosintv=alnassr "
     },
 
 
     {
-      "name": " PSG vs Bayern München ",
-      "start": "2025-11-05T05:00:00+09:00",
+      "name": " Benfica vs Leverkusen ",
+      "start": "2025-11-06T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=psg "
+      "link": " https://blog.cricfoot.net/?yosintv=benfica "
     },
 
 
     {
-      "name": " Tottenham vs København ",
-      "start": "2025-11-05T05:00:00+09:00",
+      "name": " Club Brugge vs Barcelona ",
+      "start": "2025-11-06T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=tottenham "
+      "link": " https://blog.cricfoot.net/?yosintv=barcelona "
     },
 
 
     {
-      "name": " Atlético vs Saint-Gilloise ",
-      "start": "2025-11-05T05:00:00+09:00",
+      "name": " Inter Milan vs Kairat ",
+      "start": "2025-11-06T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=atletico "
+      "link": " https://blog.cricfoot.net/?yosintv=intermilan "
     },
 
 
     {
-      "name": " Juventus vs Sporting CP ",
-      "start": "2025-11-05T05:00:00+09:00",
+      "name": " Man City vs Dortmund ",
+      "start": "2025-11-06T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=juventus "
+      "link": " https://blog.cricfoot.net/?yosintv=mancity "
+    },
+
+
+    {
+      "name": " Newcastle vs Athletic ",
+      "start": "2025-11-06T05:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=newcastle "
     }
   ]
 }
