@@ -1,26 +1,26 @@
 {
   "matches": [
     {
-      "name": " Australia vs India, 3rd T20I ",
-      "start": "2025-11-02T17:15:00+09:00",
-      "duration": 6,
+      "name": " NZ vs Windies, 2nd T20I ",
+      "start": "2025-11-06T15:15:00+09:00",
+      "duration": 5,
+      "link": " https://blog.cricfoot.net/?yosintv=newzealand "
+    },
+
+
+    {
+      "name": " AUS vs India, 4th T20I ",
+      "start": "2025-11-06T17:15:00+09:00",
+      "duration": 5,
       "link": " https://blog.cricfoot.net/?yosintv=india "
     },
 
 
     {
-      "name": " PAK vs South Africa, 1st ODI ",
-      "start": "2025-11-04T19:00:00+09:00",
-      "duration": 9,
+      "name": " PAK vs S.Africa, 2nd ODI ",
+      "start": "2025-11-06T19:00:00+09:00",
+      "duration": 5,
       "link": " https://blog.cricfoot.net/?yosintv=pakistan "
-    },
-
-
-    {
-      "name": " UAE vs Nepal, Match 91 ",
-      "start": "2025-11-05T14:30:00+09:00",
-      "duration": 9,
-      "link": " https://blog.cricfoot.net/?yosintv=nepal "
     }
   ]
 }
