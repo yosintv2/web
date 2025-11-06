@@ -1,57 +1,42 @@
 {
   "matches": [
     {
-      "name": " Pafos vs Villarreal ",
-      "start": "2025-11-06T02:45:00+09:00",
+      "name": " Sturm Graz vs Nottingham ",
+      "start": "2025-11-07T02:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=villarreal "
+      "link": " https://blog.cricfoot.net/?yosintv=nottingham "
     },
 
 
     {
-      "name": " Qarabağ vs Chelsea ",
-      "start": "2025-11-06T02:45:00+09:00",
+      "name": " Dinamo vs Celta Vigo ",
+      "start": "2025-11-07T02:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=chelsea "
+      "link": " https://blog.cricfoot.net/?yosintv=celtavigo "
     },
 
 
     {
-      "name": " Al Nassr vs FC Goa ",
-      "start": "2025-11-06T03:15:00+09:00",
+      "name": " Rangers vs Roma ",
+      "start": "2025-11-07T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=alnassr "
+      "link": " https://blog.cricfoot.net/?yosintv=roma "
     },
 
 
     {
-      "name": " Benfica vs Leverkusen ",
-      "start": "2025-11-06T05:00:00+09:00",
+      "name": " Aston Villa vs Maccabi ",
+      "start": "2025-11-07T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=benfica "
+      "link": " https://blog.cricfoot.net/?yosintv=astonvilla "
     },
 
 
     {
-      "name": " Club Brugge vs Barcelona ",
-      "start": "2025-11-06T05:00:00+09:00",
+      "name": " Real Betis vs Lyon ",
+      "start": "2025-11-07T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=barcelona "
-    },
-
-
-    {
-      "name": " Man City vs Dortmund ",
-      "start": "2025-11-06T05:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=mancity "
-    },
-    
-    {
-      "name": " Inter Milan vs Kairat ",
-      "start": "2025-11-06T05:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=intermilan "
+      "link": " https://blog.cricfoot.net/?yosintv=realbetis "
     }
   ]
 }
