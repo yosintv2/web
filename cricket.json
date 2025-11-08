@@ -9,18 +9,28 @@
 
 
     {
-      "name": " AUS vs India, 4th T20I ",
-      "start": "2025-11-06T17:15:00+09:00",
-      "duration": 5,
+      "name": " AUS vs India, 5th T20I ",
+      "start": "2025-11-08T17:15:00+09:00",
+      "duration": 2.2,
       "link": " https://blog.cricfoot.net/?yosintv=india "
     },
 
 
     {
-      "name": " PAK vs S.Africa, 2nd ODI ",
-      "start": "2025-11-06T19:00:00+09:00",
-      "duration": 5,
+      "name": " PAK vs South Africa, 3rd ODI ",
+      "start": "2025-11-08T19:00:00+09:00",
+      "duration": 2.2,
       "link": " https://blog.cricfoot.net/?yosintv=pakistan "
+    },
+
+
+    {
+      "name": " QAT vs Afghanistan, 1st T20I ",
+      "start": "2025-11-08T23:30:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=afghanistan "
     }
+
+    
   ]
 }
