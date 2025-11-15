@@ -1,7 +1,7 @@
 const leagues = [
   { id: 'yosintv-fight', file: 'https://web.cricfoot.net/fight.json', title: 'UFC/MMA/Boxing' },
   { id: 'yosintv-cricket', file: 'https://web.cricfoot.net/cricket.json', title: 'Top Cricket' },
-  { id: 'yosintv-cleague', file: 'https://web.cricfoot.net/cleague.json', title: 'More Cricket' },
+  { id: 'yosintv-cleague', file: 'https://web.cricfoot.net/cleague.json', title: 'NPL Season 2' },
   { id: 'yosintv-nepal', file: 'https://web.cricfoot.net/nepal.json', title: '4-Nations Women' },
   { id: 'yosintv-npl', file: 'https://web.cricfoot.net/npl.json', title: 'NPL T20' },
   { id: 'yosintv-ucl', file: 'https://web.cricfoot.net/ucl.json', title: 'Champions League' },
