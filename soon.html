@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Match Starting Soon</title>
+  <style>
+    /* ===== GLOBAL STYLES ===== */
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e40af, #7e22ce, #f43f5e);
+      background-size: 400% 400%;
+      animation: gradientMove 8s ease infinite;
+      color: white;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* ===== LOGO ===== */
+    .logo {
+      position: absolute;
+      top: 25px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 120px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    /* ===== TEXT AREA ===== */
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin: 0;
+      letter-spacing: 1px;
+      text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+    p {
+      margin-top: 15px;
+      font-size: 1.3rem;
+      color: #f1f1f1;
+      letter-spacing: 0.5px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* ===== ANIMATED RING ===== */
+    .ring {
+      position: absolute;
+      width: 250px;
+      height: 250px;
+      border: 5px solid rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+      animation: spin 5s linear infinite;
+    }
+
+    .ring::before, .ring::after {
+      content: '';
+      position: absolute;
+      border: inherit;
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+    }
+
+    .ring::before {
+      top: -10px;
+      left: -10px;
+      border-color: rgba(255,255,255,0.1);
+    }
+
+    .ring::after {
+      top: 10px;
+      left: 10px;
+      border-color: rgba(255,255,255,0.1);
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    /* ===== LIVE BADGE ===== */
+    .live-badge {
+      background: red;
+      color: white;
+      font-weight: bold;
+      font-size: 0.9rem;
+      padding: 8px 15px;
+      border-radius: 20px;
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      box-shadow: 0 0 15px red;
+      animation: pulse 1s infinite alternate;
+    }
+
+    @keyframes pulse {
+      from { transform: scale(1); box-shadow: 0 0 15px red; }
+      to { transform: scale(1.1); box-shadow: 0 0 30px red; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Animated ring -->
+  <div class="ring"></div>
+
+  <!-- Text content -->
+  <h1>🏏 Match Starting Soon...</h1>
+  <p>Stay tuned! The live broadcast will begin shortly.</p>
+
+</body>
+</html>
