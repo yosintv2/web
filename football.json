@@ -1,34 +1,26 @@
 {
   "matches": [
     {
-      "name": " Germany vs Slovakia ",
-      "start": "2025-11-18T04:45:00+09:00",
+      "name": " Japan vs Bolivia ",
+      "start": "2025-11-18T19:15:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=germany "
+      "link": " https://blog.cricfoot.net/?yosintv=japan "
     },
 
 
     {
-      "name": " Malta vs Poland ",
-      "start": "2025-11-18T04:45:00+09:00",
+      "name": " Nepal vs Malaysia ",
+      "start": "2025-11-18T22:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=poland "
+      "link": " https://blog.cricfoot.net/?yosintv=nepal "
     },
 
 
     {
-      "name": " Montenegro vs Croatia ",
-      "start": "2025-11-18T04:45:00+09:00",
+      "name": " Bangladesh vs India ",
+      "start": "2025-11-18T23:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=croatia "
-    },
-
-
-    {
-      "name": " Netherlands vs Lithuania ",
-      "start": "2025-11-18T04:45:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=netherlands "
+      "link": " https://blog.cricfoot.net/?yosintv=bangladesh "
     }
   ]
 }
