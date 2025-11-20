@@ -2,24 +2,26 @@
   "matches": [
 
     {
-      "name": " India vs SA, 1st Test ",
-      "start": "2025-11-14T13:00:00+09:00",
-      "duration": 5,
+      "name": " India vs SA, 2nd Test ",
+      "start": "2025-11-22T12:30:00+09:00",
+      "duration": 9,
+      "repeat": 5,
       "link": " https://blog.cricfoot.net/?yosintv=india "
     },
 
 
     {
-      "name": " PAK vs Zimbabwe, 1st Match ",
-      "start": "2025-11-18T22:00:00+09:00",
+      "name": " AUS vs England, 1st Test ",
+      "start": "2025-11-21T11:30:00+09:00",
       "duration": 9,
+      "repeat": 5,
       "link": " https://blog.cricfoot.net/?yosintv=pakistan "
     },
 
 
     {
-      "name": " NZ vs Windies, 4th T20I ",
-      "start": "2025-11-10T09:15:00+09:00",
+      "name": " NZ vs Windies, 3rd ODI ",
+      "start": "2025-11-22T10:00:00+09:00",
       "duration": 5,
       "link": " https://blog.cricfoot.net/?yosintv=newzealand "
     }
