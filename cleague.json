@@ -2,18 +2,27 @@
   "matches": [
 
     {
-      "name": " Kathmandu vs Sudurpaschim  ",
-      "start": "2025-11-19T19:15:00+09:00",
+      "name": " Lumbini vs Chitwan Rhinos ",
+      "start": "2025-11-20T19:15:00+09:00",
       "duration": 5,
       "link": " https://blog.cricfoot.net/?yosintv=nepal "
     },
 
 
     {
-      "name": " Lumbini vs Chitwan ",
-      "start": "2025-11-20T19:15:00+09:00",
+      "name": " Pokhara vs Sudurpaschim ",
+      "start": "2025-11-21T19:15:00+09:00",
+      "duration": 5,
+      "link": " https://blog.cricfoot.net/?yosintv=nepal "
+    },
+
+
+    {
+      "name": " Karnali Yaks vs Lumbini Lions ",
+      "start": "2025-11-22T14:30:00+09:00",
       "duration": 5,
       "link": " https://blog.cricfoot.net/?yosintv=nepal "
     }
+    
   ]
 }
