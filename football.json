@@ -1,26 +1,66 @@
 {
   "matches": [
     {
-      "name": " Man United vs Everton ",
-      "start": "2025-11-25T05:00:00+09:00",
+      "name": " Ajax vs Benfica ",
+      "start": "2025-11-26T02:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=manunited "
+      "link": " https://blog.cricfoot.net/?yosintv=benfica "
     },
 
 
     {
-      "name": " Espanyol vs Sevilla ",
-      "start": "2025-11-25T05:00:00+09:00",
+      "name": " Chelsea vs Barcelona ",
+      "start": "2025-11-26T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=sevilla "
+      "link": " https://blog.cricfoot.net/?yosintv=barcelona "
     },
 
 
     {
-      "name": " Internacional vs Santos ",
-      "start": "2025-11-25T09:00:00+09:00",
+      "name": " Man City vs Leverkusen ",
+      "start": "2025-11-26T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=santos "
+      "link": " https://blog.cricfoot.net/?yosintv=mancity "
+    },
+
+
+    {
+      "name": " Bodø/Glimt vs Juventus ",
+      "start": "2025-11-26T05:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=juventus "
+    },
+
+
+    {
+      "name": " Dortmund vs Villarreal ",
+      "start": "2025-11-26T05:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=dortmund "
+    },
+
+
+    {
+      "name": " Napoli vs Qarabağ ",
+      "start": "2025-11-26T05:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=napoli "
+    },
+
+
+    {
+      "name": " Marseille vs Newcastle ",
+      "start": "2025-11-26T05:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=newcastle "
+    },
+
+
+    {
+      "name": " Slavia Praha vs Athletic ",
+      "start": "2025-11-26T05:00:00+09:00",
+      "duration": 2.2,
+      "link": " https://blog.cricfoot.net/?yosintv=athletic "
     }
   ]
 }
