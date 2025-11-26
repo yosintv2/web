@@ -1,66 +1,58 @@
 {
   "matches": [
     {
-      "name": " Ajax vs Benfica ",
-      "start": "2025-11-26T02:45:00+09:00",
+      "name": " Istiklol vs Al Nassr ",
+      "start": "2025-11-26T22:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=benfica "
+      "link": " https://blog.cricfoot.net/?yosintv=alnassr "
     },
 
 
     {
-      "name": " Chelsea vs Barcelona ",
-      "start": "2025-11-26T05:00:00+09:00",
+      "name": " Pafos vs Monaco ",
+      "start": "2025-11-27T02:45:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=barcelona "
+      "link": " https://blog.cricfoot.net/?yosintv=monaco "
     },
 
 
     {
-      "name": " Man City vs Leverkusen ",
-      "start": "2025-11-26T05:00:00+09:00",
+      "name": " Olympiacos vs Real Madrid ",
+      "start": "2025-11-27T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=mancity "
+      "link": " https://blog.cricfoot.net/?yosintv=realmadrid "
     },
 
 
     {
-      "name": " Bodø/Glimt vs Juventus ",
-      "start": "2025-11-26T05:00:00+09:00",
+      "name": " Arsenal vs Bayern München ",
+      "start": "2025-11-27T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=juventus "
+      "link": " https://blog.cricfoot.net/?yosintv=arsenal "
     },
 
 
     {
-      "name": " Dortmund vs Villarreal ",
-      "start": "2025-11-26T05:00:00+09:00",
+      "name": " Liverpool vs PSV ",
+      "start": "2025-11-27T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=dortmund "
+      "link": " https://blog.cricfoot.net/?yosintv=liverpool "
     },
 
 
     {
-      "name": " Napoli vs Qarabağ ",
-      "start": "2025-11-26T05:00:00+09:00",
+      "name": " PSG vs Tottenham ",
+      "start": "2025-11-27T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=napoli "
+      "link": " https://blog.cricfoot.net/?yosintv=psg "
     },
 
 
     {
-      "name": " Marseille vs Newcastle ",
-      "start": "2025-11-26T05:00:00+09:00",
+      "name": " Atlético vs Inter ",
+      "start": "2025-11-27T05:00:00+09:00",
       "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=newcastle "
-    },
-
-
-    {
-      "name": " Slavia Praha vs Athletic ",
-      "start": "2025-11-26T05:00:00+09:00",
-      "duration": 2.2,
-      "link": " https://blog.cricfoot.net/?yosintv=athletic "
+      "link": " https://blog.cricfoot.net/?yosintv=atletico "
     }
   ]
 }
