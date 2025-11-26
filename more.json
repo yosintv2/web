@@ -1,18 +1,26 @@
 {
   "matches": [
     {
-      "name": " Osasuna vs Sociedad ",
-      "start": "2025-11-23T02:30:00+09:00",
+      "name": " København vs Kairat ",
+      "start": "2025-11-27T02:45:00+09:00",
       "duration": 2.2,
-      "link": "https://tv.getemoji.online/ft?src=https://ytvlive.pages.dev/mpd/mpdtv?id=skylaliga"
+      "link": "https://yosintv2.github.io/ads/midd.html?url=_____"
     },
 
 
     {
-      "name": " Villarreal vs Mallorca ",
-      "start": "2025-11-23T05:00:00+09:00",
+      "name": " Frankfurt vs Atalanta ",
+      "start": "2025-11-27T05:00:00+09:00",
       "duration": 2.2,
-      "link": "https://tv.getemoji.online/ft?src=https://ytvlive.pages.dev/mpd/mpdtv?id=skylaliga "
+      "link": "https://yosintv2.github.io/ads/midd.html?url=_____"
+    },
+
+
+    {
+      "name": " Sporting CP vs Brugge ",
+      "start": "2025-11-27T05:00:00+09:00",
+      "duration": 2.2,
+      "link": "https://yosintv2.github.io/ads/midd.html?url=_____"
     }
   ]
 }
